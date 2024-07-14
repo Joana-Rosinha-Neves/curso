@@ -1,0 +1,39 @@
+entrar na pasta 
+abrir em git bash
+dir -a
+git init
+git config --global user.name "joana"
+git config --global yser.emal "joanarosinhan@gmail.com
+git status
+
+git add nomeficheiro apenas 1 ficheiro
+git add . todos os ficheiros
+git commit -m "comentario"
+
+2º versao 
+git commit -am"segunda versao"
+
+git log
+git diff um e outro ver as diferenças das versoes
+log --stat dá para ver mais profundamente que o git diff
+
+git checkout edsdsd dá para comit anterior descartando alteraçoes
+
+para voltar ao ultimo commit git checkout master duvida
+
+fazer alteraçoes antes de commit
+quando alteraçao esta errada
+git checkout nome do ficheiro
+muitos ficheiros : git reset --hard
+
+ficheiro para nao passar
+.gitignore
+
+git clone clonas
+
+git hub:
+git remote add origin githuburl
+git branch -M main
+git push -u origin main
+
+depois git push para alteraçoes ficarem na maquina

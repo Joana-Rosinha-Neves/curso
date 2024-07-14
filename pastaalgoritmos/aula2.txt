@@ -1,0 +1,179 @@
+
+aula 2
+andrecruz 
+
+andre.cruz.prt@msft.cesae.pt
+-----------------
+Java,
+instalar,
+teste
+------------------
+
+regras:
+objetos com dados:info com tipos diferentes de dados,
+tipo de objetos:
+-escalares scalars ou primitivo ,não tem estrutura interna, por exemplo numero 5,
+-nã0 escalaraes. non-scalars  não primitivo:lista de palavras,
+
+
+tipos escalares:
+int inteiro5
+float decimais5.6
+bool true or false/ 0 e 1, 
+
+
+<objeto> <operador> <objeto>5+1
+operador: atribuições ou comparação
+
+variáveis:
+operador(sinal) = criação da variavale com igual e guarda
+preço=12 variável que dou nome e vou atribuir valor 12.
+atribuição é igual. 
+
+cast: objetopassaa ser texto, ou vice verse, conversão, erros de conversão. alerta.
+tipo de dados não bate certo. parse pode ter sentido de segmentação, é equivalente, mas pode ter segmentação.
+
+função ou método são sinônimos, blocos de código organizados e executam. 
+                          
+instalar bluej.org 
+
+gestão do projeto, ide são programas, como editor, cada um tem funcionalidades especificas,
+bluej,
+
+1. projeto no bluej.
+projeto novo projeto
+projeto dentro de uma pasta e tem estrutura própria,
+adicionar ficheiros individuais, 
+1.1  fiz alterar mas não altereirmt
+2 fiz alteração  
+3 dígitos o 1.1.1 terceiro pequenos erros segunda intermedia mas compatibilidade primeiro numero evolçao grande e problemas de compatibilidade com versão arterior.
+
+read me não é importante mas posso fazer.
+
+bluejs código começar:
+
+Programação estruturada,linear, um único ficheiro sem estruturar o programa, sem estar segmentada,
+depois: programaçãp orienteada a objetos, estruta mais segmentada, dividida em pequenos problemas.
+classe que define o unicio do programa e final do programa
+classe: exemplos: programa simples
+classe encomenda classe produto,num jogo inimigo class armas class, etc
+o termo class framework fica model.
+model pode ser class em certas frameworks.
+
+usar a palvara class no contexto de programação orientada a objetivos, para outras coisas fora de programação, tentar estilos em html, ouvir class, no contextos de estilo visuas, diferente contecto para estilos.
+
+
+
+clicar em nova class
+as class começar com maiúscula quando programamos, boas praticas da linguagem pequenos detalhes das características da linguagem, normalmente um nome representa com maiúscula é class ou livraria, 
+minúscula variável. 
+AppTestes: nunca com espaços nas classes, 
+class xpto vai ter uma referencia numeria, designação string, uma imagem de destaque, tudo o que class tem, pasta models guarda as classes.
+criar nova class
+double click e entra no código 
+1º 
+class e nome das classe
+exemplo class AppTestes
+{  inicio class e fechar }
+
+funções: bloco de código e podemos chamar função para executar esse código,
+nos temos que ter uma função para arrancaar o programa, 
+função inicial de arranque tem que existir,
+tab identaçãp
+visualmente é melhor colocar tab, para ser mais fácil ler,  quando temos uma class existe uma função  função construtora, uma função que é inicial de class, quando criamos o objeto ela chama funºao construtura, quando arranca a class, constructor. cada class vai ter função construtora mesmo nome da class, 
+função abrir e fechar parentesis
+
+
+exercício aula 1+ programa,
+class AppTestes 
+{
+    AppTestes()
+    {
+        
+    }
+    
+}
+
+- 
+
+ 
+new test. uma nova instancia, objetos dessa classa.
+novo objeto criar instancia. 
+class faz novo objeto para serem instancias,
+
+statical quando colocamos código dentro de uma classe, que pode ser usando noutra class, não criando novo objecto mas ou seja não instancia, mas info para o resto. 
+
+new apptestes vai executar tudo, da função construtora mesmo vazia
+
+
+instancia começa letra minuscura
+fabrica de bebes class
+o fez bebe é ainstacia,
+
+
+ System.out.println(); livraria para escrever algo no programa. é uma função. funcionalidades extras do programa, 
+nº escreve numero, 
+o texto ele pensa nomes de objetos e não vai encontrar, 
+
+class AppTestes 
+{
+    AppTestes()
+    {
+      System.out.println(33);  
+    }
+    
+}
+
+texto pensa que é nome de variável sem aspas.
+class AppTestes 
+{
+    AppTestes()
+    {
+      System.out.println(33);  
+      System.out.println("algoritmia");
+    }
+    
+}
+
+
+em certos contextos não faz sentido abrir mtas instancias no mesmo programa,
+utilização da class sem instanciação mas um único resultado da class. static.
+as fnçoes podem retornar valores, no meu código que retorno vai dar.
+se não retornar valores temos que escrever que não retorna valores.
+void quando não retorna nada.
+quando quero que a class seja estatística e não gerada instancia mas static, por vezese escrevermos , não faz instancia como no banco, e nos escrevemos static void, que não retnra nada vazio.
+
+
+
+class AppTestes 
+{
+    static AppTestes()
+    {
+      System.out.println(33);  
+      System.out.println("algoritmia");
+    }
+    
+}
+
+
+class AppTestes 
+{
+    static void AppTestes()
+    {
+      System.out.println(33);  
+      System.out.println("algoritmia");
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+

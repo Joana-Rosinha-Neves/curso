@@ -1,0 +1,530 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2070{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\colortbl ;\red0\green77\blue187;\red0\green0\blue255;}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\cf1\f0\fs22\lang22 aula 3\par
+\par
+fun\'e7\'e3o construtora,\par
+instancia\'e7ao-new (novo objeto/novo bebe)\par
+static \'e9 mto usado: class auxiliares, classes de paoio para c\'e1lculos, normalmente n\'e3o precisam de instancias para nada, so precisam de valor fixo, +pde ser ate vari\'e1vel e depois ir busca-la noutra class- exemplo pi=3,14 depois noutra class posso ir buscar o static ou seja o pi.\par
+======\par
+// INDICAR que qualquer texto a frente com comentario\par
+podes ter uma vari\'e1vel est\'e1tica sem construtor, mas se quero estancia \'e9 preciso construtor.\par
+importante: varias linhas de coment\'e1rios:\par
+/*\par
+*\par
+*\par
+*/\par
+\par
+coment\'e1rios para n\'e3o executar em si, mas n\'e3o apagamos.\par
+coment\'e1rios vantagem para descrever e temporariamente, restringir c\'f3digo que n\'e3o queremos exercutar mas n\'e3o queremos perder.\par
+\par
+ / Defini\'e7\'e3o da classe AppTestes\par
+class AppTestes\par
+\{\par
+        // Defini\'e7\'e3o da fun\'e7\'e3o construtora  (Constructor)\par
+       \par
+        AppTestes()\par
+        \{\par
+            System.out.println(33);\par
+            System.out.println("algoritmia");\par
+        \}\par
+\}\par
+\par
+vari\'e1vel minuscula, fun\'e7\'e3o\par
+fun\'e7\'e3o construtora, livararia e class mai\'fascula. system out. \'e9 uma livraria da\'eds ser mai\'fascula.\par
+\par
+fun\'e7\'e3o construtor nunca retorna nada nem \'e9 preciso saber o tipo.\par
+\par
+~todas as fun\'e7\'f5es \'e9 preciso chamar na fun\'e7\'e3o construtora, ou dentro das fun\'e7\'f5es ferias agosta.\par
+\par
+\par
+as fun\'e7\'f5es s\'e3o exucutam o c\'f3digo quando s\'e3o evocados\par
+\par
+/ Defini\'e7\'e3o da classe AppTestes\par
+class AppTestes\par
+\{\par
+        // Defini\'e7\'e3o da fun\'e7\'e3o construtora  (Constructor)\par
+       \par
+        AppTestes()\par
+        \{\par
+            System.out.println(33);\par
+            feriasAgosto();\par
+            System.out.println("algoritmia");\par
+        \}\par
+        \par
+        void feriasAgosto()\par
+        \{\par
+            System.out.println("Estou a aguardar as f\'e9rias");\par
+    \par
+        \}\par
+        \par
+\}\par
+\par
+void vazio,\par
+\par
+tipos de dados. e perceber tipos de dados, \par
+1\'ba vari\'e1vel, 1\'ba qual o ser tipo de vari\'e1vel, dentro do construtor,\par
+compreender dentro do construtor \'e9 local \'e0 fun\'e7\'e3o. conceito entendido outro tipo de vari\'e1vel, fase simples, \par
+numero inteiro: \par
+int preco: quero guardar valores do tipo inteiro\par
+int pre\'e7o=12. \par
+pre\'e7o declara\'e7\'e3o\par
+12 atribui\'e7\'e3o\par
+\par
+2 tipos de fra\'e7\'e3o: \par
+float: \'e9 decimais, 3.45 \par
+o double maior\par
+float pequeno \'e9 necessiaro float preco=3,45 f-\par
+\par
+\par
+  \par
+        // Declara\'e7\'e3o e inicializa\'e7ao da variavel local do tipo inteiro (chamda preco)estou a definir variavel tipo inteiro             \par
+            int  preco = 12; \par
+            double numeroRealDouble = 3.455555555555555\par
+            float numeroReal = 3.45f;\par
+    \par
+\par
+\par
+tipos de dados diferentes do numero que trabalham com textos.\par
+char 1 \'fanico caracter, este char \'e9 limitado, n\'e3o se usa tanto como isso, n\'e3o se usa mto. \par
+para comparar com outro que podemos usar mais de texto.\par
+vari\'e1veis so uma caracter \par
+ char letra = 'A'; so um caracter\par
+uma linha individual \'e9 uma instru\'e7\'e3o, acabou a linha de c\'f3digo se me esquecer ; da erro.\par
+String  sempre mai\'fascula e n\'e3o primitivo da\'ed mai\'fasculo, e s\'e3o obrigatoriamente classes. \par
+Declara\'e7\'e3o e inicializa\'e7ao da variavel local do tipo inteiro (chamda preco)estou a definir variavel tipo inteiro             \par
+            int  preco = 12; \par
+            double numeroRealDouble = 3.455555555555555;\par
+            float numeroRealFloart = 3.45f;\par
+            char letra = 'A'; \par
+            boolean estado = true;\par
+            String \par
+    \par
+        \par
+            System.out.println("inicio do construtor");\par
+            feriasAgosto();\par
+String texto = new String (); \par
+new fazer nova instancia da class string. ou seja class maiusculula uma class de texto da nova instacia.\par
+tipo de class nume da vari\'e1vel objeto criado em memoria, quando temos new constrator temos instancia.\par
+nome da class +  nome do objeto = +new +nome construtor ("se necessarop ou n\'e3o), aten\'e7\'e3o nome da class maiuscuculo e nome do construtro.\par
+/ Defini\'e7\'e3o da classe AppTestes\par
+class AppTestes\par
+\{\par
+        // Defini\'e7\'e3o da fun\'e7\'e3o construtora  (Constructor)\par
+       \par
+        AppTestes()\par
+        \{\par
+            \par
+        // Declara\'e7\'e3o e inicializa\'e7ao da variavel local do tipo inteiro (chamda preco)estou a definir variavel tipo inteiro             \par
+            int  preco = 12; \par
+            double numeroRealDouble = 3.455555555555555;\par
+            float numeroRealFloart = 3.45f;\par
+            char letra = 'A'; \par
+            boolean estado = true;\par
+            String texto = new String("Este \'e9 o texto");\par
+            \par
+            \par
+    \par
+        \par
+            System.out.println("inicio do construtor");\par
+            feriasAgosto();\par
+           \par
+        \}\par
+        \par
+        void feriasAgosto()\par
+        \{\par
+            System.out.println("Estou a aguardar as f\'e9rias");\par
+    \par
+        \}\par
+        \par
+\}\par
+\par
+class muito comum string, chamar aten\'e7\'e3o, l\'e1 porque em java \'e9 assim n\'e3o significa que \'e9 assim noutras linguagem, \par
+resultado de uma variaverl. \par
+System.out,println(texto); sem aspas \'e9 vari\'e1vel.\par
+\par
+// Defini\'e7\'e3o da classe AppTestes\par
+class AppTestes\par
+\{\par
+        // Defini\'e7\'e3o da fun\'e7\'e3o construtora  (Constructor)\par
+       \par
+        AppTestes()\par
+        \{\par
+            \par
+        // Declara\'e7\'e3o e inicializa\'e7ao da variaveis locais           \par
+            int  preco = 12; \par
+            double numeroRealDouble = 3.455555555555555;\par
+            float numeroRealFloart = 3.45f;\par
+            char letra = 'A';\par
+            boolean estado = true;\par
+            \par
+            // Declara\'e7\'e3o  instancia\'e7\'e3o de uma string com a invoca\'e7\'e3o do seu construtor\par
+            \par
+            String texto = new String("Este \'e9 o texto");\par
+            \par
+            // fazer escrita da informa\'e7\'e3o no ecr\'e3, fun\'e7ao que ja existe no sistema java\par
+            \par
+            System.out.println("inicio do construtor");\par
+            \par
+            System.out.println(texto);\par
+            feriasAgosto();\par
+           \par
+        \}\par
+        \par
+        void feriasAgosto()\par
+        \{\par
+            System.out.println("Estou a aguardar as f\'e9rias");\par
+    \par
+        \}\par
+        \par
+\}\par
+\par
+\par
+inicio do construtor\par
+Este \'e9 o texto\par
+Estou a aguardar as f\'e9rias\par
+\par
+ Defini\'e7\'e3o da classe AppTestes\par
+class AppTestes\par
+\{\par
+        // Defini\'e7\'e3o da fun\'e7\'e3o construtora  (Constructor)\par
+       \par
+        AppTestes()\par
+        \{\par
+            \par
+        // Declara\'e7\'e3o e inicializa\'e7ao da variaveis locais           \par
+            int  preco = 12; \par
+            double numeroRealDouble = 3.455555555555555;\par
+            float numeroRealFloart = 3.45f;\par
+            char letra = 'A';\par
+            boolean estado = true;\par
+            \par
+            // Declara\'e7\'e3o  instancia\'e7\'e3o de uma string com a invoca\'e7\'e3o do seu construtor\par
+            \par
+            String texto = new String("Este \'e9 o texto");\par
+            \par
+            // fazer escrita da informa\'e7\'e3o no ecr\'e3, fun\'e7ao que ja existe no sistema java\par
+            \par
+            System.out.println("inicio do construtor");\par
+            \par
+            System.out.println(texto);\par
+            System.out.println(estado);\par
+            System.out.println(letra);\par
+            System.out.println(preco);\par
+            System.out.println(numeroRealFloart);\par
+            feriasAgosto();\par
+            \par
+           \par
+        \}\par
+        \par
+        void feriasAgosto()\par
+        \{\par
+            System.out.println("Estou a aguardar as f\'e9rias");\par
+    \par
+        \}\par
+\par
+parte final: abordar o seguinte:\par
+utilizar s\'edmbolo + pode ser usado de 2 formas diferentes:\par
+tem haver com linguagem.\par
+1-em programa\'e7\'e3o pode ser soma aritm\'e9tica, \par
+\par
+int  preco = 12 + 3; \par
+posso ter parentisis\par
+\par
+2-o + em java tb serve para outro tpo de opera\'e7\'e3o cancatena\'e7\'e3o. juntar um elemento com outro. \par
+cuidao como usamos o mais,\par
+o java vai achar que \'e9 para fazer soma, e outras vezes concaten\'e7ao\par
+pode n\'e3o ser a que quero, o + serve para as 2 situa\'e7\'f5es\par
+char letra = 'A';\par
+String texto = new String("Este \'e9 o texto")\par
+\par
+System.out.println(texto+letra);\par
+\par
+espa\'e7o\par
+System.out.println(texto+" "+letra);\par
+\par
+as vezes as coisas n\'e3o funcionam  bem com char a soma e subtra\'e7aoes n\'e3o funciona \par
+isto n\'e3o \'e9 um char \'e9 um string e j\'e1 da para cancatena\'e7\'e3o.\par
+\par
+\par
+criar nova fun\'e7\'e3o\par
+\par
+tipo e nome da fun\'e7\'e3o\par
+int funcaoQueRetornaValor()\par
+        \{\par
+            \par
+        \}\par
+\par
+return 4;\par
+\par
+fn\'e7so smempre () como systems j\'e1 esta () acrescenta mais da fun\'e7\'e3o \par
+\par
+\par
+  System.out.println(funcaoQueRetornaValor());\par
+ou int resultadafun\'e7ao = fun\'e7aoqueretorna ();\par
+System-out.println( resultadodafuncao);\par
+\par
+            return resultadofun\'e7ao\par
+\par
+// Defini\'e7\'e3o da classe AppTestes\par
+class AppTestes\par
+\{\par
+        // Defini\'e7\'e3o da fun\'e7\'e3o construtora  (Constructor)\par
+       \par
+        AppTestes()\par
+        \{\par
+            \par
+        // Declara\'e7\'e3o e inicializa\'e7ao da variaveis locais           \par
+            int  preco = 12 + 3; \par
+            double numeroRealDouble = 3.455555555555555;\par
+            float numeroRealFloart = 3.45f;\par
+            char letra = 'A';\par
+            boolean estado = true;\par
+            \par
+            // Declara\'e7\'e3o  instancia\'e7\'e3o de uma string com a invoca\'e7\'e3o do seu construtor\par
+            \par
+            String texto = new String("Este \'e9 o texto");\par
+            \par
+            // fazer escrita da informa\'e7\'e3o no ecr\'e3, fun\'e7ao que ja existe no sistema java\par
+            \par
+            System.out.println("inicio do construtor");\par
+            \par
+            System.out.println(texto);\par
+            System.out.println(estado);\par
+           \par
+            System.out.println(preco);\par
+            System.out.println(numeroRealFloart);\par
+            System.out.println(preco);\par
+            System.out.println(texto+" "+letra);\par
+            System.out.println(funcaoQueRetornaValor()); \par
+            // ou de outra forma qye \'e9 int resultadodafun\'e7ao= fun\'e7ao que retoranavalor()\par
+            //System.out.println( resultadodafun\'e7ao )\par
+            \par
+            \par
+            feriasAgosto();\par
+            \par
+           \par
+        \}\par
+        \par
+        void feriasAgosto()\par
+        \{\par
+            System.out.println("Estou a aguardar as f\'e9rias");\par
+    \par
+        \}\par
+        \par
+        int funcaoQueRetornaValor()\par
+return8\par
+\par
+        \{\par
+            int valor1 = 7;\par
+            int valor2 = 3;\par
+           int valortotal = valor1 + valor2;\par
+           return valortotal;\par
+           \par
+        \par
+        \}\par
+        \par
+System.out.println(funcaoQueRetornaValor() + valor finak); \par
+refractor muda todas as situa\'e7\'f5es muda class e nome. visualsutio code\par
+\par
+um numero a sorte:livraria e biblioteca: armazenamento de classes adicionais na base da linguagem.\par
+ o system out print esta no sistema, mas outros tempos que importar, \par
+\par
+lotaria.\par
+\par
+\par
+{{\field{\*\fldinst{HYPERLINK https://docs.orcale.com/en/java }}{\fldrslt{https://docs.orcale.com/en/java\ul0\cf0}}}}\f0\fs22\par
+{{\field{\*\fldinst{HYPERLINK https://docs.oracle.com/en/java/ }}{\fldrslt{https://docs.oracle.com/en/java/\ul0\cf0}}}}\f0\fs22\par
+\par
+outras class tem que ser importadas nos programa, Package java.util\par
+\par
+fun\'e7\'f5es =metodo\par
+variavae\'e7=propriedade\par
+\par
+importe sempre  antes da class o nome \'e9 sempre o javaut\par
+\par
+Module java.base\par
+Package java.util\par
+Class Random\par
+java.lang.Object\par
+java.util.Random\par
+\par
+\par
+\par
+/importar o package\par
+\par
+import java.util.Random;\par
+\par
+\par
+// Defini\'e7\'e3o da classe\par
+\par
+\par
+class AppDados\par
+\{\par
+    //defini\'e7\'e3o do consturtor\par
+   AppDados()\par
+   \{\par
+       Systems.out.println( "O programama vai lan\'e7ar um dado");\par
+       \par
+       Random numeroAleatorio = new Random ();\par
+       \par
+      \par
+       \par
+   \}\par
+   \par
+\}\par
+\par
+nextin, numero aleat\'f3ria de 0 ao numero next.int (50 n\'fameros a sorte 0-50 mas come\'e7a-1, logo 0-49)\par
+\par
+int resultadoDoDado=  numeroAleatorio.nextInt()\par
+\par
+exerc\'edcio importante\par
+\par
+\par
+/importar o package\par
+\par
+import java.util.Random;\par
+\par
+\par
+// Defini\'e7\'e3o da classe\par
+\par
+\par
+class AppDados\par
+\{\par
+    //defini\'e7\'e3o do consturtor\par
+   AppDados()\par
+   \{\par
+       System.out.println( "O programama vai lan\'e7ar um dado");\par
+       \par
+       Random numeroAleatorio = new Random();\par
+       \par
+       int resultadoDoDado=  numeroAleatorio.nextInt (6) +1;\par
+       \par
+       System.out.println("o resultado do dado " + resultadoDoDado);\par
+       \par
+       \par
+      \par
+Strin\par
+       \par
+   \}\par
+   \par
+\}\par
+\par
+\par
+\{\par
+Random numeroAleatorio = new Random();\par
+       \par
+       int resultadoDoDado=  numeroAleatorio.nextInt (6) +1;\par
+       \par
+\par
+       Systems.out.println( "O programama vai lan\'e7ar um dado" + resultadoDoDado );\par
+       Systems.out.println( lan\'e7amento2= resultadoDoDado_dois());\par
+       Systems.out.println( lancamento3 =resultadoDoDado_dois());\par
+       Systems.out.println( lan\'e7amento5= resultadoDoDado_dois());\par
+    \}\par
+       // programa vai lan\'e7ar 5 dados\par
+       \par
+       \par
+          resultadoDoDado_dois();\par
+        \{\par
+          \par
+          int lan\'e7amento2 =resultadoDoDado;\par
+          int lancamento3 =resultadoDoDado;\par
+          int mancamneto4 =resultadoDoDado;\par
+          int lan\'e7amento5 =resultadoDoDado;\par
+        \}\par
+                  \par
+\par
+\}\par
+\par
+\par
+mport java.util.Random;\par
+\par
+\par
+// Defini\'e7\'e3o da classe\par
+\par
+\par
+class AppDados\par
+\{\par
+    //defini\'e7\'e3o do consturtor\par
+   AppDados()\par
+   \{\par
+       Systems.out.println ( Lan\'e7ardado ());\par
+       Systems.out.println (Lan\'e7ardado ());\par
+    \}\par
+    String lan\'e7ar dado()\par
+       \par
+       Random numeroAleatorio = new Random();\par
+       \par
+       int resultadoDoDado=  numeroAleatorio.nextInt (6) +1;\par
+       r\par
+\par
+       \par
+       RETURN "O PROGRAMA" + resultadoDoDado;\par
+                  \par
+logica do professor\par
+\par
+class AppDados\par
+\{\par
+    //defini\'e7\'e3o do consturtor\par
+   AppDados()\par
+   \{\par
+       System.out.println (lan\'e7arDado ());\par
+       System.out.println (lan\'e7arDado ());\par
+       System.out.println (lan\'e7arDado ());\par
+       System.out.println (lan\'e7arDado ());\par
+       System.out.println (lan\'e7arDado ());\par
+    \}\par
+    String lan\'e7arDado()\par
+    \{\par
+       \par
+       Random numeroAleatorio = new Random();\par
+       \par
+       int resultadoDoDado=  numeroAleatorio.nextInt (6) +1;\par
+\par
+       \par
+       return "o programa vai lan\'e7ar um dado" + resultadoDoDado;\par
+                  \par
+\par
+    \}\par
+\}\par
+\par
+\par
+\par
+//importar o package\par
+\par
+import java.util.Random;\par
+\par
+\par
+// Defini\'e7\'e3o da classe\par
+\par
+\par
+class AppDados\par
+\{\par
+    //defini\'e7\'e3o do consturtor\par
+   AppDados()\par
+   \{\par
+       System.out.println (lan\'e7arDado ());\par
+       System.out.println (lan\'e7arDado ());\par
+       System.out.println (lan\'e7arDado ());\par
+       System.out.println (lan\'e7arDado ());\par
+       System.out.println (lan\'e7arDado ());\par
+    \}\par
+    String lan\'e7arDado()\par
+    \{\par
+       \par
+       Random numeroAleatorio = new Random();\par
+       \par
+       int resultadoDoDado=  numeroAleatorio.nextInt (6) +1;\par
+\par
+       \par
+       return "o programa vai lan\'e7ar um dado" + resultadoDoDado;\par
+\cf0                   \par
+\par
+    \}\par
+\}\par
+\par
+\par
+\par
+}
+ 

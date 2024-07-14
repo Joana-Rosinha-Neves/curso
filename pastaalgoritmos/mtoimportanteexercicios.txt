@@ -1,0 +1,168 @@
+xercicios algoritmia
+33
+algoritmia
+estou aguardar
+class Aulaprimeira
+{
+    Aulaprimeira()
+    {
+        System.out.println(33);
+        System.out.println("algoritmia");
+        feriasagosto();
+        
+        
+    }
+    void feriasagosto()
+    {
+    System.out.println( "estou aguardar");
+    }
+    
+}
+
+exercicio 2
+inicio do construtor
+3.45
+a
+true
+12
+estou
+
+class Exercicio
+{
+        Exercicio()
+        { 
+            int preco=12;
+            double numeroRealDouble= 3.45;
+            float numeroReal=3.45f;
+            char letra = 'a';
+            boolean estado = true;
+            String texto=new String ("este é o texto");
+            System.out.println("inicio do construtor");
+            System.out.println(numeroReal);
+            System.out.println(letra);
+            System.out.println(estado);
+            System.out.println(preco);
+            feriasagosto();
+            
+        }
+        void feriasagosto()
+        {
+            System.out.println("estou");
+        }
+}
+
+exercicios 3
+7+4
+class Soma
+{
+ Soma()
+    {
+  
+    System.out.println(funcaoqueretornavalor());
+    
+    }
+    int funcaoqueretornavalor()
+    {
+    int valor1=7;
+    int valor2=4;
+    int valortotal = valor1+valor2;
+    return valortotal;
+    }
+}
+
+ou 
+
+class Soma
+{
+ Soma()
+    {
+  
+    System.out.println(funcaoqueretornavalor());
+    }
+    String funcaoqueretornavalor()
+    {
+    int valor1=7;
+    int valor2=4;
+    int valortotal = valor1+valor2;
+    return "soma=" + valortotal;
+    }
+}
+
+o programa vai lanar um dado
+o resultado do dado6
+
+lancar dado
+import java.util.Random;
+class Dados
+{
+    Dados()
+    {
+    System.out.println("o programa vai lanar um dado");
+    Random numeroaleatorio= new Random();
+    int resultadododado=numeroaleatorio.nextInt(6)+1;
+    System.out.println("o resultado do dado"+resultadododado);
+    }
+
+    
+}
+
+ou 
+import java.util.Random;
+class Dados
+{
+    Dados()
+    {
+    System.out.println(lancardado());
+    }
+    int lancardado()
+    {
+    Random numeroaleatorio= new Random();
+    int resultadododado=numeroaleatorio.nextInt(6)+1;
+    return resultadododado;
+    }
+
+    
+}
+
+lançar 5 x dados
+import java.util.Random;
+class DadosCinco
+{
+    DadosCinco()
+    {
+        System.out.println(lancamento());
+        System.out.println(lancamento());
+        System.out.println(lancamento());
+        System.out.println(lancamento());
+        System.out.println(lancamento());
+    }
+    
+    int lancamento()
+    {
+    Random numerosorte= new Random();
+    int resultado = numerosorte.nextInt(5)+1;
+    return resultado;
+    }
+} 
+
+import java.util.Random;
+class Dadoscerto
+{
+    Dadoscerto()
+    {
+        System.out.println(lancamentodados());
+        System.out.println(lancamentodados());
+        System.out.println(lancamentodados());
+        System.out.println(lancamentodados());
+    
+    }
+    String lancamentodados()
+    {
+    Random numerosorte = new Random();
+    int resultado = numerosorte.nextInt(7)+1;
+    return  "o resultado é" + resultado;
+    }
+}
+
+
+

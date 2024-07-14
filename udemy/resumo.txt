@@ -1,0 +1,100 @@
+class Soma
+{
+    //y=2*x e x=5
+    Soma()
+    {
+        System.out.println(resultado());
+    }
+    int resultado()
+    {
+    int x=5;
+    int y=2*x;
+    return y;
+    }    
+}
+
+
+outro area trapeio
+class Soma
+{
+    //area do trapezio ((b+B)/2)*h, h=5 b=6 B=8
+    Soma()
+    {
+        System.out.println(resultado());
+        
+    }
+    int resultado()
+    {
+    int h=5;
+    int b=6;
+    int B=8;
+    int valortotal = ((b+B)/2)*h;
+    return valortotal;
+    }
+}
+
+
+colocar dados
+import java.util.Scanner;
+class Soma
+{
+    //area do trapezio ((b+B)/2)*h, h=5 b=6 B=8
+    Soma()
+    {
+        System.out.println(digitar());
+    }
+    
+    String digitar()
+    {
+    Scanner sc= new Scanner(System.in);
+    System.out.print("Por favor, digite algo: ");
+    String x = sc.next();
+    sc.close();
+    return "voce digitou:"+x;
+    
+    }
+}
+
+
+import java.util.Scanner;
+class Soma
+{
+    
+    Soma()
+    {
+       
+        System.out.println (digitar ());
+        
+    }
+    String digitar()
+    {
+    Scanner sc= new Scanner(System.in);
+    System.out.print("Por favor, digite algo: ");
+    int x = sc.nextInt();
+    sc.close();
+    return "voce digitou"+ x;
+    
+    }
+}
+mport java.util.Scanner;
+import java.util.Locale;
+
+class Soma {
+    Soma() {
+        Locale.setDefault(Locale.US);
+        System.out.println(digitar());
+    }
+
+    double digitar() {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Por favor, digite um número: ");
+        double x = sc.nextDouble();
+        sc.close(); // Fechar o Scanner após a leitura
+        return x;
+    }
+
+ 
+   
+}
+
+    
