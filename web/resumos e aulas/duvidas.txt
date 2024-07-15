@@ -1,0 +1,18 @@
+duvidas 
+
+coloquei o som é so isso ou é nexessário colocar o type?
+<audio controls autoplay>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+
+
+<iframe src="exercicio.html" frameborder="0"> é isto? onde coloco?
+video nao aparece
+
+<iframe width="160" height="115" src="https://www.youtube.com/embed/nX728deEGm0?si=kD72gE8QhWeAssAH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+nao funciona
+
+file:///C:/Users/Utilizador/Desktop/cursomobile/curso/web/primeiroespa%C3%A7o/multimedia.html
+
+No form a Data posso fazer assim:
+<p></p>Data<input type="date">.
