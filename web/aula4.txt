@@ -105,6 +105,19 @@ Material Icon Theme (Philipp Kief)
 
 https://github.com/laisreis04/Cesae_WebDev
 
+foto imahem link
+formulário 
+e uma tabela básica
+
+css
+
+fontes cores, margem linhas, alturas larguras,
+imagem de fundo.
+animações com eles
+class .
+id #
+
+
 
 
 
