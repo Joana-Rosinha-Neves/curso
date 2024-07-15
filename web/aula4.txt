@@ -1,0 +1,101 @@
+auto rename tag
+gitlens
+bootstrap 5 quick snippets
+bootstrap 5 font aws
+
+tipo de documento
+o qu esta visivil é o que esta no body
+
+head é tipo o titulo
+
+title facebook
+CHARSET "UTF-8"
+
+BODY BONITINHO DO SITE
+HTML open
+html fecho
+dentro do body vai aparecer
+meta name motor de busca
+tempo que fica
+
+
+
+Auto Rename Tag (Jun Han)
+Gitlens
+Bootstrap 5 Quick Snippets
+Bootstrap 5 & Font Awsome Snippets
+Live Server (Ritwick Dey)
+Material Icon Theme (Philipp Kief)
+<p paragrafro
+tagas em linha
+tags em bloco 
+conectar ficheiros
+
+nunca assume 2 espaços
+index.html
+!
+
+
+&nbsp espaço
+
+br quebra de linha
+
+<!.. comentarios
+
+w3school na httml tem a documentaçao
+./ para colocar imagem
+alt
+
+</head>
+<body>
+  <h1>Joana Salomé Rosinha Neves</h1>
+    <p> vivo no Bomfim</p>
+    <img src="./descarregar.jpg" alt="fotobonfim" style="width:400px"
+target é 
+
+
+listas ul
+list ol
+
+
+novo 
+
+/head>
+<body>
+  <h1>Joana Salomé Rosinha Neves</h1>
+  
+
+  <p> vivo no Bomfim</p>
+
+    <ol>
+        <li>index</li>
+        <li>Page 2</li>
+        <li>contratos </li>
+
+
+    </ol>
+    <br>
+    <ul>
+        <li>telefone</li>
+    </ul>
+
+<a href="./page2.html">Pagina2</a>
+    <img src="./descarregar.jpg" alt="fotobonfim" style="width:400px;">
+    <br>
+    
+    <a href="https://www.google.pt/" target="_blank" >Cesae</a>
+
+    
+
+    </body>
+
+</html>
+main vai para todas as pastas.
+header cabeçalho
+nav
+tr linhas
+td
+
+
+
+
