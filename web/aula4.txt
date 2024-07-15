@@ -118,6 +118,22 @@ class .
 id #
 
 
+h1 class="ti">
+p id="sas"
+
+.ti
+ {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  #sas
+  {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+
 
 
 
