@@ -1,0 +1,52 @@
+git
+
+git config --globar user.name "Joana Neves"
+git config --global user.email ""
+joana
+joanarosinhan@gmail.com
+aeu
+
+git config --list 
+===========
+git init
+git add .
+git status diz tudo
+
+git commit -m"criado paginas"
+
+git branch -M main
+
+git remote add origin  https://github.com/Joana-Rosinha-Neves/aulas.git
+
+git push -u origin main
+
+----------------
+modificaçao de projetos:
+git status ver o projeto
+git add .
+git status
+git comit -m"acrscentado valor"
+git push
+
+github para computador:
+clone copia do respositio
+git clene: tirar o link do githum
+git clone + url
+cd nomedapastaquequero/
+pwq
+
+modificaçes:
+git status
+git add .
+git comit -m"novaversaro"
+git log (ver versoes)
+git status se vermelhor ainda nao gravou
+git add .
+git comit -m"upadate blog"
+git log  ja aparece
+git push (salvar no github)
+git push -u origin main se ainda nao tiver
+git log historico de versoes
+git log --online tb dá
+git diff ver as diferenças
+
