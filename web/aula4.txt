@@ -95,6 +95,15 @@ header cabeçalho
 nav
 tr linhas
 td
+===
+Auto Rename Tag (Jun Han)
+Gitlens
+Bootstrap 5 Quick Snippets
+Bootstrap 5 & Font Awsome Snippets
+Live Server (Ritwick Dey)
+Material Icon Theme (Philipp Kief)
+
+https://github.com/laisreis04/Cesae_WebDev
 
 
 
