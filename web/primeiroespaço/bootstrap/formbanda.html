@@ -8,33 +8,47 @@
 </head>
 
 <body>
-    <form action="destino.php">
-        <label for="nome">Nome</label>
-        <input type="nome" required placeholder="seu nome">
-        <br>
-        <label for="email">e-mail</label>
-        <input type="email" required placeholder="seu email">
-        <table>
-            <tr>
-                <td>
-                    <p>Data Para Marcação de Concerto</p>
-                </td>
-                <td><input type="date"></td>
-            </tr>
-        </table>
+    <form>
+        <form class="row g-3">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+              <label for="nome" class="form-label">nome</label>
+              <input type="nome" class="form-control" id="inputname">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Local of the concert</label>
+              <input type="Local concert" class="Local cocencert" id="inputlocal" placeholder="local">
+            </div>
+            <div class="col-12">
+              <label for="Data do concerto" class="form-label">Data do Concerto</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Data do Concerto">
+            </div>
+            <div class="col-12">
+                <label for="Hora do concerto" class="form-label">Hora do concerto</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Hora do Concerto">
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              
+         
+              
+              
+          </form>
+          
+              
+              
+         
 
-        <label for="Hora">Hora ínicio de Concerto</label>
-        <laber for="" <label for="Mensagem de negociação">Mensagem</label>
-            <textarea name="message" rows="3" cols="30">
-
-        </textarea>
 
 
-            <br>
-            <br>
-            <input type="reset" value="limpar">
-            <input type="submit" value="Submit">
     </form>
-</body>
+  
+      
 
 </html>
