@@ -23,7 +23,7 @@ class DadosAula3
     void pedidoLancamento()
     {
        System.out.println("Bem-vindo/a ao Simulador de lançamentos");
-          System.out.println("Este programa permite lançar dados de 4 dados ou 6 ou 8 lados");
+        System.out.println("Este programa permite lançar dados de 4 dados ou 6 ou 8 lados");
        
         
         // guardar valor que o utlizador escreveu
