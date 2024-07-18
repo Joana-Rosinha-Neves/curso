@@ -13,13 +13,17 @@ class DadosAula3
     
     
     
+    // bolean começouoprograma==true
     
     DadosAula3()
     {
       pedidoLancamento();  
      
     }
-    
+    // if(começouprograma==true)
+    //sytem.out
+    //sytem.out
+    //começouprograma=false
     void pedidoLancamento()
     {
        System.out.println("Bem-vindo/a ao Simulador de lançamentos");
