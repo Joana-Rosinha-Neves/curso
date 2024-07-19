@@ -1,4 +1,4 @@
-//importação de class que nos permite gerar numero aleatoria
+/importação de class que nos permite gerar numero aleatoria
 import java.util.Random;
 // importação da class que nos permite receber input do utilizador
 import java.util.Scanner; 
@@ -99,4 +99,91 @@ class DadosAula3
     
     
  }
-    
+
+
+EXERCICIO REVISOES
+class Observacoes
+{
+    Observacoes()
+    {
+        int valorX = 6;
+        int valorY = 3;
+        
+float valorReal = 6.2f/3
+
+        int valorZ= 3 + valorY - 1 + valorX;
+        
+        float valorReal = valorX;
+
+MAS NAO DÁ
+int numeroInteirp =  valorReal
+int numeroInteiro = ( int)valorReal
+fica gravado mas fica sem o 2 nem arrendonda
+System.out.println(valorreal)
+System.out.println(numeroInteiro)
+
+    }
+}    
+
+
+
+int valorX = 6;
+        int valorY = 3;
+        
+        int valorZ= 3 * (valorY - 1) + valorX;
+        
+        float valorReal = 8.3f;
+        
+        Scanner scanFloat= new Scanner(System.in);
+        
+        float teste = scanFloat.nextFloat();
+        
+        int contador = 0;
+        
+        contador  = contador + 1;
+        
+        contador = contador + 4
+        
+        contador ++;
+        incremento += 7:
+        
+        contador --;
+        contador -=5;
+        
+        contador =contador -2;
+        
+        
+    }
+}
+
+
+
+
+int valorX = 6;
+        int valorY = 3;
+        
+        int valorZ= 3 * (valorY - 1) + valorX;
+        
+        float valorReal = 8.3f;
+        
+        Scanner scanFloat= new Scanner(System.in);
+        
+        float teste = scanFloat.nextFloat();
+        
+        int contador = 0;
+        
+        contador  = contador + 1;
+        
+        contador = contador + 4
+        
+        contador ++;
+        incremento += 7:
+        
+        contador --;
+        contador -=5;
+        
+        contador =contador -2;
+        
+        
+    }
+}
