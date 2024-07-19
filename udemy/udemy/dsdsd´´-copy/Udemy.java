@@ -7,16 +7,25 @@ class Udemy
     Udemy()
     {
     System.out.println("introduza um numero");
-    numero();
+    numero1();
+    System.out.println("introduza outro numero");
+    numero2();
     
     }
     
-    void numero()
+    String numero1()
     {
        int valorUtlizadorGuardado=scanNumero.nextInt();
-
-        if (valorUtlizadorGuardado  % 2 == 0 )
-        {
+        return "o valor é" + valorUtlizadorGuardado;
+    }
+    Sting numero2()
+      {int valorUtlizadorGuardado1=scanNumero.nextInt();
+        return "o valor2 é" + valorUtlizadorGuardado1;}
+    
+    String resultado()
+    
+        valortotal()=valorUtlizadorGuardado*numero2() 
+        return valor ti
         System.out.println("o numero é par");
         
         }
