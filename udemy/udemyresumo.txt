@@ -97,4 +97,38 @@ class Soma {
    
 }
 
+colocar numeros e dizer se é positivo ou negativo
+
+import java.util.Scanner;
+
+class Udemy
+{
+      Scanner scanNumero = new Scanner(System.in);
+    
+    Udemy()
+    {
+    System.out.println("introduza um numero");
+    numero();
+    
+    }
+    
+    void numero()
+    {
+       int valorUtlizadorGuardado=scanNumero.nextInt();
+
+        if (valorUtlizadorGuardado >= 0)
+        {
+        System.out.println("o numero é positivo");
+        
+        }
+        else 
+        {
+            
+        System.out.println(" o numero é negativo" );
+        
+        }
+    }
+}
+
+
     
