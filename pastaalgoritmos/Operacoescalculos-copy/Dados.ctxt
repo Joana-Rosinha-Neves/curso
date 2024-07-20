@@ -4,4 +4,6 @@ comment1.params=
 comment1.target=Dados()
 comment2.params=
 comment2.target=void\ lancamento()
-numComments=3
+comment3.params=soma\ utilizador
+comment3.target=void\ fim(int,\ int)
+numComments=4

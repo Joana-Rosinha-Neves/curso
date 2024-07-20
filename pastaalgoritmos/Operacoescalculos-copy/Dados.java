@@ -24,30 +24,39 @@ Random dado2aleatorio = new Random ();
     int dado2 = dado2aleatorio.nextInt(5)+1;
     int numeroPessoa = scanNumerodadoPessoa.nextInt();
     System.out.println("o seu valor é " + numeroPessoa);
-    System.out.println ("valor que saiu é dado1 " + dado1);
-    System.out.println ("o valor que saiu do dado2 " + dado2);
-    int resultado = dado1 + dado2;
-    System.out.println ( "A soma dos dois dados é "+ resultado);
+    
+  
     if (numeroPessoa <2 ||numeroPessoa >12)
     {
         System.out.println("voltar a lançar");
+        lancamento();
         
     }
+    else 
+    {
+    System.out.println ("valor que saiu é dado1 " + dado1);
+    System.out.println ("o valor que saiu do dado2 " + dado2);
+          int resultado = dado1 + dado2;
+    System.out.println ( "A soma dos dois dados é "+ resultado);
+    fim(resultado, numeroPessoa);
+
+    }
+}
+    void fim(int soma,int utilizador)
+    {
         
-    
-    if (resultado == numeroPessoa)
+    if (soma == utilizador)
     {
     System.out.println ("ganhou");
     }
     else
     { 
         System.out.println ("perdeu");
-        lancamento();
+        
     }
+}
+}  
 
-}
-}
-    
     
     
     
