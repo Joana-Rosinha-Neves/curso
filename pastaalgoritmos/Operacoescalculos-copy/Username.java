@@ -43,7 +43,7 @@ int contador = 0;
         {
             System.out.println("Autentificação completa");
         }
-        else 
+            else 
         {
             System.out.println ("Autentificação inválida");
             contador++;
