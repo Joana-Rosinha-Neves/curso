@@ -8,6 +8,7 @@ Scanner scanNumerodadoPessoa = new Scanner(System.in);
 Random dado1aleatorio = new Random();
 Random dado2aleatorio = new Random ();
 
+
     Dados()
     {
     lancamento();
@@ -18,14 +19,16 @@ Random dado2aleatorio = new Random ();
     int numeroPessoa = scanNumerodadoPessoa.nextInt();
     int dado1 = dado1aleatorio.nextInt(5)+1;
     int dado2 = dado2aleatorio.nextInt(5)+1;
+    
 
+    
     System.out.println("Qual o número que irá sair no lançamento de 2 dados, o mínimo só poderá sair 2 e que no máximo só poderá ser 12");
     System.out.println("O mínimo só poderá ser 2 e o máximo só poderá ser 12");
-    
-    if (numeroPessoa <2 ||numeroPessoa >12)
+        if (numeroPessoa <2 ||numeroPessoa >12)
     {
         System.out.println("voltar a lançar");
-        lancamento();
+        lancamento ();
+        return ;
 
     }
     else 
@@ -35,14 +38,13 @@ Random dado2aleatorio = new Random ();
     System.out.println("o valor que saiu do dado2 " + dado2);
     int resultado = dado1 + dado2;
     System.out.println("A soma dos dois dados é "+ resultado);
-    fim(resultado, numeroPessoa);
-
-    }
+    finalmente(resultado,numeroPessoa);
     
     }
-    void fim(int soma,int utilizador)
-    {
-        
+}
+    
+    void finalmente(int soma,int utilizador)
+    {   
     if (soma == utilizador)
     {
     System.out.println("ganhou");
@@ -50,9 +52,12 @@ Random dado2aleatorio = new Random ();
     else
     { 
         System.out.println("perdeu");
+        lancamento();
     }
-    }
-}  
+
+    }  
+}
+
 
     
     
