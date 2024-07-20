@@ -8,11 +8,11 @@ Scanner scanNumerodadoPessoa = new Scanner(System.in);
 
 Random dado1aleatorio = new Random();
 Random dado2aleatorio = new Random ();
+int contador = 0;
 
 
     Dados ()
     {
-        lancamento ();
         
 
     }
@@ -24,12 +24,22 @@ Random dado2aleatorio = new Random ();
     int dado2 = dado2aleatorio.nextInt(5)+1;
     int numeroPessoa = scanNumerodadoPessoa.nextInt();
     System.out.println("o seu valor é " + numeroPessoa);
-    
+    if (contador == 3)
+        {
+        System.out.println ("não é possivel mais durante 2 segundos");
+        }
+        else 
+        {
+        lancamento();
+        }
+        
   
     if (numeroPessoa <2 ||numeroPessoa >12)
     {
         System.out.println("voltar a lançar");
-        lancamento();
+        contador ++;
+        
+    
         
     }
     else 
@@ -41,6 +51,7 @@ Random dado2aleatorio = new Random ();
     fim(resultado, numeroPessoa);
 
     }
+    
 }
     void fim(int soma,int utilizador)
     {
