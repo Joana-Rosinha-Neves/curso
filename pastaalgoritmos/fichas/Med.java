@@ -1,4 +1,4 @@
-package ficha2;
+ 
 
 
 import java.util.Scanner;
