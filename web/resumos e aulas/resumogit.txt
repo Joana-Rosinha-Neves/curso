@@ -48,5 +48,5 @@ git push (salvar no github)
 git push -u origin main se ainda nao tiver
 git log historico de versoes
 git log --online tb dá
-gitgit
+git diff ver as diferenças
 
