@@ -30,4 +30,9 @@ class Media
     }
     }
 
+calculo dados: 
+
+os dados sao de 6 faces:
+
+ 
 

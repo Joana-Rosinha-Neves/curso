@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Dados
+comment1.params=
+comment1.target=Dados()
+comment2.params=
+comment2.target=void\ lancamento()
+comment3.params=soma\ utilizador
+comment3.target=void\ funcaob(int,\ int)
+numComments=4
