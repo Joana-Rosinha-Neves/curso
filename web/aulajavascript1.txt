@@ -1,0 +1,35 @@
+aula ja
+function criar funçao
+function letra minuscula sem espaço e sem numeros e caracterestes especiais
+let localmente
+paseInt para passar para string para numeros
+
+while : enquanto verdadeira executa
+for parecido é melhor
+return temperaturas,
+
+input sizing a do meio 
+unput botton.
+body style para a cor
+
+utilities position,
+aquele dos 6.
+
+
+div do 1º input
+div do 2 input
+
+id numerospares dentro do range quais sao numeros parres e para imprimir, quando chegar aquele numero ele para.
+
+for (var i = inicio;i < fim; i++ ) {quando inicio menor que fim vai incrementar.
+// qual a condiçao que retorno
+
+i vai guardar os numeros todos
+
+if (i % 2 ===0)
+numerosares  += i + " "
+
+}
+inner imprimie os parares, 
+
+
