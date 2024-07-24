@@ -4,30 +4,37 @@ import java.util.Scanner;
 class Notas 
 {
     Scanner notascanner = new Scanner(System.in);
-    int contador = 0;
     
+   
     
     Notas()
     {
         
-        
         mediadasnotas();
+      
+       
+       
+       
+    
         
          
     }
     void mediadasnotas()
     {
-    System.out.println ( " Por favor insira nota " );       
-       int notaUtilizador2 = notascanner.nextInt();
-        contador++;
-        notauTotal=notaUtilizador2 + notaUtilizador3
-        if (contador == 3)
-        {
         
-        int media = notafinal / 3;
-       System.out.println ("o valor da media é" +  media);
-    }
+           System.out.println ( " Por favor insira nota1 " );
+           int notaUtilizador1 = notascanner.nextInt();
+          System.out.println ( " Por favor insira nota1 " );
+           int notaUtilizador2 = notascanner.nextInt();
+           System.out.println ( " Por favor insira nota1 " );
+           int notaUtilizador3= notascanner.nextInt();
            
-    }
-        
-}  
+           
+           int media = (notaUtilizador1  + notaUtilizador2+ notaUtilizador3)/ 3;
+            System.out.println (" a média é " + media);
+          
+       }
+            
+       }
+    
+
