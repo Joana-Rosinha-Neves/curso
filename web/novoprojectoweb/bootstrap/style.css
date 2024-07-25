@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    padding: 0; /* Remove o padding padrão do container */
+}
+
+.custom-carousel {
+    height: 400px; /* Define uma altura fixa para o carrossel */
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-item {
+    height: 100%;
+}
+
+.carousel img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; /* Garante que a imagem cubra o contêiner sem distorção */
+}
