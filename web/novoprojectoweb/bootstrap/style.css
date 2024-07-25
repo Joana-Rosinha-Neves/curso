@@ -4,30 +4,58 @@
     padding: 0;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
     padding: 0;
 }
 
 .container-fluid {
-    padding: 0; /* Remove o padding padrão do container */
+    padding: 0;
+    /* Remove o padding padrão do container */
 }
 
 .custom-carousel {
-    height: 400px; /* Define uma altura fixa para o carrossel */
+    height: 400px;
+    /* Define uma altura fixa para o carrossel */
+    position: relative;
+    /* Garante que os controles de navegação estejam corretamente posicionados */
+    overflow: hidden;
+    /* Garante que qualquer conteúdo fora da altura definida não seja visível */
 }
 
 .carousel-inner {
-    height: 100%;
+    margin-bottom: 50px;
+    /*adjust accordingly*/
+}
+
+header.carousel {
+    height: 60%;
 }
 
 .carousel-item {
     height: 100%;
+    display: flex;
+    /* Alinha o conteúdo da carousel-item */
+    align-items: center;
+    /* Centraliza a imagem verticalmente */
+    justify-content: center;
+    /* Centraliza a imagem horizontalmente */
+}
+
+.carousel img {
+    max-height: 100%;
+    /* Garante que a imagem não exceda a altura do contêiner */
+    max-width: 100%;
+    /* Garante que a imagem não exceda a largura do contêiner */
+    object-fit: cover;
+    /* Ajusta a imagem para cobrir o contêiner sem distorção */
 }
 
 .carousel img {
     height: 100%;
     width: 100%;
-    object-fit: cover; /* Garante que a imagem cubra o contêiner sem distorção */
+    object-fit: contain;
+    /* Ajusta a imagem para caber dentro do contêiner sem cortar */
 }
