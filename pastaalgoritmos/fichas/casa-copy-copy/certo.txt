@@ -1,0 +1,200 @@
+/**
+ * You can edit, run, and share this code.
+ * play.kotlinlang.org
+ */
+
+// exercicio 1 
+// fun main() {
+//     val num1 = 5
+//     val num2 = 10
+//     val soma =num1+num2
+    
+//     println("Soma = " + soma)
+// }
+
+// exercicio 2 
+
+// fun main() {
+//     val num1 = 50
+//     val num2 = 50
+//     val num3 =20
+//     val media = (num1 + num2+num3)/3
+//     val mediaponderada =((num1*20)+(num2*30) +(num3*0.50))/ (30+20+50)
+   
+    
+//     println("Média" + media +" %" + " média ponderada: " + mediaponderada + "%")
+// }
+
+// //exercicio 3
+//  fun main() {
+	
+//  	var  a = 15
+//     var  b= 20
+   
+//    println( "var a = ${a + b - a}");
+//        println( "var b =  ${a + b - b}" );
+//  }
+       
+    //exercicio 4
+  
+//    fun main() {
+	
+//        var produto1 = 10
+//        var produto2 = 10
+//        var produto3 = 10
+       
+//        var valorpagar = produto1+produto2+produto3
+//        var desconto =valorpagar - (valorpagar*0.10)
+//        println(" O valor a pagar é " + desconto)
+//    }
+       
+//exercicio 5
+  
+//      fun main() {
+
+     
+    
+//     var b = 10
+//     var a = 2
+    
+//          if (a>b)
+//          {
+//              println("O maior é a ")
+//          }
+//          else 
+        
+         
+//          println("O maior é b" )
+//      	}
+     
+//        fun main() {
+//      var b = 10
+//     var a = 2
+// 	var c=5
+// 	var maior = 0 
+    
+//     if (b<a && b<c )
+// { println(" O menor é o b, que é igual b:" + b)}
+//   else if (a<b && a<c )
+// { println(" O menor é o a, que é igual a:" + a)}
+// else
+// { println(" O menor é o c, que é igual a " + c)}
+ 
+        
+        
+        
+// //  }
+       
+
+//        fun main() {
+//      var b = 10
+//     var a = 2
+// 	var c=5
+// 	var maior = 0
+          
+// if (a<b && a<c) 
+//       {println(a)
+//            if (b<c )
+//            {println(b)
+//          	println(c)}
+//            else 
+//            {println(c)
+//           println( b)}
+//     }
+           
+// else if (b<a && b<c) 
+//            {println(b)
+// 		if (a<c)
+//            {
+//     	println(a)
+//       	println(c)}
+//         else 
+//            {println(c)
+//            println(a)}
+//        }
+// else   
+// {println(c)
+// 		if (b<a)
+//     	{println(b)
+//       	println(a)}
+//         else 
+//            {println(a)
+//           println(b)}
+//        }
+//        }
+           
+           
+//     fun main() {
+
+        
+//         for(i in 1 until 251) {      
+//     	print(i)
+//         print(" ")
+//         }
+//     }
+    
+//      fun main() {
+         
+//          for (i in 1 until 401 )
+//          if (i%2==0)
+//          {
+//              println(i)
+//          }
+//      }
+
+      
+//         fun main() {
+         
+//          for (i in 531 until 751 )
+//          if (i%2!=0)
+//          {
+//              println(i)
+//          }
+//      }
+     
+//  fun main() {
+//      var soma = 0
+//       for (i in 1 until 101)
+         
+//          {
+            
+//            println(i)
+//            soma = soma +i
+//          }
+//          println("Soma =" + soma)
+//      }
+ 
+//  fun main() {
+//      var soma = 0
+//       for (i in 1 until 101)
+         
+//          {
+            
+//            println(i)
+//            soma = soma +i
+//          }
+//          println("Soma = " + soma)
+// //      }
+//      fun main() 
+// {
+//      val n=5 
+//      var factorial = 1
+         
+//       for (i in 1 until 5)
+//          {
+   
+              
+        
+//             factorial = i*factorial
+           
+      
+          
+//          }
+//          print(factorial)
+    	 
+         
+         
+// 		}
+         
+ 
+
