@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
 
             val dolares: Double = euros * 1.7
             val dolaress: String = String.format("%.2f", dolares);
-            binding.textResultado.text = " $dolaress "
+            binding.textResultado.text = " $dolaress $"
         }
 
     }
