@@ -65,6 +65,4 @@ class AppJogoComCartas
         System.out.println("Baralhar e vai ser dada uma carta:");
         System.out.println(instanciaCarta.rank + " de " + instanciaCarta.naipe);
     }
-
-}
 }
