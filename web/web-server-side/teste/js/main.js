@@ -151,7 +151,27 @@
 // •10
 // •5
 
-for (let i=25; i>=5;i-=5)
-{
-    console.log(i);
-}
+// for (let i=25; i>=5;i-=5)
+// {
+//     console.log(i);
+// }
+
+// Utilizando os loops e as condições que já aprendemos, construa uma lista de 
+// compras.
+//  Dicas:
+//  • A lista é um array.
+//  • Fazer prompt para o utilizador adicionar items na lista, e adicionar esses items
+//  ao array.
+//  • Criar uma variável "código" e se o utilizador digitar isso, o ciclo acaba e a lista 
+// aparece. Por exemplo, se digitar 'fim', deixam de aparecer prompts.
+
+// //
+// lista = []
+// let codigo = "a";
+
+// while (codigo!= "fim") 
+// {
+//     codigo = prompt("lista")
+//     lista.push(codigo); 
+// }
+// console.log(lista );
