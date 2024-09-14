@@ -119,3 +119,83 @@
 //     return a >= 1 && a <= 7 ? days[a-1] : null;
 // }
 // console.log(returnDay(3)); // Output: Quarta
+
+
+// // nova forma de fazer arryas passar caderno pra estudar
+
+//  let input = prompt("Digite uma lista separada por vírgulas:");
+// let array = input.split(",");
+// console.log(array);  // Converte a string diretamente em um array
+
+// tb sugere nos meus arrays o trim 
+
+// let input = prompt("Digite uma lista separada por vírgulas:");
+// let array = [];
+// let items = input.split(",");  // Divide a string, mas ainda não adiciona os itens ao array manualmente
+
+
+// for (let i = 0; i < items.length; i++) {
+//   array.push(items[i].trim()); 
+
+// notas de como imprimir arrays para estudar 
+
+// 1. Imprimir o array completo de uma vez:
+// Você pode simplesmente usar o console.log() para imprimir o array inteiro.
+
+// js
+// Copiar código
+// let frutas = ["maçã", "banana", "laranja"];
+// console.log(frutas);  // Imprime o array completo: ["maçã", "banana", "laranja"]
+// 2. Imprimir cada elemento do array separadamente:
+// Se você quiser imprimir cada elemento do array em uma nova linha ou formatado de maneira personalizada, pode usar um loop.
+
+// Usando for loop:
+// js
+// Copiar código
+// let frutas = ["maçã", "banana", "laranja"];
+// for (let i = 0; i < frutas.length; i++) {
+//   console.log(frutas[i]);  // Imprime cada elemento individualmente
+// }
+// Usando forEach():
+// js
+// Copiar código
+// let frutas = ["maçã", "banana", "laranja"];
+// frutas.forEach(function(fruta) {
+//   console.log(fruta);  // Também imprime cada elemento individualmente
+// });
+// 3. Imprimir o array como uma string formatada:
+// Você pode transformar o array em uma string usando join() e definir o delimitador que preferir.
+
+// js
+// Copiar código
+// let frutas = ["maçã", "banana", "laranja"];
+// console.log(frutas.join(", "));  // Imprime: "maçã, banana, laranja"
+// Você também pode usar outros delimitadores, como um espaço, ponto e vírgula, ou uma nova linha.
+
+// Usando quebra de linha (\n):
+// js
+// Copiar código
+// let frutas = ["maçã", "banana", "laranja"];
+// console.log(frutas.join("\n"));  // Imprime cada elemento em uma nova linha
+// 4. Imprimindo arrays em HTML (caso esteja em um navegador):
+// Se você estiver trabalhando com uma página web, pode imprimir arrays diretamente no HTML, por exemplo, numa lista:
+
+// html
+// Copiar código
+// <!DOCTYPE html>
+// <html lang="pt-BR">
+// <body>
+//   <ul id="listaDeFrutas"></ul>
+
+//   <script>
+//     let frutas = ["maçã", "banana", "laranja"];
+//     let ul = document.getElementById("listaDeFrutas");
+
+//     frutas.forEach(function(fruta) {
+//       let li = document.createElement("li");  // Cria um novo elemento de lista
+//       li.textContent = fruta;                 // Define o texto do item de lista
+//       ul.appendChild(li);                     // Adiciona o item de lista ao HTML
+//     });
+//   </script>
+// </body>
+// </html>
