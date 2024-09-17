@@ -11,33 +11,39 @@
         android:id="@+id/euros"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD:kotlin/exercicio1 - Cópia/app/src/main/res/layout/activity_main.xml
         android:layout_marginStart="116dp"
         android:layout_marginTop="283dp"
         android:layout_marginBottom="36dp"
+=======
+>>>>>>> 841c2ae64839dbba39a538ab7e2ae0ccab0b641a:exercicio1/app/src/main/res/layout/activity_main.xml
         android:ems="10"
         android:gravity="clip_horizontal|top"
         android:hint="insira valor em euros"
         android:inputType="numberDecimal"
+<<<<<<< HEAD:kotlin/exercicio1 - Cópia/app/src/main/res/layout/activity_main.xml
         android:textAlignment="center"
         android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@+id/button_Converter"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+=======
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="115dp" />
+>>>>>>> 841c2ae64839dbba39a538ab7e2ae0ccab0b641a:exercicio1/app/src/main/res/layout/activity_main.xml
 
     <Button
         android:id="@+id/button_Converter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="1dp"
-        android:layout_marginBottom="35dp"
         android:text="dolares"
-        app:layout_constraintBottom_toTopOf="@+id/text_Resultado"
-        app:layout_constraintStart_toStartOf="@+id/text_Resultado"
-        app:layout_constraintTop_toBottomOf="@+id/euros" />
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="184dp" />
 
     <TextView
         android:id="@+id/text_Resultado"
         android:layout_width="142dp"
+<<<<<<< HEAD:kotlin/exercicio1 - Cópia/app/src/main/res/layout/activity_main.xml
         android:layout_height="0dp"
         android:layout_marginEnd="110dp"
         android:layout_marginBottom="239dp"
@@ -54,4 +60,12 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_begin="20dp" />
+=======
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="0dolares"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="277dp" />
+>>>>>>> 841c2ae64839dbba39a538ab7e2ae0ccab0b641a:exercicio1/app/src/main/res/layout/activity_main.xml
 </androidx.constraintlayout.widget.ConstraintLayout>
