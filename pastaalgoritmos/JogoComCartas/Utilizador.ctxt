@@ -2,6 +2,7 @@
 comment0.target=Utilizador
 comment1.params=
 comment1.target=Utilizador()
+<<<<<<< HEAD
 comment2.params=paramUsername\ paramPassword
 comment2.target=void\ fazerLogin(java.lang.String,\ java.lang.String)
 comment3.params=
@@ -9,3 +10,6 @@ comment3.target=void\ fazerLogout()
 comment4.params=
 comment4.target=void\ fazerRegisto()
 numComments=5
+=======
+numComments=2
+>>>>>>> cc36441882d98cc75c6db8f7841ba1b0bbbec679
