@@ -2,4 +2,14 @@
 comment0.target=Jogador
 comment1.params=
 comment1.target=Jogador()
+<<<<<<< HEAD
+comment2.params=
+comment2.target=void\ comprarCarta()
+comment3.params=
+comment3.target=void\ descartarCarta()
+comment4.params=
+comment4.target=void\ mostrarMao()
+numComments=5
+=======
 numComments=2
+>>>>>>> cc36441882d98cc75c6db8f7841ba1b0bbbec679

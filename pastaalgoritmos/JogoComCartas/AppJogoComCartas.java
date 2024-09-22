@@ -11,6 +11,8 @@ class AppJogoComCartas
     //Criação de um ArrayList, que é uma coleção de elementos dinâmica
     ArrayList<Carta> baralho = new ArrayList<>();
     
+    //static int valor = 7;
+    
     
     AppJogoComCartas()
     {
