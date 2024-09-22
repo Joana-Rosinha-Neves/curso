@@ -21,7 +21,7 @@ class Jogador extends Utilizador
     }
     void descartarCarta()
     {
-        
+          baralho.remove(indexAleatorio);
     }
     void mostrarMao()
     {

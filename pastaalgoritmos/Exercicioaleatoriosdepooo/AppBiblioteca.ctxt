@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=AppBiblioteca
+comment1.params=
+comment1.target=AppBiblioteca()
+comment2.params=paramNome\ paramPreco
+comment2.target=void\ adicionarlivro(java.lang.String,\ float)
+comment3.params=
+comment3.target=void\ listarlivros()
+comment4.params=
+comment4.target=void\ calcularPrecoTotal()
+comment5.params=
+comment5.target=void\ trocarLivroPeloTitulo()
+numComments=6
