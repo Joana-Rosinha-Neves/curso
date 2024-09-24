@@ -19,21 +19,20 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
 
-        binding.btnValid.setOnClickListener {
+        binding.btnValidacao.setOnClickListener {
 
             val nome: String = binding.user.text.toString();
             val pass: String = binding.pass.text.toString();
-            if (nome!= "user" || pass!= "pass")
-            {
-                val intent = Intent(this,MainActivity3::class.java)
+            if (nome != "user" || pass != "pass") {
+                val intent = Intent(this, MainActivity3::class.java)
                 startActivity(intent)
 
-            }
-            else
-            {
-                val intent = Intent(this,MainActivity2::class.java)
+            } else {
+                val intent = Intent(this, MainActivity2::class.java)
                 startActivity(intent)
             }
         }
+    }
+}
 
 
