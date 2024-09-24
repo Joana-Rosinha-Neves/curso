@@ -19,14 +19,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
-        binding.buttonClicar1.setOnClickListener {
+        binding.btnClicar.setOnClickListener {
            Toast.makeText(applicationContext, " botao clicado", Toast.LENGTH_SHORT).show()
 
 
 
         }
-        binding.buttonClicar2.setOnClickListener {
-            val intent = Intent(this,MainActivity2::class.java)
+        binding.btnClick.setOnClickListener {
+            val intent = Intent(this, MainActivity2 ::class.java)
             startActivity(intent)
         }
 
