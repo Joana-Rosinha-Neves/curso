@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+<<<<<<< HEAD
+        android:id="@+id/button_clicar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="356dp"
+        android:layout_marginEnd="152dp"
+=======
+        android:id="@+id/btn_Clicar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="160dp"
+>>>>>>> 65da33f392fd55756cb4ee8b304f12cb324d6b30
+        android:text="Botão clicado"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+<<<<<<< HEAD
+        android:id="@+id/button_clicar2"
+=======
+        android:id="@+id/btn_click"
+>>>>>>> 65da33f392fd55756cb4ee8b304f12cb324d6b30
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="72dp"
+        android:text="Botão2"
+<<<<<<< HEAD
+        app:layout_constraintStart_toStartOf="@+id/button_clicar1"
+        app:layout_constraintTop_toBottomOf="@+id/button_clicar1" />
+=======
+        app:layout_constraintStart_toStartOf="@+id/btn_Clicar"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Clicar" />
+>>>>>>> 65da33f392fd55756cb4ee8b304f12cb324d6b30
+
+</androidx.constraintlayout.widget.ConstraintLayout>
