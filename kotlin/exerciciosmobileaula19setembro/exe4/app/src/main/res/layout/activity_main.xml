@@ -17,23 +17,23 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button_clicar1"
+        android:id="@+id/btn_Clicar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="356dp"
-        android:layout_marginEnd="152dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="160dp"
         android:text="Botão clicado"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button_clicar2"
+        android:id="@+id/btn_click"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="72dp"
         android:text="Botão2"
-        app:layout_constraintStart_toStartOf="@+id/button_clicar1"
-        app:layout_constraintTop_toBottomOf="@+id/button_clicar1" />
+        app:layout_constraintStart_toStartOf="@+id/btn_Clicar"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Clicar" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
