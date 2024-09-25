@@ -4,17 +4,34 @@
     <shared>
       <config />
     </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+        <config>
+          <theme>@style/Theme.Exr546</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml">
+        <config>
+          <theme>@style/Theme.Exr546</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main3.xml">
+        <config>
+          <theme>@style/Theme.Exr546</theme>
+        </config>
+      </layout>
+    </layouts>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08708cd9-7082-475e-83e3-5646b1bb12c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exerciciosmobileaula19setembro/exe4/.idea/caches/deviceStreaming.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exerciciosmobileaula19setembro/exe4/.idea/deploymentTargetSelector.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exerciciosmobileaula19setembro/exe4/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="0448740e-ea8f-4d10-8e69-97eca2c5f8c1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../exer51/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exer51/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exe4/.idea/caches/deviceStreaming.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exe4/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exe4/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer3dosslides/app/src/main/java/com/example/myapplication/MainActivity2.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer3dosslides/app/src/main/res/layout/activity_main2.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4/.idea/.gitignore" afterDir="false" />
@@ -26,7 +43,7 @@
       <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4/.idea/migrations.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exer51/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exer51/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/.idea/vcs.xml" afterDir="false" />
     </list>
@@ -60,22 +77,29 @@
   }
 }</component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 3
+  &quot;associatedIndex&quot;: 6
 }</component>
-  <component name="ProjectId" id="2mHnrXj0bpOJ3jbNrViYPS3TDgI" />
+  <component name="ProjectId" id="2mHtEIpAHqBOmvoGiimRUDw5uEY" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Android App.app.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/wmd2024/Desktop/curso&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.other&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;kotlin-gradle-user-dirs&quot;: [
@@ -83,9 +107,14 @@
     ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="android.template.756641931">
+      <recent name="com.example.exr546" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
-      <module name="exer51.app.main" />
+      <module name="exr546.app.main" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -154,11 +183,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="08708cd9-7082-475e-83e3-5646b1bb12c4" name="Changes" comment="" />
-      <created>1726742568924</created>
+      <changelist id="0448740e-ea8f-4d10-8e69-97eca2c5f8c1" name="Changes" comment="" />
+      <created>1726745215512</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1726742568924</updated>
+      <updated>1726745215512</updated>
     </task>
     <servers />
   </component>
