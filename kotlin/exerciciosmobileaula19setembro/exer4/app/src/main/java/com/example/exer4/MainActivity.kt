@@ -18,7 +18,7 @@ import com.example.exer4.databinding.ActivityMainBinding
 
 
                 binding.parId.setOnClickListener {
-                    var perguntas: Double = binding.perguntaId.text.toString().toDouble();
+                    val perguntas: Double = binding.perguntaId.text.toString().toDouble();
 
 
 
