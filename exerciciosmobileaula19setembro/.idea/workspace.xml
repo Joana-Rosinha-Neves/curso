@@ -27,25 +27,380 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0448740e-ea8f-4d10-8e69-97eca2c5f8c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../exer51/.idea/deploymentTargetSelector.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exer51/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exe4/.idea/caches/deviceStreaming.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exe4/.idea/deploymentTargetSelector.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exe4/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer3dosslides/app/src/main/java/com/example/myapplication/MainActivity2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer3dosslides/app/src/main/res/layout/activity_main2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4/.idea/appInsightsSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4/.idea/deploymentTargetSelector.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4/.idea/migrations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exer543/.idea/caches/deviceStreaming.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exer543/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exer543/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exe16/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exe16/.idea/exe16.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exe16/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exe16/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exer51/app/.idea/caches/deviceStreaming.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exer51/app/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exer51/app/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exer51/app/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exer51/app/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exer51/app/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciomobileaula20/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciomobileaula20/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciomobileaula20/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciomobileaula20/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciomobileaula20/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciomobileaula20/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciomobileaula20/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciomobileaula20/app/src/androidTest/java/com/example/exercicio5677/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciomobileaula20/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciomobileaula20/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciomobileaula20/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciomobileaula20/app/src/main/res/layout/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciomobileaula20/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciomobileaula20/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciomobileaula20/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciomobileaula20/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciomobileaula20/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciomobileaula20/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciomobileaula20/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciomobileaula20/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciomobileaula20/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciomobileaula20/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciomobileaula20/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciomobileaula20/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciomobileaula20/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciomobileaula20/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciomobileaula20/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciomobileaula20/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciomobileaula20/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciomobileaula20/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciomobileaula20/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciomobileaula20/app/src/test/java/com/example/exercicio5677/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciomobileaula20/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciomobileaula20/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciomobileaula20/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciomobileaula20/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciomobileaula20/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciomobileaula20/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciomobileaula20/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciomobileaula20/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/.idea/appInsightsSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/app/src/androidTest/java/com/example/ex5/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/app/src/main/java/com/example/ex5/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/app/src/test/java/com/example/ex5/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex5/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/.idea/appInsightsSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/app/src/androidTest/java/com/example/ex6/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/app/src/main/java/com/example/ex6/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/app/src/test/java/com/example/ex6/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/ex6/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/.idea/appInsightsSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/app/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/app/src/main/java/com/example/myapplication/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/app/src/test/java/com/example/myapplication/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/.idea/appInsightsSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/app/src/androidTest/java/com/example/exercicio5/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/app/src/main/java/com/example/exercicio5/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/app/src/test/java/com/example/exercicio5/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exercicio5/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/hghgfhf/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/hghgfhf/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/hghgfhf/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/hghgfhf/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/hghgfhf/app/src/androidTest/java/com/example/hghgfhf/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/hghgfhf/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/hghgfhf/app/src/main/java/com/example/hghgfhf/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/hghgfhf/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/hghgfhf/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/hghgfhf/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/hghgfhf/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/hghgfhf/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/hghgfhf/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/hghgfhf/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/hghgfhf/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/hghgfhf/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/hghgfhf/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/hghgfhf/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/hghgfhf/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/hghgfhf/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/hghgfhf/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/hghgfhf/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/hghgfhf/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/hghgfhf/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/hghgfhf/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/hghgfhf/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/hghgfhf/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/hghgfhf/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/hghgfhf/app/src/test/java/com/example/hghgfhf/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/hghgfhf/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/hghgfhf/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/hghgfhf/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/hghgfhf/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/hghgfhf/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/hghgfhf/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/hghgfhf/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/hghgfhf/settings.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exer51/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exer51/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exer543/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exer543/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/.idea/shelf/Uncommitted_changes_before_Update_at_16_09_2024_15_07__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/.idea/shelf/Uncommitted_changes_before_Update_at_16_09_2024_15_07__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i.len" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i.len" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i.len" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i.len" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab_i.len" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab_i.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i.len" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i.len" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab_i.len" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab_i.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab_i.len" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab_i.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/counters.tab" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/counters.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i.len" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab_i.len" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab_i.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i.len" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/cacheable/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/cacheable/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/classpath-snapshot/shrunk-classpath-snapshot.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/classpath-snapshot/shrunk-classpath-snapshot.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exe16/app/build/kotlin/compileDebugKotlin/local-state/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exe16/app/build/generated/kotlin/compileDebugKotlin/local-state/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer3dosslides/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer3dosslides/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4/app/src/main/java/com/example/exer4/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4/app/src/main/java/com/example/exer4/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exerciciosmobileaula19setembro/exer4dosslides/.idea/modules.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +450,7 @@
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/wmd2024/Desktop/curso&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/wmd2024/Desktop/kotlin&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,

@@ -12,31 +12,44 @@
     <TextView
         android:id="@+id/par_Id"
         android:layout_width="168dp"
-        android:layout_height="27dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginBottom="22dp"
         android:text="Par ou impar?"
-        tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="183dp" />
+        app:layout_constraintBottom_toTopOf="@+id/primo_Id"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pergunta_Id" />
 
     <TextView
         android:id="@+id/primo_Id"
-        android:layout_width="167dp"
-        android:layout_height="27dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="472dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="232dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/par_Id"
+        app:layout_constraintStart_toStartOf="@+id/par_Id"
+        app:layout_constraintTop_toBottomOf="@+id/par_Id"
         tools:text="É primo? " />
 
     <androidx.constraintlayout.Constraints
         android:id="@+id/constraints"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="101dp"
+        app:layout_constraintBottom_toTopOf="@+id/pergunta_Id"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/pergunta_Id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="44dp"
         android:text="Qual o seu numero? "
-        tools:layout_editor_absoluteX="79dp"
-        tools:layout_editor_absoluteY="120dp" />
+        app:layout_constraintBottom_toTopOf="@+id/par_Id"
+        app:layout_constraintStart_toStartOf="@+id/par_Id"
+        app:layout_constraintTop_toBottomOf="@+id/constraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

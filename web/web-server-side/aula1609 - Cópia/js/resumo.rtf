@@ -1,0 +1,430 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2070{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil\fcharset1 Cambria Math;}{\f2\fnil\fcharset0 Cambria Math;}}
+{\colortbl ;\red0\green0\blue255;}
+{\*\generator Riched20 10.0.19041}{\*\mmathPr\mmathFont1\mwrapIndent1440 }\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang22 Claro! Vamos analisar o c\'f3digo que voc\'ea forneceu e explicar cada parte dele.\par
+\par
+### 1. Criar um Array de Nomes Completos\par
+\par
+Primeiro, voc\'ea tem um array de objetos que cont\'eam nomes completos:\par
+\par
+```javascript\par
+const fullNames = [\par
+    \{ first: 'Albus', last: 'Dumbledore' \},\par
+    \{ first: 'Harry', last: 'Potter' \},\par
+    \{ first: 'Hermione', last: 'Granger' \},\par
+    \{ first: 'Ron', last: 'Weasley' \},\par
+    \{ first: 'Rubeus', last: 'Hagrid' \},\par
+    \{ first: 'Minerva', last: 'McGonagall' \},\par
+    \{ first: 'Severus', last: 'Snape' \}\par
+];\par
+```\par
+\par
+### 2. Criar um Novo Array com os Primeiros Nomes\par
+\par
+Para extrair os primeiros nomes do array `fullNames`, voc\'ea pode usar o m\'e9todo `map()`, que cria um novo array com os resultados da chamada de uma fun\'e7\'e3o para cada elemento do array original:\par
+\par
+```javascript\par
+const primeirosnomes = fullNames.map(function(t) \{\par
+    return t.first;\par
+\});\par
+\par
+console.log(primeirosnomes);\par
+```\par
+\par
+- **`map()`**: Itera sobre cada objeto em `fullNames` e retorna o valor da propriedade `first`, criando assim um novo array com apenas os primeiros nomes.\par
+\par
+### 3. Usar Arrow Functions\par
+\par
+Em seguida, voc\'ea define uma fun\'e7\'e3o `greet` usando uma arrow function que recebe um nome e retorna uma sauda\'e7\'e3o:\par
+\par
+```javascript\par
+const greet = (x) => \{\par
+    return "ola " + x;\par
+\};\par
+\par
+console.log(greet("joana"));\par
+```\par
+\par
+- **Arrow Function**: \'c9 uma forma mais concisa de escrever fun\'e7\'f5es em JavaScript. Neste caso, a fun\'e7\'e3o `greet` concatena "ola" com o nome passado como argumento.\par
+\par
+### 4. Filtrar Usernames V\'e1lidos\par
+\par
+A fun\'e7\'e3o `validUserNames` filtra um array de usernames para retornar apenas aqueles que t\'eam menos de 10 caracteres:\par
+\par
+```javascript\par
+function validUserNames(list) \{\par
+    const usernames = list.filter(element => element.length < 10);\par
+    return usernames;\par
+\}\par
+```\par
+\par
+- **`filter()`**: Retorna um novo array contendo todos os elementos que atendem \'e0 condi\'e7\'e3o especificada (neste caso, ter menos de 10 caracteres).\par
+\par
+### 5. Verificar se Todos os N\'fameros s\'e3o Pares\par
+\par
+A fun\'e7\'e3o `allEvens` verifica se todos os n\'fameros em um array s\'e3o pares:\par
+\par
+```javascript\par
+function allEvens(list) \{\par
+    return list.every(w => w % 2 === 0);\par
+\}\par
+```\par
+\par
+- **`every()`**: Retorna verdadeiro se todos os elementos do array satisfazem a condi\'e7\'e3o fornecida (neste caso, serem pares).\par
+\par
+### Resumo dos M\'e9todos Usados\par
+- **`map()`**: Cria um novo array a partir de uma fun\'e7\'e3o aplicada a cada elemento.\par
+- **`filter()`**: Cria um novo array contendo elementos que passam em uma condi\'e7\'e3o.\par
+- **`every()`**: Verifica se todos os elementos em um array atendem a uma condi\'e7\'e3o.\par
+\par
+### Exemplos Pr\'e1ticos\par
+\par
+Para ver tudo junto, aqui est\'e1 um c\'f3digo que inclui todos os elementos mencionados:\par
+\par
+```javascript\par
+// 1. Array de Nomes Completos\par
+const fullNames = [\par
+    \{ first: 'Albus', last: 'Dumbledore' \},\par
+    \{ first: 'Harry', last: 'Potter' \},\par
+    \{ first: 'Hermione', last: 'Granger' \},\par
+    \{ first: 'Ron', last: 'Weasley' \},\par
+    \{ first: 'Rubeus', last: 'Hagrid' \},\par
+    \{ first: 'Minerva', last: 'McGonagall' \},\par
+    \{ first: 'Severus', last: 'Snape' \}\par
+];\par
+\par
+// 2. Criar um array de primeiros nomes\par
+const primeirosnomes = fullNames.map(t => t.first);\par
+console.log(primeirosnomes);\par
+\par
+// 3. Fun\'e7\'e3o greet\par
+const greet = (x) => "ola " + x;\par
+console.log(greet("joana"));\par
+\par
+// 4. Fun\'e7\'e3o para validar usernames\par
+function validUserNames(list) \{\par
+    return list.filter(element => element.length < 10);\par
+\}\par
+\par
+// 5. Fun\'e7\'e3o para verificar n\'fameros pares\par
+function allEvens(list) \{\par
+    return list.every(w => w % 2 === 0);\par
+\}\par
+\par
+// Exemplos de uso\par
+console.log(validUserNames(["user1", "longusername", "short"])); // ["user1", "short"]\par
+console.log(allEvens([2, 4, 6, 8])); // true\par
+console.log(allEvens([1, 2, 3, 4])); // false\par
+```\par
+\par
+Se precisar de mais explica\'e7\'f5es ou tiver d\'favidas sobre qualquer parte do c\'f3digo, estou aqui para ajudar!\par
+\par
+\par
+Claro! Aqui est\'e1 um resumo do que voc\'ea compartilhou, dividido em t\'f3picos para facilitar seu entendimento e pr\'e1tica.\par
+\par
+### 1. Fun\'e7\'f5es B\'e1sicas\par
+\par
+#### Multiplica\'e7\'e3o\par
+```javascript\par
+function multiply(a, b) \{\par
+    return a * b;\par
+\}\par
+let x = multiply(2, 3); // x ser\'e1 6\par
+```\par
+- **Explica\'e7\'e3o**: Esta fun\'e7\'e3o recebe dois par\'e2metros e retorna o resultado da multiplica\'e7\'e3o.\par
+\par
+### 2. Objetos\par
+```javascript\par
+let product = \{\par
+    nome: "joana",\par
+    inStock: true,\par
+    price: 1.99,\par
+    colors: ["vermelho", "azul", "verde"]\par
+\};\par
+console.log(product.price); // Acessa o pre\'e7o\par
+console.log(product.colors[2]); // Acessa a terceira cor\par
+product.price = 2.55; // Atualiza o pre\'e7o\par
+```\par
+- **Explica\'e7\'e3o**: Um objeto com propriedades e um array de cores.\par
+\par
+### 3. Exerc\'edcios de Strings\par
+#### Slice e Replace\par
+```javascript\par
+const WORD = "skateboard";\par
+let facialHair = WORD.slice(5, 10); // "board"\par
+facialHair = facialHair.replace("o", "e"); // "beard"\par
+console.log(facialHair);\par
+```\par
+- **Explica\'e7\'e3o**: Usa `slice` para cortar uma parte da string e `replace` para trocar letras.\par
+\par
+### 4. Estruturas de Controle\par
+#### Switch e If\par
+```javascript\par
+let diaSemana = prompt("Qual o dia da semana?").toLowerCase();\par
+switch (diaSemana) \{\par
+    case "sexta":\par
+        alert("Yay sobrevivemos a mais uma semana!");\par
+        break;\par
+    default:\par
+        alert("N\'e3o \'e9 sexta!");\par
+\}\par
+\par
+let pw = prompt("Insira uma password com 6 caracteres no minimo");\par
+if (pw && pw.length > 5) \{\par
+    alert("Success!!");\par
+\} else \{\par
+    alert("Incorrect Password!");\par
+\}\par
+```\par
+- **Explica\'e7\'e3o**: Usando `switch` para verificar o dia e `if` para validar uma senha.\par
+\par
+### 5. Manipula\'e7\'e3o de Arrays\par
+#### Exemplo de Manipula\'e7\'e3o\par
+```javascript\par
+let planetas = ["Merc\'fario", "V\'e9nus", "Terra", "Marte", "Jupiter", "Saturno", "Urano", "Neptuno", "Plut\'e3o"];\par
+planetas[3] = "Marte"; // Corrige a escrita\par
+planetas.pop(); // Remove o \'faltimo elemento\par
+planetas.unshift("New"); // Adiciona ao in\'edcio\par
+console.log(planetas);\par
+```\par
+- **Explica\'e7\'e3o**: Manipula\'e7\'e3o de arrays com m\'e9todos como `pop` e `unshift`.\par
+\par
+### 6. Arrays Bidimensionais\par
+```javascript\par
+const airplaneSeats = [\par
+    ['Ruth', 'Anthony', 'Stevie'],\par
+    ['Amelia', 'Pedro', 'Maya'],\par
+    ['Xavier', 'Ananya', 'Luis'],\par
+    ['Luke', null, 'Deniz'],\par
+    ['Rin', 'Sakura', 'Francisco']\par
+];\par
+airplaneSeats[3][1] = "Joaquim"; // Atualiza um assento\par
+console.log(airplaneSeats);\par
+```\par
+- **Explica\'e7\'e3o**: Acessando e manipulando elementos em um array bidimensional.\par
+\par
+### 7. Fun\'e7\'f5es Compostas\par
+#### Exemplo de Fun\'e7\'f5es\par
+```javascript\par
+function isShortsWeather(temperature) \{\par
+    return temperature > 25;\par
+\}\par
+\par
+function lastElement(list) \{\par
+    return list.length ? list[list.length - 1] : null;\par
+\}\par
+\par
+function capitalize(a) \{\par
+    return a.charAt(0).toUpperCase() + a.slice(1);\par
+\}\par
+\par
+function sumArray(a) \{\par
+    return a.reduce((acc, num) => acc + num, 0);\par
+\}\par
+```\par
+- **Explica\'e7\'e3o**: Fun\'e7\'f5es para verificar condi\'e7\'f5es, manipular arrays e strings.\par
+\par
+### 8. Looping e Impress\'e3o\par
+#### Exemplos de Loop\par
+```javascript\par
+const people = ["Scooby", "Velma", "Daphne", "Shaggy", "Fred"];\par
+for (let i = 0; i < people.length; i++) \{\par
+    console.log(people[i].toUpperCase());\par
+\}\par
+\par
+let musica = "Da ba dee da ba daa";\par
+for (let i = 1; i <= 6; i++) \{\par
+    console.log(musica);\par
+\}\par
+```\par
+- **Explica\'e7\'e3o**: Usando loops `for` para iterar sobre arrays e repetir strings.\par
+\par
+### 9. Entrada do Usu\'e1rio e Arrays\par
+```javascript\par
+let lista = [];\par
+let codigo = "";\par
+while (codigo !== "fim") \{\par
+    codigo = prompt("Adicione um item \'e0 lista (digite 'fim' para parar):");\par
+    if (codigo !== "fim") lista.push(codigo.trim());\par
+\}\par
+console.log(lista);\par
+```\par
+- **Explica\'e7\'e3o**: Loop para coletar entradas do usu\'e1rio e armazen\'e1-las em um array.\par
+\par
+### Dicas de Estudo\par
+1. **Pratique com Fun\'e7\'f5es**: Crie suas pr\'f3prias fun\'e7\'f5es e teste-as.\par
+2. **Manipula\'e7\'e3o de Objetos e Arrays**: Experimente adicionar, remover e modificar elementos.\par
+3. **Exerc\'edcios de Condicional**: Pratique usando `if`, `switch` e loops em diferentes cen\'e1rios.\par
+4. **Testes Interativos**: Use `prompt` e `alert` para interagir com o usu\'e1rio e entender a din\'e2mica.\par
+\par
+Fun\'e7\'f5es em JavaScript\par
+Fun\'e7\'e3o lastElement\par
+\par
+Descri\'e7\'e3o: Retorna o \'faltimo elemento de um array ou null se o array estiver vazio.\par
+C\'f3digo:\par
+javascript\par
+Copiar c\'f3digo\par
+function lastElement(list) \{\par
+    return list.length ? list[list.length - 1] : null;\par
+\}\par
+Fun\'e7\'e3o capitalize\par
+\par
+Descri\'e7\'e3o: Recebe uma string e retorna a mesma string com a primeira letra em mai\'fascula.\par
+C\'f3digo:\par
+javascript\par
+Copiar c\'f3digo\par
+function capitalize(a) \{\par
+    return a.charAt(0).toUpperCase() + a.slice(1);\par
+\}\par
+Fun\'e7\'e3o sumArray\par
+\par
+Descri\'e7\'e3o: Recebe um array de n\'fameros e retorna a soma de todos os n\'fameros.\par
+C\'f3digo:\par
+javascript\par
+Copiar c\'f3digo\par
+function sumArray(a) \{\par
+    return a.reduce((acc, num) => acc + num, 0);\par
+\}\par
+Exemplos de Uso\par
+Uso de lastElement:\par
+\par
+javascript\par
+Copiar c\'f3digo\par
+console.log(lastElement([1, 2, 3])); // Sa\'edda: 3\par
+console.log(lastElement([])); // Sa\'edda: null\par
+Uso de capitalize:\par
+\par
+javascript\par
+Copiar c\'f3digo\par
+console.log(capitalize("joana")); // Sa\'edda: Joana\par
+Uso de sumArray:\par
+\par
+javascript\par
+Copiar c\'f3digo\par
+console.log(sumArray([1, 2, 3])); // Sa\'edda: 6\par
+Essas fun\'e7\'f5es s\'e3o \'fateis para manipula\'e7\'e3o de dados e podem ser utilizadas em v\'e1rias situa\'e7\'f5es em projetos de programa\'e7\'e3o. Se precisar de mais informa\'e7\'f5es ou exemplos, \'e9 s\'f3 avisar!\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+Dito por si:\par
+acc + num, 0); nao percebo no sumArray\par
+Dito pelo ChatGPT:\par
+ChatGPT\par
+Vamos detalhar a parte acc + num na fun\'e7\'e3o sumArray.\par
+\par
+Explica\'e7\'e3o da Fun\'e7\'e3o sumArray\par
+A fun\'e7\'e3o utiliza o m\'e9todo reduce para calcular a soma dos n\'fameros em um array. Aqui est\'e1 a fun\'e7\'e3o novamente:\par
+\par
+javascript\par
+Copiar c\'f3digo\par
+function sumArray(a) \{\par
+    return a.reduce((acc, num) => acc + num, 0);\par
+\}\par
+Componentes da Fun\'e7\'e3o\par
+a.reduce(...): O m\'e9todo reduce itera sobre cada elemento do array a, acumulando um resultado (neste caso, a soma dos n\'fameros).\par
+\par
+Par\'e2metros do reduce:\par
+\par
+(acc, num): Esta \'e9 uma fun\'e7\'e3o callback que o reduce chama para cada elemento do array.\par
+acc: Representa o acumulador. \'c9 o valor que vai sendo atualizado a cada itera\'e7\'e3o. No in\'edcio, \'e9 definido como 0 (o segundo argumento do reduce).\par
+num: Representa o elemento atual do array que est\'e1 sendo processado.\par
+acc + num: Essa express\'e3o soma o valor atual do acumulador (acc) com o n\'famero atual (num).\par
+\par
+0: O segundo argumento do reduce indica o valor inicial do acumulador. Aqui, come\'e7amos com 0, pois queremos somar todos os n\'fameros.\par
+\par
+Exemplo Pr\'e1tico\par
+Vamos ver um exemplo passo a passo:\par
+\par
+Se chamarmos sumArray([1, 2, 3]):\par
+\par
+Passo 1: acc come\'e7a em 0 e o primeiro num \'e9 1.\par
+\par
+C\'e1lculo: 0 + 1 \f1\u8594?\f0  1 (agora acc \'e9 1).\par
+Passo 2: Agora acc \'e9 1, e o pr\'f3ximo num \'e9 2.\par
+\par
+C\'e1lculo: 1 + 2 \f1\u8594?\f0  3 (agora acc \'e9 3).\par
+Passo 3: Agora acc \'e9 3, e o pr\'f3ximo num \'e9 3.\par
+\par
+C\'e1lculo: 3 + 3 \f1\u8594?\f0  6 (agora acc \'e9 6).\par
+Resultado: O m\'e9todo reduce retorna 6, que \'e9 a soma de todos os n\'fameros do array.\par
+\f2  \f0 Sele\'e7\'e3o\f2  \f0 de\f2  \f0 Elementos\f2  \f0 do\f2  \f0 DOM\par
+javascript\par
+Copiar\f2  \f0 c\'f3digo\par
+let\f2  \f0 bannerSelection\f2  = \f0 document\f2 .\f0 getElementById\f2 (\f0 'banner'\f2 );\f0\par
+let\f2  \f0 unicorn\f2  = \f0 document\f2 .\f0 getElementById\f2 (\f0 'unicorn'\f2 );\f0\par
+let\f2  \f0 heading\f2  = \f0 document\f2 .\f0 getElementById\f2 (\f0 'mainheading'\f2 );\f0\par
+console\f2 .\f0 log\f2 (\f0 unicorn\f2 ); // \f0 Exibe\f2  \f0 o\f2  \f0 elemento\f2  \f0 com\f2  \f0 o\f2  \f0 ID\f2  \f0 'unicorn'\par
+console\f2 .\f0 log\f2 (\f0 heading\f2 ); // \f0 Exibe\f2  \f0 o\f2  \f0 elemento\f2  \f0 com\f2  \f0 o\f2  \f0 ID\f2  \f0 'mainheading'\par
+Explica\'e7\'e3o\f2 : \f0 Aqui\f2 , \f0 voc\'ea\f2  \f0 est\'e1\f2  \f0 selecionando\f2  \f0 elementos\f2  \f0 da\f2  \f0 p\'e1gina\f2  \f0 usando\f2  \f0 document\f2 .\f0 getElementById\f2 (), \f0 que\f2  \f0 retorna\f2  \f0 o\f2  \f0 elemento\f2  \f0 HTML\f2  \f0 correspondente\f2  \f0 ao\f2  \f0 ID\f2  \f0 fornecido\f2 . \f0 O\f2  \f0 console\f2 .\f0 log\f2  \f0\'e9\f2  \f0 usado\f2  \f0 para\f2  \f0 verificar\f2  \f0 se\f2  \f0 os\f2  \f0 elementos\f2  \f0 foram\f2  \f0 selecionados\f2  \f0 corretamente\f2 .\f0\par
+\par
+2\f2 . \f0 Sele\'e7\'e3o\f2  \f0 de\f2  \f0 Elementos\f2  \f0 com\f2  \f0 Classes\par
+javascript\par
+Copiar\f2  \f0 c\'f3digo\par
+let\f2  \f0 doneTodos\f2  = \f0 document\f2 .\f0 querySelectorAll\f2 (\f0 '\f2 .\f0 done'\f2 );\f0\par
+let\f2  \f0 checkBox\f2  = \f0 document\f2 .\f0 querySelector\f2 (\f0 "input\f2 [\f0 type\f2 =\f0 'checkbox'\f2 ]\f0 "\f2 );\f0\par
+console\f2 .\f0 log\f2 (\f0 doneTodos\f2 ); // \f0 Exibe\f2  \f0 todos\f2  \f0 os\f2  \f0 elementos\f2  \f0 com\f2  \f0 a\f2  \f0 classe\f2  \f0 'done'\par
+\f2 // \f0 console\f2 .\f0 log\f2 (\f0 checkBox\f2 ); // \f0 Exibe\f2  \f0 o\f2  \f0 primeiro\f2  \f0 checkbox\f2  \f0 encontrado\par
+Explica\'e7\'e3o\f2 : \f0 document\f2 .\f0 querySelectorAll\f2 (\f0 '\f2 .\f0 done'\f2 ) \f0 seleciona\f2  \f0 todos\f2  \f0 os\f2  \f0 elementos\f2  \f0 que\f2  \f0 t\'eam\f2  \f0 a\f2  \f0 classe\f2  \f0 done\f2 . \f0 querySelector\f2  \f0\'e9\f2  \f0 usado\f2  \f0 para\f2  \f0 pegar\f2  \f0 o\f2  \f0 primeiro\f2  \f0 checkbox\f2  \f0 na\f2  \f0 p\'e1gina\f2 . \f0 Isso\f2  \f0\'e9\f2  \f0\'fatil\f2  \f0 para\f2  \f0 manipular\f2  \f0 esses\f2  \f0 elementos\f2  \f0 depois\f2 .\f0\par
+\par
+3\f2 . \f0 Altera\'e7\'e3o\f2  \f0 de\f2  \f0 Texto\par
+javascript\par
+Copiar\f2  \f0 c\'f3digo\par
+document\f2 .\f0 querySelector\f2 (\f0 'span'\f2 ).\f0 innerText\f2  = \f0 'Yack'\f2 ;\f0\par
+Explica\'e7\'e3o\f2 : \f0 Aqui\f2 , \f0 voc\'ea\f2  \f0 seleciona\f2  \f0 o\f2  \f0 primeiro\f2  <\f0 span\f2 > \f0 na\f2  \f0 p\'e1gina\f2  \f0 e\f2  \f0 altera\f2  \f0 seu\f2  \f0 texto\f2  \f0 para\f2  \f0 "Yack"\f2 .\f0\par
+\par
+4\f2 . \f0 Fun\'e7\'e3o\f2  \f0 para\f2  \f0 Alternar\f2  \f0 Imagens\par
+javascript\par
+Copiar\f2  \f0 c\'f3digo\par
+function\f2  \f0 myEggn\f2 () \{\f0\par
+\f2     \f0 let\f2  \f0 myImage\f2  = \f0 document\f2 .\f0 querySelector\f2 (\f0 'img'\f2 );\f0\par
+\f2     \f0 if\f2  (\f0 myImage\f2 .\f0 src\f2  === \f0 '{{\field{\*\fldinst{HYPERLINK https://devsprouthosting.com/images/chicken.jpg }}{\fldrslt{https\f2 ://\f0 devsprouthosting\f2 .\f0 com\f2 /\f0 images\f2 /\f0 chicken\f2 .\f0 jpg\ul0\cf0}}}}\f0\fs22 '\f2 ) \{\f0\par
+\f2         \f0 myImage\f2 .\f0 setAttribute\f2 (\f0 'src'\f2 , \f0 '{{\field{\*\fldinst{HYPERLINK https://devsprouthosting.com/images/egg.jpg }}{\fldrslt{https\f2 ://\f0 devsprouthosting\f2 .\f0 com\f2 /\f0 images\f2 /\f0 egg\f2 .\f0 jpg\ul0\cf0}}}}\f0\fs22 '\f2 );\f0\par
+\f2     \} \f0 else\f2  \{\f0\par
+\f2         \f0 myImage\f2 .\f0 setAttribute\f2 (\f0 'src'\f2 , \f0 '{{\field{\*\fldinst{HYPERLINK https://devsprouthosting.com/images/chicken.jpg }}{\fldrslt{https\f2 ://\f0 devsprouthosting\f2 .\f0 com\f2 /\f0 images\f2 /\f0 chicken\f2 .\f0 jpg\ul0\cf0}}}}\f0\fs22 '\f2 );\f0\par
+\f2     \}\f0\par
+\f2\}\f0\par
+Explica\'e7\'e3o\f2 : \f0 Esta\f2  \f0 fun\'e7\'e3o\f2  \f0 altera\f2  \f0 a\f2  \f0 imagem\f2  \f0 entre\f2  \f0 um\f2  \f0 ovo\f2  \f0 e\f2  \f0 uma\f2  \f0 galinha\f2 . \f0 myImage\f2 .\f0 src\f2  \f0 verifica\f2  \f0 a\f2  \f0 fonte\f2  \f0 atual\f2  \f0 da\f2  \f0 imagem\f2 . \f0 Se\f2  \f0 for\f2  \f0 a\f2  \f0 imagem\f2  \f0 da\f2  \f0 galinha\f2 , \f0 muda\f2  \f0 para\f2  \f0 a\f2  \f0 do\f2  \f0 ovo\f2  \f0 e\f2  \f0 vice\f2 -\f0 versa\f2 . \f0 setAttribute\f2  \f0\'e9\f2  \f0 usado\f2  \f0 para\f2  \f0 alterar\f2  \f0 o\f2  \f0 src\f2 .\f0\par
+\par
+5\f2 . \f0 Configura\'e7\'e3o\f2  \f0 de\f2  \f0 Estilo\f2  \f0 da\f2  \f0 Imagem\par
+javascript\par
+Copiar\f2  \f0 c\'f3digo\par
+let\f2  \f0 myImages\f2  = \f0 document\f2 .\f0 querySelector\f2 (\f0 '\f2 #\f0 container'\f2 );\f0\par
+let\f2  \f0 myImage\f2  = \f0 document\f2 .\f0 querySelector\f2 (\f0 'img'\f2 );\f0\par
+myImages\f2 .\f0 style\f2 .\f0 textAlign\f2  = \f0 'center'\f2 ;\f0\par
+myImage\f2 .\f0 style\f2 .\f0 width\f2  = \f0 '150px'\f2 ;\f0\par
+myImage\f2 .\f0 style\f2 .\f0 borderRadius\f2  = \f0 '50%'\f2 ;\f0\par
+Explica\'e7\'e3o\f2 : \f0 Aqui\f2  \f0 voc\'ea\f2  \f0 est\'e1\f2  \f0 centralizando\f2  \f0 o\f2  \f0 conte\'fado\f2  \f0 dentro\f2  \f0 do\f2  \f0 elemento\f2  \f0 com\f2  \f0 o\f2  \f0 ID\f2  \f0 container\f2 . \f0 Al\'e9m\f2  \f0 disso\f2 , \f0 est\'e1\f2  \f0 ajustando\f2  \f0 a\f2  \f0 largura\f2  \f0 da\f2  \f0 imagem\f2  \f0 e\f2  \f0 aplicando\f2  \f0 um\f2  \f0 estilo\f2  \f0 de\f2  \f0 borda\f2  \f0 arredondada\f2  (\f0 50%\f2  \f0 faz\f2  \f0 a\f2  \f0 imagem\f2  \f0 ficar\f2  \f0 circular\f2 ).\f0\par
+\par
+6\f2 . \f0 Altera\'e7\'e3o\f2  \f0 de\f2  \f0 Cores\f2  \f0 em\f2  \f0 Spans\par
+javascript\par
+Copiar\f2  \f0 c\'f3digo\par
+const\f2  \f0 colors\f2  = [\f0 'red'\f2 , \f0 'orange'\f2 , \f0 'yellow'\f2 , \f0 'green'\f2 , \f0 'blue'\f2 , \f0 'indigo'\f2 , \f0 'violet'\f2 ];\f0\par
+const\f2  \f0 spans\f2  = \f0 document\f2 .\f0 querySelectorAll\f2 (\f0 'span'\f2 );\f0\par
+\par
+let\f2  \f0 i\f2  = \f0 0\f2 ; \f0\par
+for\f2  (\f0 let\f2  \f0 span\f2  \f0 of\f2  \f0 spans\f2 ) \{\f0\par
+\f2     \f0 const\f2  \f0 randomIndex\f2  = \f0 Math\f2 .\f0 floor\f2 (\f0 Math\f2 .\f0 random\f2 () \f0 *\f2  \f0 colors\f2 .\f0 length\f2 ); // \f0 Gera\f2  \f0 um\f2  \f0\'edndice\f2  \f0 aleat\'f3rio\par
+\f2     \f0 span\f2 .\f0 style\f2 .\f0 color\f2  = \f0 colors\f2 [\f0 randomIndex\f2 ]; // \f0 Altera\f2  \f0 a\f2  \f0 cor\f2  \f0 do\f2  \f0 span\par
+\f2\}\f0\par
+Explica\'e7\'e3o\f2 : \f0 Aqui\f2 , \f0 voc\'ea\f2  \f0 tem\f2  \f0 um\f2  \f0 array\f2  \f0 de\f2  \f0 cores\f2  \f0 e\f2  \f0 seleciona\f2  \f0 todos\f2  \f0 os\f2  \f0 spans\f2  \f0 na\f2  \f0 p\'e1gina\f2 . \f0 O\f2  \f0 loop\f2  \f0 percorre\f2  \f0 cada\f2  \f0 span\f2 , \f0 gerando\f2  \f0 um\f2  \f0\'edndice\f2  \f0 aleat\'f3rio\f2  \f0 para\f2  \f0 escolher\f2  \f0 uma\f2  \f0 cor\f2  \f0 do\f2  \f0 array\f2  \f0 e\f2  \f0 aplica\f2  \f0 essa\f2  \f0 cor\f2  \f0 ao\f2  \f0 texto\f2  \f0 do\f2  \f0 span\f2 .\f0\par
+\par
+Resumo\par
+Seleciona\f2  \f0 elementos\f2  \f0 do\f2  \f0 DOM\f2 : \f0 Voc\'ea\f2  \f0 usa\f2  \f0 getElementById\f2  \f0 e\f2  \f0 querySelectorAll\f2  \f0 para\f2  \f0 pegar\f2  \f0 elementos\f2  \f0 espec\'edficos\f2  \f0 da\f2  \f0 p\'e1gina\f2 .\f0\par
+Manipula\f2  \f0 texto\f2  \f0 e\f2  \f0 atributos\f2 : \f0 Muda\f2  \f0 o\f2  \f0 texto\f2  \f0 de\f2  \f0 um\f2  \f0 span\f2  \f0 e\f2  \f0 alterna\f2  \f0 a\f2  \f0 imagem\f2  \f0 entre\f2  \f0 dois\f2  \f0 estados\f2 .\f0\par
+Aplica\f2  \f0 estilos\f2 : \f0 Configura\f2  \f0 o\f2  \f0 estilo\f2  \f0 da\f2  \f0 imagem\f2  \f0 e\f2  \f0 do\f2  \f0 container\f2 .\f0\par
+Altera\f2  \f0 cores\f2  \f0 dinamicamente\f2 : \f0 Usa\f2  \f0 um\f2  \f0 loop\f2  \f0 para\f2  \f0 aplicar\f2  \f0 cores\f2  \f0 aleat\'f3rias\f2  \f0 aos\f2  \f0 spans\f2 .\f0\par
+Se\f2  \f0 precisar\f2  \f0 de\f2  \f0 mais\f2  \f0 explica\'e7\'f5es\f2  \f0 ou\f2  \f0 tiver\f2  \f0 d\'favidas\f2  \f0 espec\'edficas\f2  \f0 sobre\f2  \f0 alguma\f2  \f0 parte\f2 , \f0\'e9\f2  \f0 s\'f3\f2  \f0 avisar\f2 !\f0\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\lang22\par
+}
+ 
