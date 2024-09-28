@@ -10,7 +10,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.constraintlayout.widget.Guideline;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.exercicio1.R;
@@ -29,21 +28,16 @@ public final class ActivityMainBinding implements ViewBinding {
   public final EditText euros;
 
   @NonNull
-  public final Guideline guideline;
-
-  @NonNull
   public final ConstraintLayout main;
 
   @NonNull
   public final TextView textResultado;
 
   private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button buttonConverter,
-      @NonNull EditText euros, @NonNull Guideline guideline, @NonNull ConstraintLayout main,
-      @NonNull TextView textResultado) {
+      @NonNull EditText euros, @NonNull ConstraintLayout main, @NonNull TextView textResultado) {
     this.rootView = rootView;
     this.buttonConverter = buttonConverter;
     this.euros = euros;
-    this.guideline = guideline;
     this.main = main;
     this.textResultado = textResultado;
   }
@@ -87,12 +81,6 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.guideline;
-      Guideline guideline = ViewBindings.findChildViewById(rootView, id);
-      if (guideline == null) {
-        break missingId;
-      }
-
       ConstraintLayout main = (ConstraintLayout) rootView;
 
       id = R.id.text_Resultado;
@@ -101,8 +89,8 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, buttonConverter, euros, guideline,
-          main, textResultado);
+      return new ActivityMainBinding((ConstraintLayout) rootView, buttonConverter, euros, main,
+          textResultado);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
