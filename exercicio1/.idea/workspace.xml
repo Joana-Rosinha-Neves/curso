@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="803d71c8-16be-475b-bd55-7a607d695f43" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/.idea/deploymentTargetSelector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/.idea/migrations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/app/src/androidTest/java/com/example/exercicio1/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/app/src/main/res/mipmap-anydpi/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/app/src/test/java/com/example/exercicio1/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/gradle/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/exercicio1 - Cópia/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/aulas e exercicios/bootstrap/Nova pasta/ecofab" beforeDir="false" afterPath="$PROJECT_DIR$/../web/aulas e exercicios/bootstrap/Nova pasta/ecofab" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Joana-Rosinha-Neves&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Joana-Rosinha-Neves/curso.git&quot;,
+    &quot;accountId&quot;: &quot;87aac175-e356-4e79-b38e-991f5c70c590&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2m9h7qmBpfZBktyUFwq2Vq5ICuB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Utilizador/Desktop/cursomobile/curso/kotlin/exercicio1 - Cópia",
+    "settings.editor.selected.configurable": "editor.preferences.import"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="803d71c8-16be-475b-bd55-7a607d695f43" name="Changes" comment="" />
+      <created>1726494535075</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726494535075</updated>
+    </task>
+    <servers />
+  </component>
+</project>
