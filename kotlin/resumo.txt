@@ -1,0 +1,105 @@
+   buildFeatures{
+        viewBinding = true
+    }
+}
+
+
+
+class MainActivity : AppCompatActivity() {
+
+    private val binding by lazy {
+        ActivityMainBinding.inflate(layoutInflater)
+    }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(binding.root)
+        binding.editButtonConverterdolares.setOnClickListener {
+            val euros = binding.editValoreuros.text.toString()
+            val dolares = euros.toDouble() * 0.8;
+            binding.textValorFinal.setText("${dolares}")
+        }
+
+binding.editButtonConverterreal.setOnClickListener {
+            val euros = binding.editValoreuros.text.toString()
+            val reais = euros.toDouble() * 0.5;
+            binding.textValorFinal.setText("${reais}")
+        }
+
+ex3 
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+
+    <TextView
+
+        android:id="@+id/text_texto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="#ffa4ffa4"
+        android:hint="jogo conversor"
+        android:padding="20dp"
+        android:textSize="40sp"/>
+
+    <EditText
+        android:id="@+id/edit_valoreuros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:hint="Insira o valor "
+        android:layout_gravity="center"/>
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+        <Button
+
+        android:id="@+id/edit_button_converterdolares"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="converter dolares"
+        android:backgroundTint="@color/purple"/>
+
+        <Button
+
+        android:id="@+id/edit_button_converterpeso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/blue"
+        android:text="converter peso"/>
+
+        <Button
+
+        android:id="@+id/edit_button_converterreal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ff91d2ff"
+        android:text="converter reais" />
+
+    </LinearLayout>
+
+  <TextView
+  android:id="@+id/text_valor_final"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:hint="resposta o valor e"/>
+
+
+
+   </LinearLayout>
+
