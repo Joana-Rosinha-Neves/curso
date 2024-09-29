@@ -6,7 +6,6 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 id button_Converter
 id euros
-id guideline
 id main
 id text_Resultado
 layout activity_main
