@@ -1,0 +1,362 @@
+create database Empresa_jdf; 
+
+CREATE TABLE seccao (
+numSec int AUTO_INCREMENT PRIMARY KEY,
+nome varchar(50),
+cidade varchar(50)
+);
+ALTER TABLE Seccao AUTO_INCREMENT = 10; nao usar isto em mysqk
+
+CREATE TABLE empregado (
+numEmp int AUTO_INCREMENT PRIMARY KEY,
+nome varchar(50),
+seccao int,
+foreign key(seccao) references seccao(numSec), 
+posto varchar(50),
+ chefe varchar(50),fk empregados fazer alter.
+ salario int,
+ comissao int
+);
+
+NSERT INTO seccao (numSeccao, nome, cidade) VALUES
+(10,'Fabrico', 'Porto'),
+(20,'Comercial', 'Porto'),
+(30,'Marketing', 'Braga'),
+(40,'Planeamento', 'Guimarães'),
+(50,'Administração', 'Porto'),
+(60,'Informática', 'Braga'),
+(70, 'Recursos Humanos', 'Guimarães');
+
+
+INSERT INTO empregado ( nome, seccao, posto, chefe, salario, comissao) VALUES 
+( 'Ana',10, 'Programador', 3, 3000,10), 
+(  'Nuno',70, 'Engenheiro', 1, 1500,10), 
+(  'Alvaro',50, 'Administrador', null, 2500,0), 
+( 'Antonio',50, 'Administrador', null, 2500,0),
+('Antonio',50, 'Administrador', null, 2500,0
+
+
+ALTER TABLE empregado 
+add CONSTRAINT fk_empregado_chefe FOREIGN KEY (chefe) references empregado(numEmp)
+
+
+ALTER TABLE empregado 
+MODIFY COLUMN chefe int
+
+not null, so nao se escreve quando é not null.
+
+INSERT INTO empregado (numEmp, nome, seccao, posto, chefe, salario, comissao) VALUES
+(3, 'Alvaro',50, 'Administrador', null, 2500,0),
+(5, 'Susana',20, 'Admistrador', null, 2750,30),
+(1, 'Ana',10, 'Programador', 3, 3000,10),
+(2, 'Nuno',70, 'Engenheiro', 1, 1500,40),
+(4, 'Antonio',10, 'Engenheiro', 3, 2500,20),
+(6, 'Claudio',60,'Vendedor', 4, 1000,50);
+
+
+select s.nome, s.cidade 
+from seccao s 
+where s.numsec=70
+guimareaes recursos hmanos 
+vai nos retornar o nome e cidade da tabela secaçao onde o id que é numsec é 70
+
+
+
+select s.nome 
+from seccao s 
+where s.cidade like 'Porto' 
+
+
+
+SELECT e.nome AS empregado_nome, e.salario AS empregado_salario, 
+       f.nome AS chefe_nome, f.salario AS chefe_salario
+FROM empregado e, empregado f 
+WHERE e.chefe = f.numEmp AND e.salario > f.salario;
+Explicação:
+e e f: Ambas são aliases para a tabela empregado, permitindo que você compare empregados com seus chefes.
+e.chefe = f.numEmp: Este critério relaciona o empregado (e) com seu chefe (f) através da chave estrangeira e.chefe, que corresponde ao f.numEmp (número do empregado do chefe).
+e.salario > f.salario: Garante que a consulta só retorne os empregados cujo salário é maior que o de seu chefe.
+Essa consulta vai retornar os empregados cujo salário é superior ao salário de seus respectivos chefes.
+
+
+
+
+
+
+
+
+
+
+
+ChatGPT pode cometer erros. Considere verifica
+
+
+select e.nome, e.salario, e.comissao 
+from empregado e 
+where e.salario>=20*e.comissao or e.salario=2000 multiplicaçao o asteristco
+
+select distinct e.posto 
+from empregado e  vai nos dar os postos, sem repeteirr os postos
+
+SELECT e.nome, e.posto, e.salario 
+FROM empregado e 
+WHERE e.seccao != 70 
+ORDER BY e.posto, e.salario DESC;
+SELECT e.nome, e.posto, e.salario:
+
+Esta parte especifica que a consulta deve retornar as colunas nome, posto, e salario da tabela empregado, utilizando o alias e para referenciar a tabela de forma abreviada.
+FROM empregado e:
+
+Indica que a consulta está a buscar dados da tabela empregado e o alias e é atribuído à tabela para ser usado de forma abreviada nas próximas partes da consulta.
+WHERE e.seccao != 70:
+
+O filtro WHERE especifica que apenas os registros onde a coluna seccao não seja igual a 70 serão retornados. Isso significa que todos os empregados que trabalham na secção 70 serão excluídos do resultado.
+ORDER BY e.posto, e.salario DESC:
+
+Esta parte ordena os resultados.
+e.posto: A primeira ordenação é feita pela coluna posto em ordem crescente por padrão.
+e.salario DESC: Em caso de postos iguais, a consulta ordena os resultados pelo salario em ordem decrescente (do salário mais alto para o mais baixo).
+Resumo da Consulta:
+Esta consulta está a recuperar os nomes, postos e salários dos empregados que não pertencem à secção 70, ordenando os resultados pelo posto (em ordem crescente) e, para os empregados com o mesmo posto, ordena pelo salário, do mais alto para o mais baixo.
+select e.nome 
+from empregado e 
+where e.seccao not in (select s.numsec 
+from seccao s 
+where s.cidade like 'Porto');
+
+
+select s.nome, s.cidade 
+from seccao s, empregado e 
+where e.seccao=s.numsec 
+
+
+CREATE TABLE Cliente ( id int AUTO_INCREMENT PRIMARY KEY, nome varchar(50) not null, morada varchar(250), estado bit );
+
+
+
+CREATE TABLE produto ( 
+  id int AUTO_INCREMENT PRIMARY KEY, 
+  descricao varchar(50) not null,
+  preco decimal(12,2);
+
+
+
+
+ 
+ CREATE TABLE Venda ( prod INT, cli INT, data DATETIME, qtd INT , PRIMARY KEY (prod, cli, data), FOREIGN KEY (prod) REFERENCES Produto(id), FOREIGN KEY (cli) REFERENCES Cliente(id) );   
+
+
+INSERT INTO  ( id, nome, morada, estado) VALUES
+(1,'Helena Monteiro', 'Perafita – Freixieiro ',1),
+(2,'Raul Simas', 'Palmela',0);
+
+INSERT INTO produto ( id, descricao,preco) VALUES
+(1,'Rato Logitec XPTO 1 ', 10 ),
+(2,'Monitor Sony Vaio XPTO',120);
+
+
+INSERT INTO Venda (cli, prod, qtd, data) VALUES (1, 1, 1, '2012-04-05 00:00:00'), (2, 1, 5, '2012-04-05 23:59:59');
+
+update  Venda 
+SET qtd=10
+where cli=2;
+
+update Venda SET qtd=10 where cli=2;
+
+update produto SET preco=100
+where descricao='Monitor Sony Vaio XPTO ';
+
+SELECT * FROM `produto` 
+
+
+SELECT nome
+
+FROM cliente WHERE estado=1
+
+
+
+SELECT v.prod, v.qtd, v.data
+
+FROM cliente c
+
+INNER Join  venda v 
+
+on v.cli=c.id
+
+where c.nome='Raul Simas'
+
+
+SELECT count (*) as 'numero Vendas Raul'
+from venda v
+Inner join cliente c on v.cli=c.id
+where c.nome = 'Raul Simas'
+
+
+
+SELECT MAX(preco) as 'valor mais alto' FROM produto;
+
+SELECT (c.names)
+FROM cliente c
+left join venda v 
+on c.id=v.cli
+where v.cli is null;
+
+
+SELECT (c.nome) FROM cliente c left join venda v on c.id=v.cli where v.cli is null;
+
+
+
+Pressione Ctrl+Enter para executar consulta
+SELECT * FROM `seccao`
+SELECT * FROM `empregado`
+SELECT * FROM `seccao`
+SELECT * FROM `empregado`
+SELECT * FROM `empregado`
+ALTER TABLE empregado MODIFY COLUMN chefe int;
+ALTER TABLE empregado add CONSTRAINT fk_empregado_chefe FOREIGN KEY (chefe) references empregado(numEmp);
+SELECT * FROM `empregado`
+SELECT * FROM `empregado`
+SELECT * FROM `empregado`
+INSERT INTO empregado (numEmp, nome, seccao, posto, chefe, salario, comissao) VALUES (3, 'Alvaro',50, 'Administrador', null, 2500,0), (5, 'Susana',20, 'Admistrador', null, 2750,30), (1, 'Ana',10, 'Programador', 3, 3000,10), (2, 'Nuno',70, 'Engenheiro', 1, 1500,40), (4, 'Antonio',10, 'Engenheiro', 3, 2500,20), (6, 'Claudio',60,'Vendedor', 4, 1000,50);
+select s.nome, s.cidade from seccao s where s.numsec=70;
+select e.posto, e.salario, e.comissao from empregado e where e.COMISSAO>e.salario;
+select s.nome from seccao s where s.cidade like 'Porto';
+select e.nome, e.salario, e.comissao from empregado e where e.salario>=20*e.comissao or e.salario=2000;
+select distinct e.posto from empregado e;
+select e.nome, e.posto, e.salario from empregado e where e.seccao!=70 order by e.posto, e.salario desc;
+select e.nome from empregado e where e.seccao not in (select s.numsec from seccao s where s.cidade like 'Porto');
+select e.nome from empregado e where e.seccao not in (select s.numsec from seccao s where s.cidade like 'Porto');
+select e.nome from empregado e where e.nome like 'A%a';
+select e.nome, e.posto, e.seccao from empregado e where e.seccao in (20, 30, 40);
+create database GestComercial_jdf;
+CREATE TABLE Cliente ( id int AUTO_INCREMENT PRIMARY KEY, nome varchar(50) not null, morada varchar(250), estado bit );
+CREATE TABLE produto ( id int AUTO_INCREMENT PRIMARY KEY, descricao varchar(50) not null, preco decimal(12,2) );
+CREATE TABLE Venda ( prod INT, cli INT, data DATETIME, qtd INT , PRIMARY KEY (prod, cli, data), FOREIGN KEY (prod) REFERENCES Produto(id), FOREIGN KEY (cli) REFERENCES Cliente(id) );
+SELECT * FROM `cliente`
+INSERT INTO cliente ( id, nome, morada, estado) VALUES (1,'Helena Monteiro', 'Perafita – Freixieiro ',1), (2,'Raul Simas', 'Palmela',0);
+INSERT INTO produto ( id, descricao,preco) VALUES (1,'Rato Logitec XPTO 1 ', 10 ), (2,'Monitor Sony Vaio XPTO',120);
+SELECT * FROM `venda`
+INSERT INTO Venda (cli, prod, qtd, data) VALUES (1, 1, 1, '2012-04-05 00:00:00'), (2, 1, 5, '2012-04-05 23:59:59');
+SELECT * FROM `venda`
+update Venda SET qtd=10 where cli=2;
+SELECT * FROM `venda`
+SELECT * FROM `cliente`
+update cliente SET morada='Porto' where nome='Raul Simas';
+SELECT * FROM `cliente`
+SELECT * FROM `produto`
+update produto SET preco=100 where descricao='Monitor Sony Vaio XPTO ';
+SELECT * FROM `produto`
+SELECT * FROM `produto`;
+SELECT nome FROM cliente WHERE estado=1;
+SELECT v.prod, v.qtd, v.data FROM cliente c INNER Join venda v on v.cli=c.id;
+SELECT v.prod, v.qtd, v.data FROM cliente c INNER Join venda v on v.cli=c.id where c.nome='Raul Simas';
+SELECT * FROM venda v INNER join cliente c ON c.id=v.cli where c.nome like 'H%';
+SELECT * from venda v Inner join cliente c on v.cli=c.id;
+SELECT count(*) as 'numero Vendas Raul' from venda v Inner join cliente c on v.cli=c.id where c.nome = 'Raul Simas';
+SELECT MAX(preco) FROM produto;
+SELECT MAX(preco) as 'valor mais alto' FROM produto;
+SELECT * FROM `produto` WHERE preco<=100;
+SELECT (c.nome) FROM cliente c left join venda v on c.id=v.cli where v.cli is null;
+Expandir Repetir consulta Editar Marcadores Banco de dados : gestcomercial_jdf Tempo de execução da consulta : 16:55:29
+-- Mostre o total faturado a cada dia. SELECT * from venda v inner join produto p on v.prod = p.id;
+-- Mostre o total faturado a cada dia. SELECT SUM(p.preco) from venda v inner join produto p on v.prod = p.id group by `data`;
+-- Mostre o total faturado a cada dia. SELECT SUM(p.preco*v.qtd) from venda v inner join produto p on v.prod = p.id group by `data`;
+​
+ascendentedescendenteOrdem:Depurar SQLOrdem de execuçãoTempo gastoOrdenar por:Agrupar consultas
+Ocorreram alguns erros enquanto informações de debug do SQL eram gerados.
+FavoritosAtualizarAdicionar
+Sem marcador(es)
+Adicionar marcador
+Rótulo: 
+ Banco de Dados destino: 
+ Compartilhar marcador 
+​
+OpçõesDefinir padrão
+Sempre expandir mensagens de consulta
+Mostrar histórico de consulta ao iniciar
+Mostrar consulta de navegação atual
+ Execute consultas com Enter e insira nova linha com Shift + Enter. Para definir esta configuração como permanente, vá em configurações.
+Mudar para o tema escuro
+
+ A seleção atual não contém uma única coluna. As funções edição em grade, checkbox, editar, copiar e apagar não estão disponíveis. Documentação
+ Mostrando registros 0 - 1 (2 no total, Consulta levou 0.0007 segundos.)
+-- Mostre o total faturado a cada dia. SELECT SUM(p.preco*v.qtd) from venda v inner join produto p on v.prod = p.id group by `data`;
+[ Editar em linha ] [ Editar ] [ Criar código PHP ]
+ Mostrar tudo	|			Número de linhas: 
+25
+Filtrar linhas: 
+Procurar nesta tabela
+SUM(p.preco*v.qtd)
+10.00
+100.00
+ Mostrar tudo	|			Número de linhas: 
+25
+Filtrar linhas: 
+Procurar nesta tabela
+Operações resultantes das consultas
+    
+Marcar essa consulta SQL Marcar essa consulta SQL
+Rótulo: 
+ Deixar qualquer usuário acessar esse marcador
+
+
+
+
+Pressione Ctrl+Enter para executar consulta
+SELECT * FROM `seccao`
+SELECT * FROM `empregado`
+SELECT * FROM `seccao`
+SELECT * FROM `empregado`
+SELECT * FROM `empregado`
+ALTER TABLE empregado MODIFY COLUMN chefe int;
+ALTER TABLE empregado add CONSTRAINT fk_empregado_chefe FOREIGN KEY (chefe) references empregado(numEmp);
+SELECT * FROM `empregado`
+SELECT * FROM `empregado`
+SELECT * FROM `empregado`
+INSERT INTO empregado (numEmp, nome, seccao, posto, chefe, salario, comissao) VALUES (3, 'Alvaro',50, 'Administrador', null, 2500,0), (5, 'Susana',20, 'Admistrador', null, 2750,30), (1, 'Ana',10, 'Programador', 3, 3000,10), (2, 'Nuno',70, 'Engenheiro', 1, 1500,40), (4, 'Antonio',10, 'Engenheiro', 3, 2500,20), (6, 'Claudio',60,'Vendedor', 4, 1000,50);
+select s.nome, s.cidade from seccao s where s.numsec=70;
+select e.posto, e.salario, e.comissao from empregado e where e.COMISSAO>e.salario;
+select s.nome from seccao s where s.cidade like 'Porto';
+select e.nome, e.salario, e.comissao from empregado e where e.salario>=20*e.comissao or e.salario=2000;
+select distinct e.posto from empregado e;
+select e.nome, e.posto, e.salario from empregado e where e.seccao!=70 order by e.posto, e.salario desc;
+select e.nome from empregado e where e.seccao not in (select s.numsec from seccao s where s.cidade like 'Porto');
+select e.nome from empregado e where e.seccao not in (select s.numsec from seccao s where s.cidade like 'Porto');
+select e.nome from empregado e where e.nome like 'A%a';
+select e.nome, e.posto, e.seccao from empregado e where e.seccao in (20, 30, 40);
+create database GestComercial_jdf;
+CREATE TABLE Cliente ( id int AUTO_INCREMENT PRIMARY KEY, nome varchar(50) not null, morada varchar(250), estado bit );
+CREATE TABLE produto ( id int AUTO_INCREMENT PRIMARY KEY, descricao varchar(50) not null, preco decimal(12,2) );
+CREATE TABLE Venda ( prod INT, cli INT, data DATETIME, qtd INT , PRIMARY KEY (prod, cli, data), FOREIGN KEY (prod) REFERENCES Produto(id), FOREIGN KEY (cli) REFERENCES Cliente(id) );
+SELECT * FROM `cliente`
+INSERT INTO cliente ( id, nome, morada, estado) VALUES (1,'Helena Monteiro', 'Perafita – Freixieiro ',1), (2,'Raul Simas', 'Palmela',0);
+INSERT INTO produto ( id, descricao,preco) VALUES (1,'Rato Logitec XPTO 1 ', 10 ), (2,'Monitor Sony Vaio XPTO',120);
+SELECT * FROM `venda`
+INSERT INTO Venda (cli, prod, qtd, data) VALUES (1, 1, 1, '2012-04-05 00:00:00'), (2, 1, 5, '2012-04-05 23:59:59');
+SELECT * FROM `venda`
+update Venda SET qtd=10 where cli=2;
+SELECT * FROM `venda`
+SELECT * FROM `cliente`
+update cliente SET morada='Porto' where nome='Raul Simas';
+SELECT * FROM `cliente`
+SELECT * FROM `produto`
+update produto SET preco=100 where descricao='Monitor Sony Vaio XPTO ';
+SELECT * FROM `produto`
+Expandir Repetir consulta Editar Demonstrar SQL Perfil Marcadores Banco de dados : gestcomercial_jdf Tempo de execução da consulta : 15:52:10
+SELECT * FROM `produto`;
+SELECT nome FROM cliente WHERE estado=1;
+SELECT v.prod, v.qtd, v.data FROM cliente c INNER Join venda v on v.cli=c.id;
+SELECT v.prod, v.qtd, v.data FROM cliente c INNER Join venda v on v.cli=c.id where c.nome='Raul Simas';
+SELECT * FROM venda v INNER join cliente c ON c.id=v.cli where c.nome like 'H%';
+SELECT * from venda v Inner join cliente c on v.cli=c.id;
+SELECT count(*) as 'numero Vendas Raul' from venda v Inner join cliente c on v.cli=c.id where c.nome = 'Raul Simas';
+SELECT MAX(preco) FROM produto;
+SELECT MAX(preco) as 'valor mais alto' FROM produto;
+SELECT * FROM `produto` WHERE preco<=100;
+SELECT (c.nome) FROM cliente c left join venda v on c.id=v.cli where v.cli is null;
+-- Mostre o total faturado a cada dia. SELECT * from venda v inner join produto p on v.prod = p.id;
+-- Mostre o total faturado a cada dia. SELECT SUM(p.preco) from venda v inner join produto p on v.prod = p.id group by `data`;
+-- Mostre o total faturado a cada dia. SELECT SUM(p.preco*v.qtd) from venda v inner join produto p on v.prod = p.id group by `data`;
+
+
+ 
