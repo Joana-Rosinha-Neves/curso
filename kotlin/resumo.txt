@@ -3,7 +3,7 @@
     }
 }
 
-
+"C:\Users\wmd2024\Music"
 
 class MainActivity : AppCompatActivity() {
 
@@ -448,4 +448,267 @@ class MainActivity : AppCompatActivity() {
 
 
 C:\Users\wmd2024\Desktop\curso\kotlin\exerciciosaulascerto\exerciciosildes cap 05 convencoes\exerciciosmobileaula19setembro\exerciciosdocap5Convenvoes\exercicio4\app\src\main\java\com\example\exercicio5
+
+
+gravity center:
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <TextView
+
+        android:id="@+id/text_texto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:hint="Conversor de moedas"
+        android:padding="20dp"
+        android:textSize="40sp"/>
+
+    <EditText
+        android:id="@+id/edit_valoreuros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:background="@color/green"
+        android:hint="Insira o valor "
+        android:layout_gravity="center"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+
+        <Button
+
+            android:id="@+id/edit_button_converterdolares"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dolares"
+            android:backgroundTint="@color/purple"/>
+
+        <Button
+
+            android:id="@+id/edit_button_converterpeso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/blue"
+            android:text="Peso"/>
+
+        <Button
+
+            android:id="@+id/edit_button_converterreal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#ff91d2ff"
+            android:text="Reais" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_valor_final"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+
+        android:hint="Desenvolvido por Joana Neves"/>
+
+
+
+</LinearLayout>
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <TextView
+
+        android:id="@+id/text_texto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:hint="Conversor de moedas"
+        android:padding="20dp"
+        android:textSize="40sp"/>
+
+    <EditText
+        android:id="@+id/edit_valoreuros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:background="@color/green"
+        android:hint="Insira o valor "
+        android:layout_gravity="center"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+
+        <Button
+
+            android:id="@+id/edit_button_converterdolares"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dolares"
+            android:backgroundTint="@color/purple"/>
+
+        <Button
+
+            android:id="@+id/edit_button_converterpeso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            
+            android:backgroundTint="@color/blue"
+            android:text="Peso"/>
+
+        <Button
+
+            android:id="@+id/edit_button_converterreal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:backgroundTint="#ff91d2ff"
+            android:text="Reais" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_valor_final"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom|center"
+        android:textSize="30sp"
+
+        android:hint="Desenvolvido por Joana Neves"/>
+
+
+
+</LinearLayout>
+
++<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <TextView
+
+        android:id="@+id/text_texto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:hint="Conversor de moedas"
+        android:padding="20dp"
+        android:textSize="40sp"/>
+
+    <EditText
+        android:id="@+id/edit_valoreuros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:background="@color/green"
+        android:hint="Insira o valor "
+        android:layout_gravity="center"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+
+        <Button
+
+            android:id="@+id/edit_button_converterdolares"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dolares"
+            android:backgroundTint="@color/purple"/>
+
+        <Button
+
+            android:id="@+id/edit_button_converterpeso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+
+            android:backgroundTint="@color/blue"
+            android:text="Peso"/>
+
+        <Button
+
+            android:id="@+id/edit_button_converterreal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:backgroundTint="#ff91d2ff"
+            android:text="Reais" />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_valor_final"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom|center"
+        android:textSize="30sp"
+
+        android:hint="Desenvolvido por Joana Neves"/>
+
+
+
+</LinearLayout>
+
+
+ val i= intent
+        val valor= i.extras?.getString("valor")
+
+        binding.editResults.text="${valor}
+
+        binding.editButtonConverterdolares.setOnClickListener {
+
+
+            val name = binding.editNome.text.toString()
 
