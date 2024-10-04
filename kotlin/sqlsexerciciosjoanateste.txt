@@ -398,4 +398,26 @@ Joana Neves - ALUNO PRT
 e treinamos e tiramos 20
 tem menu de contexto
 
+
+
+ primeiro penso no que ele quer e se sao 2 tabelas é o inner e  sem ser tabela composta o union sem repetiçao do atributo ou seja sem fk da outra
+ 
+a frente do select é o que quero obter 
+ 
+no final, se sao todos os atributos é o asterisco.
+ 
+se for na mesma tabela so uma sem valores repetidos é o outro. 
+ 
+so uma tabela é o distinct, 2tabelas sem ser composta é o union
+ 
+ 
+e ter cuidados com as classes caso seja uma superclass colocar na tabela primeiro a superclass com os ids primeiros e depois a subclass
+ 
+e fazer exercicios
+ 
+e falta nao esqueecer dos not null
+ 
+e no inner a tabela a convem ser a tabela principal. ou seja se quero algo dos clientes coloco clientes apesar de ter condiçao com b. assim nao me baralho.
+ 
+
  
