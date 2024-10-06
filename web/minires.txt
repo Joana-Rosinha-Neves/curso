@@ -1,0 +1,215 @@
+1. Funções Básicas
+Multiplicação de Dois Valores
+javascript
+Copiar código
+function multiply(a, b) {
+    return a * b;
+}
+console.log(multiply(2, 3)); // Resultado: 6
+Verificar Clima para Usar Shorts
+javascript
+Copiar código
+function isShortsWeather(temperature) {
+    return temperature > 25;
+}
+console.log(isShortsWeather(30)); // true
+console.log(isShortsWeather(10)); // false
+Retornar o Último Elemento de um Array
+javascript
+Copiar código
+function lastElement(array) {
+    return array.length === 0 ? null : array[array.length - 1];
+}
+console.log(lastElement([3, 5, 7])); // Resultado: 7
+Primeira Letra em Maiúscula
+javascript
+Copiar código
+function capitalize(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+console.log(capitalize("joana")); // Resultado: Joana
+Soma dos Elementos de um Array
+javascript
+Copiar código
+function sumArray(array) {
+    let soma = 0;
+    for (let num of array) {
+        soma += num;
+    }
+    return soma;
+}
+console.log(sumArray([1, 2, 3])); // Resultado: 6
+Retornar Dia da Semana
+javascript
+Copiar código
+function returnDay(number) {
+    const days = ["Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado", "Domingo"];
+    return number >= 1 && number <= 7 ? days[number - 1] : null;
+}
+console.log(returnDay(3)); // Resultado: Quarta
+2. Manipulação de Arrays
+Filtrar Elementos com Preço Abaixo de 20
+javascript
+Copiar código
+const items = [
+    { name: "carro", price: 20 },
+    { name: "viagem", price: 10 },
+    { name: "livro", price: 5 }
+];
+function menosVinte(lista) {
+    return lista.filter(item => item.price < 20);
+}
+console.log(menosVinte(items));
+Array de Primeiros Nomes com map
+javascript
+Copiar código
+const fullNames = [
+    { first: 'Albus', last: 'Dumbledore' },
+    { first: 'Harry', last: 'Potter' }
+];
+const firstNames = fullNames.map(name => name.first);
+console.log(firstNames); // Resultado: ["Albus", "Harry"]
+3. Manipulação de Strings
+Dividir String em Array e Remover Espaços Extras
+javascript
+Copiar código
+let input = "maçã, banana, laranja";
+let items = input.split(",").map(item => item.trim());
+console.log(items); // ["maçã", "banana", "laranja"]
+Substituir Parte de uma String
+javascript
+Copiar código
+const WORD = "skateboard";
+let facialHair = WORD.slice(5).replace("o", "e");
+console.log(facialHair); // Resultado: beard
+4. Estruturas de Controle
+Condicional para Dia da Semana com switch
+javascript
+Copiar código
+let day = "sexta";
+switch(day.toLowerCase()) {
+    case "sexta":
+        console.log("Yay, é sexta-feira!");
+        break;
+    default:
+        console.log("Não é sexta-feira");
+}
+Loop for Imprimindo Números Decrescentes
+javascript
+Copiar código
+for (let i = 25; i >= 5; i -= 5) {
+    console.log(i); // Imprime: 25, 20, 15, 10, 5
+}
+5. Manipulação do DOM
+Alterar Texto de um Elemento
+javascript
+Copiar código
+let myElement = document.querySelector('span');
+myElement.innerText = 'Novo texto!';
+Adicionar e Remover Classes com for...of
+javascript
+Copiar código
+let items = document.querySelectorAll('.item');
+for (let item of items) {
+    item.classList.toggle('highlight');
+}
+Mudar Fonte de Imagem com if
+javascript
+Copiar código
+function toggleImage() {
+    let img = document.querySelector('img');
+    if (img.src.includes('chicken.jpg')) {
+        img.src = 'egg.jpg';
+    } else {
+        img.src = 'chicken.jpg';
+    }
+}
+Eventos com addEventListener para Mudar Cor Aleatória
+javascript
+Copiar código
+let button = document.querySelector('#change-color');
+button.addEventListener('click', function() {
+    document.body.style.backgroundColor = `rgb(${randColor()}, ${randColor()}, ${randColor()})`;
+});
+function randColor() {
+    return Math.floor(Math.random() * 255);
+}
+Criar Parágrafo e Ajustar Fontes com Botões
+javascript
+Copiar código
+function criarParagrafo() {
+    let container = document.querySelector('#container');
+    let p = document.createElement('p');
+    p.innerText = "Texto do parágrafo.";
+    container.appendChild(p);
+
+    let btnAumentar = document.createElement('button');
+    btnAumentar.innerText = "Aumentar";
+    btnAumentar.addEventListener('click', function() {
+        p.style.fontSize = '30px';
+    });
+    container.appendChild(btnAumentar);
+
+    let btnDiminuir = document.createElement('button');
+    btnDiminuir.innerText = "Diminuir";
+    btnDiminuir.addEventListener('click', function() {
+        p.style.fontSize = '10px';
+    });
+    container.appendChild(btnDiminuir);
+}
+6. Arrays e Objetos
+Array Bidimensional de Assentos
+javascript
+Copiar código
+const airplaneSeats = [
+    ['Ruth', 'Anthony', 'Stevie'],
+    ['Amelia', 'Pedro', 'Maya'],
+    ['Xavier', 'Ananya', 'Luis'],
+    ['Luke', null, 'Deniz']
+];
+airplaneSeats[3][1] = "Joaquim";
+console.log(airplaneSeats);
+Objeto Literal com Propriedades
+javascript
+Copiar código
+let produto = {
+    nome: "joana",
+    inStock: true,
+    preco: 1.99,
+    cores: ["vermelho", "azul", "verde"]
+};
+produto.preco = 2.55;
+console.log(produto.cores[1]); // Resultado: azul
+7. Exercícios Interativos e Prompt
+Lista de Compras com Prompt
+javascript
+Copiar código
+let lista = [];
+let item;
+while (item !== 'fim') {
+    item = prompt("Adicione um item à lista ou 'fim' para parar:");
+    if (item !== 'fim') lista.push(item);
+}
+console.log(lista);
+Prompt para Digitar Números e Somar
+javascript
+Copiar código
+let soma = 0;
+let input;
+while (input !== 'fim') {
+    input = prompt("Digite um número para somar ou 'fim' para parar:");
+    if (!isNaN(input) && input !== 'fim') {
+        soma += Number(input);
+    }
+}
+console.log("Soma total: " + soma);
+Prompt para Verificar Senha
+javascript
+Copiar código
+let password = prompt("Digite sua senha:");
+if (password && password.length >= 6) {
+    console.log("Senha válida");
+} else {
+    console.log("Senha inválida");
+}
+Esse resumo cobre todos os exercícios e exemplos que você mencionou. Pratique cada um deles para garantir que você se sinta confortável em aplicá-los durante o teste. Boa sorte!
