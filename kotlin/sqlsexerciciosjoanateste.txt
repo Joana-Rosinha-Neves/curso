@@ -236,7 +236,7 @@ SELECT * FROM `cliente`
 INSERT INTO cliente ( id, nome, morada, estado) VALUES (1,'Helena Monteiro', 'Perafita – Freixieiro ',1), (2,'Raul Simas', 'Palmela',0);
 INSERT INTO produto ( id, descricao,preco) VALUES (1,'Rato Logitec XPTO 1 ', 10 ), (2,'Monitor Sony Vaio XPTO',120);
 SELECT * FROM `venda`
-INSERT INTO Venda (cli, prod, qtd, data) VALUES (1, 1, 1, '2012-04-05 00:00:00'), (2, 1, 5, '2012-04-05 23:59:59');
+;; ;
 SELECT * FROM `venda`
 update Venda SET qtd=10 where cli=2;
 SELECT * FROM `venda`
@@ -247,12 +247,14 @@ SELECT * FROM `produto`
 update produto SET preco=100 where descricao='Monitor Sony Vaio XPTO ';
 SELECT * FROM `produto`
 SELECT * FROM `produto`;
-SELECT nome FROM cliente WHERE estado=1;
-SELECT v.prod, v.qtd, v.data FROM cliente c INNER Join venda v on v.cli=c.id;
+S
+
+
 SELECT v.prod, v.qtd, v.data FROM cliente c INNER Join venda v on v.cli=c.id where c.nome='Raul Simas';
 SELECT * FROM venda v INNER join cliente c ON c.id=v.cli where c.nome like 'H%';
 SELECT * from venda v Inner join cliente c on v.cli=c.id;
-SELECT count(*) as 'numero Vendas Raul' from venda v Inner join cliente c on v.cli=c.id where c.nome = 'Raul Simas';
+SELECT 
+
 SELECT MAX(preco) FROM produto;
 SELECT MAX(preco) as 'valor mais alto' FROM produto;
 SELECT * FROM `produto` WHERE preco<=100;
