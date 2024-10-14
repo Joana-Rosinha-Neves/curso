@@ -1,0 +1,739 @@
+.vermelho {
+    background-color: red;
+    color: white;
+}
+
+/* Definindo a classe "grande" */
+.grande {
+    font-size: 24px;
+    padding: 10px 20px;
+}
+Agora, no JavaScript, vamos adicionar e remover essas classes quando o botão for clicado. Assim, cada clique alterna o estilo do botão.
+
+JavaScript:
+javascript
+Copiar código
+// Seleciona o botão pelo ID
+const botao = document.querySelector('#meuBotao');
+
+// Adiciona um evento de clique ao botão
+botao.addEventListener('click', () => {
+    // Alterna a classe "vermelho"
+    if (botao.classList.contains('vermelho')) {
+        botao.classList.remove('vermelho'); // Se já tem a classe, remove
+    } else {
+        botao.classList.add('vermelho'); // Se não tem, adiciona
+    }
+
+    // Alterna a classe "grande"
+    if (botao.classList.contains('grande')) {
+        botao.classList.remove('grande');
+    } else {
+        botao.classList.add('grande');
+    }
+});
+Explicação:
+Seleção do Elemento: const botao = document.querySelector('#meuBotao');
+
+Selecionamos o botão pelo ID meuBotao.
+Adicionar um Evento de Clique:
+
+Quando o botão é clicado, a função de callback verifica se as classes vermelho e grande estão presentes.
+Alternar as Classes:
+
+botao.classList.contains('vermelho'): Verifica se a classe vermelho está aplicada.
+botao.classList.add('vermelho') ou botao.classList.remove('vermelho'): Adiciona ou remove a classe vermelho, alterando a cor de fundo e a cor do texto do botão.
+O mesmo processo se repete para a classe grande, que altera o
+ tamanho da fonte e o preenchimento do botão.
+
+
+exercicio 
+
+ Abre o ficheiro idExercise.html e encontras um html com conteúdo.
+ 2. Adiciona um ficheiro JS para o exercício e linka o mesmo ao ficheiro.
+ 3. Selecciona a imagem pelo seu id e guarda-a numa variável chamada image.
+ 4. Selecciona o h1 pelo seu id e guarda-o numa variável chamada heading.
+ 5. Faz console log das duas variáveis para verificar se guardou o pretendido
+
+const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+
+console.log(colors);
+
+let spans = document.querySelectorAll('span');
+
+for (let i = 0; i < spans.length; i++) {
+    spans[i].style.color = colors[i];
+}
+
+ const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+
+// const spans = document.querySelectorAll('span');
+
+// for (let i = 0; i < spans.length; i++) {
+
+//     const randomIndex = Math.floor(Math.random() * colors.length);
+
+
+//     spans[i].style.color = colors[randomIndex];
+// }
+
+// //    spans[i].style.color = colors[i];
+
+let i = 0;
+
+for (let span of spans) {
+
+    if (i < colors.length) {
+        span.style.color = colors[index];
+        i++;
+    }
+}
+
+let casd = document.getElementById('unicorn');
+// let heading= document.getElementById('mainheading');
+// console.log(can);
+// console.log(heading)
+
+
+ Abre o ficheiro todos.html e encontras um html já predefinido.
+ 2. Usando os selectores, cria uma variável chamada doneTodos e atribui-lhe 
+todos os que têm a class done.
+ 3. Selecciona uma checkbox e guarda-a numa variável chamada checkbox. 
+Vais precisar de usar o atributo type, procura na internet :)
+ 4. Faz um console.log() de ambas as variáveis para confirmar que está certo.
+ 1
+
+let doneTodos=document.querySelectorAll('.done');
+// let checkBox = document.querySelector("input[type='checkbox']")
+// console.log(doneTodos);
+// // console.log(checkBox)
+// document.querySelector('span').innerText = 'Yack'
+
+
+Abre o ficheiro chicken.html e encontras um html já predefinido.
+ 2. Usando JS, muda a src da imagem para 
+‘https://devsprouthosting.com/images/chicken.jpg’.
+ 3. Adiciona um botão que diga ‘Ovo ou Galinha’ e muda a imagem ao 
+clicar no botão (através de funções);
+ 4. Através de decisões if/else muda a foto tanto para a galinha como 
+para o ovo.(Se estiver a galinha, ao clicar muda para o ovo; se estiver o 
+ovo muda para a galinha)
+
+function myEggn(){
+//     let myImage = document.querySelector('img');
+
+// if(myImage.src == 'https://devsprouthosting.com/images/chicken.jpg'){
+//     myImage.setAttribute('src', 'https://devsprouthosting.com/images/egg.jpg');
+// }else{
+//     myImage.setAttribute('src', 'https://devsprouthosting.com/images/chicken.jpg');
+// }
+// }
+
+
+ No repositório do Git, na pasta exs, encontras um ficheiro chamado 
+magicalForest.html. Copia para o teu projecto.
+ 2. Adiciona ou usa o ficheiro JS anterior para o exercício.
+ 3. Usando JS:
+ • Selecciona a div com o id container e coloca o texto alinhado ao centro;
+ • Selecciona a imagem e dá-lhe uma largura de 150px e um border radius de 
+50%;
+ 23
+ Cesae | WEBS | Sara Monteir
+
+
+/ let myImages = document.querySelector('#container');
+// let myImage = document.querySelector('img');
+// myImages.style.textAlign = 'center'
+
+// myImage.style.width = '150px';
+// myImage.style.borderRadius = '50%';
+
+ const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+
+// const spans = document.querySelectorAll('span');
+
+// for (let i = 0; i < spans.length; i++) {
+
+//     const randomIndex = Math.floor(Math.random() * colors.length);
+
+
+//     spans[i].style.color = colors[randomIndex];
+// }
+
+// //    spans[i].style.color = colors[i];
+
+let i = 0;
+
+for (let span of spans) {
+
+    if (i < colors.length) {
+        span.style.color = colors[index];
+        i++;
+    }
+
+ Abre o ficheiro classList.html e encontras um html já 
+predefinido.
+ 2. Usando JS, inverte os elementos que têm a class highlight
+ (basicamente as que têm devem deixar de ter e as que não 
+têm passam a ter)
+
+
+let lis = document.querySelectorAll('li');
+console.log(lis);
+    
+for (const element of lis) {
+    if (element.classList.contains('highlight')){
+        element.classList.remove('highlight');
+        
+    } else {
+        element.classList.add('highlight');
+    }
+}
+
+Abre o ficheiro buttons.html e encontras um html já 
+predefinido.
+ 2. Sem mexer no html, cria 100 botões com um texto à tua 
+escolha dentro.
+ 3. Os botões devem ser anexados à div container.
+ 3
+
+let container = document.getElementById('container');
+
+
+
+for (let i = 1; i < 101; i++) {
+    
+     let button = document.createElement('button');
+         button.innerText = 'Botão ' + i;
+         button.style.backgroundColor='red'
+    
+
+     container.appendChild(button);
+     }
+
+ Abre o ficheiro hello.html e encontras um html já 
+predefinido.
+ 2. Cria os seguintes eventos em JS:
+ • No botão Hello deverá fazer um alert que diga ‘olá’
+ • No botão Bye deverá fazer um alert que diga ‘Adeus’
+ 4
+
+const helloBtn = document.getElementById('helloBtn');
+const byeBtn = document.getElementById('byeBtn');
+
+// Adiciona evento ao botão Hello
+helloBtn.addEventListener('click', function() {
+    alert('olá');
+});
+
+// Adiciona evento ao botão Bye
+byeBtn.addEventListener('click', function() {
+    alert('Adeus');
+});
+
+const myBtn = document.getElementById('myBtn');
+const btnHello = document.getElementById('hello');
+const btnGoodbye = document.getElementById('hello');
+
+// console.log(btnGoodbye);
+
+// criar a funcao com o que quer que faça
+function hello ()
+
+
+// Chamar as funcoes/events
+btnGoodbye.addEventListener('mouseover', () =>{
+    hello('Goodbye');
+});
+
+btnGoodbye.addEventListener('mouseover', () =>{
+    hello('Goodbye');
+});
+
+// .addEventListener('click', function() {
+//     alert('Adeus');
+// });
+
+ Cria um Botão que crie uma cor aleatória para o background e 
+mostre qual é no HTML. 
+/ Função para gerar uma cor aleatória
+function getRandomColor() {
+    const r = Math.floor(Math.random() * 256);
+    const g = Math.floor(Math.random() * 256);
+    const b = Math.floor(Math.random() * 256);
+    return `rgb(${r}, ${g}, ${b})`;
+}
+
+// Seleciona o botão e o elemento onde o RGB será mostrado
+const colorBtn = document.getElementById('colorBtn');
+const colorDisplay = document.getElementById('color-display');
+
+// Adiciona o evento de clique ao botão
+colorBtn.addEventListener('click', function() {
+    const newColor = getRandomColor();
+    document.body.style.backgroundColor = newColor;
+    colorDisplay.textContent = newColor;
+});
+Ajuda em documentação
+ function calcular() {
+    const num1 = parseFloat(document.getElementById('num1').value);
+    const num2 = parseFloat(document.getElementById('num2').value);
+    const operacao = document.getElementById('operacao').value;
+    let resultado;
+
+
+switch (operacao) {
+    case '+':
+        result = num1 + num2;
+        break;
+    case '-':
+        result = num1 - num2;
+        break;
+    case '*':
+        result = num1 * num2;
+        break;
+    case '/':
+        result = num1 / num2;
+        break;
+    default:
+        result = 'Operação inválida';
+}
+
+document.getElementById('resultado').textContent = 'Total: ' + resultado;
+}
+
+document.getElementById('total').addEventListener('click', calcular);
+
+
+
+ex8
+
+// let colors= ["blue", "yellow", "green","orange","red"]
+
+//  let buttons= document.querySelectorAll("button");
+
+// for (let i=1; i<4; i++)
+//  {
+//     buttons[i].addEventListener("click", function(){
+//         const randomColor= Math.floor(Math.random()* colors.length);
+//          buttons[i].style.backgroundColor= colors[randomColor];
+
+//  })
+// }
+
+//  ex9 ex10  ex11
+
+// function paragrafo(){
+
+// let paragrafo = document.createElement("p");
+
+// paragrafo.innerText=' é so mais um esforço e a seguir serei uma programadora de renome'
+// const mycontainer = document.querySelector("#container")
+// mycontainer.appendChild(paragrafo)
+
+
+// let buttonaumentar = document.createElement('button')
+// buttonaumentar.innerText = 'aumentar'
+// mycontainer.appendChild(buttonaumentar);
+// buttonaumentar.addEventListener('click',function(){
+//     paragrafo.style.fontSize='70px';
+
+//     paragrafo.style.textAlign="center";
+// })
+
+// let buttonreduzir = document.createElement('button')
+// buttonreduzir.innerText = 'reduzir';
+// mycontainer.appendChild(buttonreduzir);
+// buttonreduzir.addEventListener('click',function(){
+//     paragrafo.style.fontSize='10px';
+//     paragrafo.style.textAlign='right';
+// })
+// }
+
+// exe 12 e ex13
+
+// function aprendido()
+// {
+//    let items= document.querySelectorAll('li')
+//    for (let elements of items)
+//    {
+//         elements.innerText +=  " aprendido"
+//    }
+// }
+
+// function aprendido2()
+// {
+//     let adicionarlista = prompt("aprendeu algo mais?")
+//     const myli= document.createElement('li')
+//     myli.innerText = adicionarlista
+//     const myUl = document.querySelector('ul')
+//     myUl.appendChild(myli);
+
+
+// }
+
+let numeros = [1, 2, 3, 4, 5, 6];
+let numerosPares = numeros.filter(numero => numero % 2 === 0);
+
+console.log(numerosPares); // Saída: [2, 4, 6]
+
+// let prendas = [{ 
+//     nome:"carro", preco: 20},
+//     {nome:"viagem japap" , preco: 5 },
+//     {nome:"livro tech" , preco: 4} 
+
+// ]
+
+/// ex1
+// let text = "A turma de web é dinamica e tem as caracteristicas essenciais para brilhar numa empresa"
+
+// let posicao = text.indexOf("u");
+// let posicao2 = text.indexOf("w");
+// let sizestex = text.length
+
+// console.log( " a letra w aparece pela primeira vez na posicao " + posicao)
+// console.log( " a letra u aparece pela primeira vez na posicao " + posicao2)
+// console.log(" a string tem " + sizestex)
+
+// 2
+
+// let prendas = ["carro", "viagem japao", " coleçao tech dos animais"]
+
+
+// for (let i=0; i<prendas.length;i++)
+// {
+//    console.log(prendas)
+
+// }
+// console.log(" a lista tem " + prendas.length + " items")
+
+
+
+// let prendas = [{ 
+//     nome:"carro", preco: 20},
+//     {nome:"viagem japap" , preco: 5 },
+//     {nome:"livro tech" , preco: 4} 
+
+// ]
+
+// ex3 
+//  function menosvinte(prendas){
+//      const novo = prendas.filter(element => element.preco <20)
+//      return novo 
+//   }
+//  console.log(menosvinte(prendas))
+
+//  ex4
+
+// function multiply (x,y)
+// {    return x*y;
+// }
+// console.log(multiply(2,3))
+
+// ex5 
+// function isShortWeather (temperatura){
+
+
+// if (temperatura>25) {
+
+
+//     return true
+// }
+// else 
+// {
+//     return false
+// }
+// }
+
+// console.log(isShortWeather(30))
+
+// console.log(isShortWeather(10))
+
+// ex6
+// function cumprimentar(){
+
+// let nome = prompt("Qual o seu nome?")
+// alert("ola " + nome)
+
+// }
+
+
+// ex7
+
+
+// function sumArray(list){
+//     let soma = 0
+// for (let i = 0; i<list.length;i++)
+// {
+//     soma= soma + list[i]
+// }
+// console.log(" a soma é"+ soma)
+
+// } 
+// sumArray([1,2,4])
+// ex8
+
+// let colors= ["blue", "yellow", "green","orange","red"]
+
+//  let buttons= document.querySelectorAll("button");
+
+// for (let i=1; i<4; i++)
+//  {
+//     buttons[i].addEventListener("click", function(){
+//         const randomColor= Math.floor(Math.random()* colors.length);
+//          buttons[i].style.backgroundColor= colors[randomColor];
+
+//  })
+// }
+
+//  ex9 ex10  ex11
+
+// function paragrafo(){
+
+// let paragrafo = document.createElement("p");
+
+// paragrafo.innerText=' é so mais um esforço e a seguir serei uma programadora de renome'
+// const mycontainer = document.querySelector("#container")
+// mycontainer.appendChild(paragrafo)
+
+
+// let buttonaumentar = document.createElement('button')
+// buttonaumentar.innerText = 'aumentar'
+// mycontainer.appendChild(buttonaumentar);
+// buttonaumentar.addEventListener('click',function(){
+//     paragrafo.style.fontSize='70px';
+
+//     paragrafo.style.textAlign="center";
+// })
+
+// let buttonreduzir = document.createElement('button')
+// buttonreduzir.innerText = 'reduzir';
+// mycontainer.appendChild(buttonreduzir);
+// buttonreduzir.addEventListener('click',function(){
+//     paragrafo.style.fontSize='10px';
+//     paragrafo.style.textAlign='right';
+// })
+// }
+
+// exe 12 e ex13
+
+// function aprendido()
+// {
+//    let items= document.querySelectorAll('li')
+//    for (let elements of items)
+//    {
+//         elements.innerText +=  " aprendido"
+//    }
+// }
+
+// function aprendido2()
+// {
+//     let adicionarlista = prompt("aprendeu algo mais?")
+//     const myli= document.createElement('li')
+//     myli.innerText = adicionarlista
+//     const myUl = document.querySelector('ul')
+//     myUl.appendChild(myli);
+
+
+// }
+
+//Escreva uma função chamada multiply que receba dois valores e retorne o resultado da multiplicação dos 
+
+// function multiply (a,b) {
+//     return a*b;
+
+// }
+
+// let x = multiply(2,3);
+// console.log (x);
+
+// O tempo está incerto e eu não sei se deva vestir calções ou calças, ajude-me a decidir. Escreva uma função 
+// chamada isShortsWeather que aceite um argumento a que podemos chamar temperature. Se a temperatura for 
+// maior que 25, retorna verdadeiro. Se não, retorna falso.
+
+
+// function isShortWheather (temperatura) 
+// {
+//     if (temperatura > 25) {
+//         return true
+        
+// }
+// else 
+// {
+//     return false
+// }
+// }
+
+// console.log(isShortWheather (25))
+// . Escreva uma função chamada lastElement que aceite um array. Essa função deve retornar o último elemento do 
+// array (sem o remover). Se o array for vazio, a função deve retornar null. 
+
+// function lastElement(list) {
+
+    
+//     if(list.length===0)
+//     {
+//         return null
+//     }
+//     else
+//     {
+//     return list[list.length-1]
+//     }
+// }
+// console.log(lastElement([3,5,7]));
+
+// Escreva uma função chamada capitalize que aceite um argumento string e retorne uma nova string com a 
+// primeira letra em maiúscula.
+
+// function capitalize (a) {
+
+//     let texto = a.slice(0,1).toUpperCase();
+//     let textos = a.slice(1, a.length);
+//     return texto + textos
+// }
+
+// console.log(capitalize("joanasalome"));
+
+// Escreva uma função chamada sumArray que aceite um array de números. A função deve retornar a soma de 
+// todos os números do array.
+
+// function sumArray(a){
+    
+//     let soma = 0;
+//    for (let i=0; i<a.length; i++)
+//    {
+//     soma = soma+a[i];
+//    }
+
+// return soma
+// }
+
+// console.log(sumArray([1,2,3]));
+
+
+// Escreva uma função chamada returnDay. A função aceita um parâmetro de 1 a 7 e retorna o dia 
+// correspondente: 1, retorna Segunda, 2, retorna Terça, etc.... Se o número for menor que 1 ou maior que 7, a 
+// função deve retornar null.
+
+// function returnday(a)
+// {
+
+//     if (a==1)
+//         return "domingo";
+//     else if (a==2) {
+        
+//         return "Segunda";
+//     }
+//     else if (a==3) {
+        
+//         return "terça";
+//     }  
+//     else if (a==4) {
+        
+//         return "quarta";
+//     }
+//     else if (a==5) {
+        
+//         return "quinta";
+//     }
+//     else if (a==6) {
+        
+//         return "sexta";
+//     }
+//     else if (a==7) {
+        
+//         return "sabado";
+//     }
+//     else 
+//     {
+//         return null
+//     }
+// }
+// console.log(returnday(3))
+
+
+// // o chatgpt sugeriu para melhorar desta forma:function returnDay(a) {
+//     const days = ["Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado", "Domingo"];
+//     return a >= 1 && a <= 7 ? days[a-1] : null;
+// }
+// console.log(returnDay(3)); // Output: Quarta
+
+
+// // nova forma de fazer arryas passar caderno pra estudar
+
+//  let input = prompt("Digite uma lista separada por vírgulas:");
+// let array = input.split(",");
+// console.log(array);  // Converte a string diretamente em um array
+
+// tb sugere nos meus arrays o trim 
+
+// let input = prompt("Digite uma lista separada por vírgulas:");
+// let array = [];
+// let items = input.split(",");  // Divide a string, mas ainda não adiciona os itens ao array manualmente
+
+
+// for (let i = 0; i < items.length; i++) {
+//   array.push(items[i].trim()); 
+
+// notas de como imprimir arrays para estudar 
+
+// 1. Imprimir o array completo de uma vez:
+// Você pode simplesmente usar o console.log() para imprimir o array inteiro.
+
+// js
+// Copiar código
+// let frutas = ["maçã", "banana", "laranja"];
+// console.log(frutas);  // Imprime o array completo: ["maçã", "banana", "laranja"]
+// 2. Imprimir cada elemento do array separadamente:
+// Se você quiser imprimir cada elemento do array em uma nova linha ou formatado de maneira personalizada, pode usar um loop.
+
+// Usando for loop:
+// js
+// Copiar código
+// let frutas = ["maçã", "banana", "laranja"];
+// for (let i = 0; i < frutas.length; i++) {
+//   console.log(frutas[i]);  // Imprime cada elemento individualmente
+// }
+// Usando forEach():
+// js
+// Copiar código
+// let frutas = ["maçã", "banana", "laranja"];
+// frutas.forEach(function(fruta) {
+//   console.log(fruta);  // Também imprime cada elemento individualmente
+// });
+// 3. Imprimir o array como uma string formatada:
+// Você pode transformar o array em uma string usando join() e definir o delimitador que preferir.
+
+// js
+// Copiar código
+// let frutas = ["maçã", "banana", "laranja"];
+// console.log(frutas.join(", "));  // Imprime: "maçã, banana, laranja"
+// Você também pode usar outros delimitadores, como um espaço, ponto e vírgula, ou uma nova linha.
+
+// Usando quebra de linha (\n):
+// js
+// Copiar código
+// let frutas = ["maçã", "banana", "laranja"];
+// console.log(frutas.join("\n"));  // Imprime cada elemento em uma nova linha
+// 4. Imprimindo arrays em HTML (caso esteja em um navegador):
+// Se você estiver trabalhando com uma página web, pode imprimir arrays diretamente no HTML, por exemplo, numa lista:
+
+// html
+// Copiar código
+// <!DOCTYPE html>
+// <html lang="pt-BR">
+// <body>
+//   <ul id="listaDeFrutas"></ul>
+
+//   <script>
+//     let frutas = ["maçã", "banana", "laranja"];
+//     let ul = document.getElementById("listaDeFrutas");
+
+//     frutas.forEach(function(fruta) {
+//       let li = document.createElement("li");  // Cria um novo elemento de lista
+//       li.textContent = fruta;                 // Define o texto do item de lista
+//       ul.appendChild(li);                     // Adiciona o item de lista ao HTML
+//     });
+//   </script>
+// </body>
+// </html>

@@ -1,0 +1,109 @@
+
+
+let casd = document.getElementById('unicorn');
+// let heading= document.getElementById('mainheading');
+// console.log(can);
+// console.log(heading)
+
+
+ Abre o ficheiro todos.html e encontras um html já predefinido.
+ 2. Usando os selectores, cria uma variável chamada doneTodos e atribui-lhe 
+todos os que têm a class done.
+ 3. Selecciona uma checkbox e guarda-a numa variável chamada checkbox. 
+Vais precisar de usar o atributo type, procura na internet :)
+ 4. Faz um console.log() de ambas as variáveis para confirmar que está certo.
+ 1
+
+let doneTodos=document.querySelectorAll('.done');
+// let checkBox = document.querySelector("input[type='checkbox']")
+// console.log(doneTodos);
+// // console.log(checkBox)
+// document.querySelector('span').innerText = 'Yack'
+
+
+Abre o ficheiro chicken.html e encontras um html já predefinido.
+ 2. Usando JS, muda a src da imagem para 
+‘https://devsprouthosting.com/images/chicken.jpg’.
+ 3. Adiciona um botão que diga ‘Ovo ou Galinha’ e muda a imagem ao 
+clicar no botão (através de funções);
+ 4. Através de decisões if/else muda a foto tanto para a galinha como 
+para o ovo.(Se estiver a galinha, ao clicar muda para o ovo; se estiver o 
+ovo muda para a galinha)
+
+function myEggn(){
+//     let myImage = document.querySelector('img');
+
+// if(myImage.src == 'https://devsprouthosting.com/images/chicken.jpg'){
+//     myImage.setAttribute('src', 'https://devsprouthosting.com/images/egg.jpg');
+// }else{
+//     myImage.setAttribute('src', 'https://devsprouthosting.com/images/chicken.jpg');
+// }
+// }
+
+
+ No repositório do Git, na pasta exs, encontras um ficheiro chamado 
+magicalForest.html. Copia para o teu projecto.
+ 2. Adiciona ou usa o ficheiro JS anterior para o exercício.
+ 3. Usando JS:
+ • Selecciona a div com o id container e coloca o texto alinhado ao centro;
+ • Selecciona a imagem e dá-lhe uma largura de 150px e um border radius de 
+50%;
+ 23
+ Cesae | WEBS | Sara Monteir
+
+
+/ let myImages = document.querySelector('#container');
+// let myImage = document.querySelector('img');
+// myImages.style.textAlign = 'center'
+
+// myImage.style.width = '150px';
+// myImage.style.borderRadius = '50%';
+
+ const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+
+// const spans = document.querySelectorAll('span');
+
+// for (let i = 0; i < spans.length; i++) {
+
+//     const randomIndex = Math.floor(Math.random() * colors.length);
+
+
+//     spans[i].style.color = colors[randomIndex];
+// }
+
+// //    spans[i].style.color = colors[i];
+
+let i = 0;
+
+for (let span of spans) {
+
+    if (i < colors.length) {
+        span.style.color = colors[index];
+        i++;
+    }
+
+ Abre o ficheiro classList.html e encontras um html já 
+predefinido.
+ 2. Usando JS, inverte os elementos que têm a class highlight
+ (basicamente as que têm devem deixar de ter e as que não 
+têm passam a ter)
+
+
+let lis = document.querySelectorAll('li');
+console.log(lis);
+    
+for (const element of lis) {
+    if (element.classList.contains('highlight')){
+        element.classList.remove('highlight');
+        
+    } else {
+        element.classList.add('highlight');
+    }
+}
+
+Abre o ficheiro buttons.html e encontras um html já 
+predefinido.
+ 2. Sem mexer no html, cria 100 botões com um texto à tua 
+escolha dentro.
+ 3. Os botões devem ser anexados à div container.
+ 3

@@ -1,0 +1,289 @@
+
+
+let casd = document.getElementById('unicorn');
+// let heading= document.getElementById('mainheading');
+// console.log(can);
+// console.log(heading)
+
+
+ Abre o ficheiro todos.html e encontras um html já predefinido.
+ 2. Usando os selectores, cria uma variável chamada doneTodos e atribui-lhe 
+todos os que têm a class done.
+ 3. Selecciona uma checkbox e guarda-a numa variável chamada checkbox. 
+Vais precisar de usar o atributo type, procura na internet :)
+ 4. Faz um console.log() de ambas as variáveis para confirmar que está certo.
+ 1
+
+let doneTodos=document.querySelectorAll('.done');
+// let checkBox = document.querySelector("input[type='checkbox']")
+// console.log(doneTodos);
+// // console.log(checkBox)
+// document.querySelector('span').innerText = 'Yack'
+
+
+Abre o ficheiro chicken.html e encontras um html já predefinido.
+ 2. Usando JS, muda a src da imagem para 
+‘https://devsprouthosting.com/images/chicken.jpg’.
+ 3. Adiciona um botão que diga ‘Ovo ou Galinha’ e muda a imagem ao 
+clicar no botão (através de funções);
+ 4. Através de decisões if/else muda a foto tanto para a galinha como 
+para o ovo.(Se estiver a galinha, ao clicar muda para o ovo; se estiver o 
+ovo muda para a galinha)
+
+function myEggn(){
+//     let myImage = document.querySelector('img');
+
+// if(myImage.src == 'https://devsprouthosting.com/images/chicken.jpg'){
+//     myImage.setAttribute('src', 'https://devsprouthosting.com/images/egg.jpg');
+// }else{
+//     myImage.setAttribute('src', 'https://devsprouthosting.com/images/chicken.jpg');
+// }
+// }
+
+
+ No repositório do Git, na pasta exs, encontras um ficheiro chamado 
+magicalForest.html. Copia para o teu projecto.
+ 2. Adiciona ou usa o ficheiro JS anterior para o exercício.
+ 3. Usando JS:
+ • Selecciona a div com o id container e coloca o texto alinhado ao centro;
+ • Selecciona a imagem e dá-lhe uma largura de 150px e um border radius de 
+50%;
+ 23
+ Cesae | WEBS | Sara Monteir
+
+
+/ let myImages = document.querySelector('#container');
+// let myImage = document.querySelector('img');
+// myImages.style.textAlign = 'center'
+
+// myImage.style.width = '150px';
+// myImage.style.borderRadius = '50%';
+
+ const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+
+// const spans = document.querySelectorAll('span');
+
+// for (let i = 0; i < spans.length; i++) {
+
+//     const randomIndex = Math.floor(Math.random() * colors.length);
+
+
+//     spans[i].style.color = colors[randomIndex];
+// }
+
+// //    spans[i].style.color = colors[i];
+
+let i = 0;
+
+for (let span of spans) {
+
+    if (i < colors.length) {
+        span.style.color = colors[index];
+        i++;
+    }
+
+ Abre o ficheiro classList.html e encontras um html já 
+predefinido.
+ 2. Usando JS, inverte os elementos que têm a class highlight
+ (basicamente as que têm devem deixar de ter e as que não 
+têm passam a ter)
+
+
+let lis = document.querySelectorAll('li');
+console.log(lis);
+    
+for (const element of lis) {
+    if (element.classList.contains('highlight')){
+        element.classList.remove('highlight');
+        
+    } else {
+        element.classList.add('highlight');
+    }
+}
+
+Abre o ficheiro buttons.html e encontras um html já 
+predefinido.
+ 2. Sem mexer no html, cria 100 botões com um texto à tua 
+escolha dentro.
+ 3. Os botões devem ser anexados à div container.
+ 3
+
+let container = document.getElementById('container');
+
+
+
+for (let i = 1; i < 101; i++) {
+    
+     let button = document.createElement('button');
+         button.innerText = 'Botão ' + i;
+         button.style.backgroundColor='red'
+    
+
+     container.appendChild(button);
+     }
+
+ Abre o ficheiro hello.html e encontras um html já 
+predefinido.
+ 2. Cria os seguintes eventos em JS:
+ • No botão Hello deverá fazer um alert que diga ‘olá’
+ • No botão Bye deverá fazer um alert que diga ‘Adeus’
+ 4
+
+const helloBtn = document.getElementById('helloBtn');
+const byeBtn = document.getElementById('byeBtn');
+
+// Adiciona evento ao botão Hello
+helloBtn.addEventListener('click', function() {
+    alert('olá');
+});
+
+// Adiciona evento ao botão Bye
+byeBtn.addEventListener('click', function() {
+    alert('Adeus');
+});
+
+const myBtn = document.getElementById('myBtn');
+const btnHello = document.getElementById('hello');
+const btnGoodbye = document.getElementById('hello');
+
+// console.log(btnGoodbye);
+
+// criar a funcao com o que quer que faça
+function hello ()
+
+
+// Chamar as funcoes/events
+btnGoodbye.addEventListener('mouseover', () =>{
+    hello('Goodbye');
+});
+
+btnGoodbye.addEventListener('mouseover', () =>{
+    hello('Goodbye');
+});
+
+// .addEventListener('click', function() {
+//     alert('Adeus');
+// });
+
+ Cria um Botão que crie uma cor aleatória para o background e 
+mostre qual é no HTML. 
+/ Função para gerar uma cor aleatória
+function getRandomColor() {
+    const r = Math.floor(Math.random() * 256);
+    const g = Math.floor(Math.random() * 256);
+    const b = Math.floor(Math.random() * 256);
+    return `rgb(${r}, ${g}, ${b})`;
+}
+
+// Seleciona o botão e o elemento onde o RGB será mostrado
+const colorBtn = document.getElementById('colorBtn');
+const colorDisplay = document.getElementById('color-display');
+
+// Adiciona o evento de clique ao botão
+colorBtn.addEventListener('click', function() {
+    const newColor = getRandomColor();
+    document.body.style.backgroundColor = newColor;
+    colorDisplay.textContent = newColor;
+});
+Ajuda em documentação
+ function calcular() {
+    const num1 = parseFloat(document.getElementById('num1').value);
+    const num2 = parseFloat(document.getElementById('num2').value);
+    const operacao = document.getElementById('operacao').value;
+    let resultado;
+
+
+switch (operacao) {
+    case '+':
+        result = num1 + num2;
+        break;
+    case '-':
+        result = num1 - num2;
+        break;
+    case '*':
+        result = num1 * num2;
+        break;
+    case '/':
+        result = num1 / num2;
+        break;
+    default:
+        result = 'Operação inválida';
+}
+
+document.getElementById('resultado').textContent = 'Total: ' + resultado;
+}
+
+document.getElementById('total').addEventListener('click', calcular);
+
+
+
+ex8
+
+// let colors= ["blue", "yellow", "green","orange","red"]
+
+//  let buttons= document.querySelectorAll("button");
+
+// for (let i=1; i<4; i++)
+//  {
+//     buttons[i].addEventListener("click", function(){
+//         const randomColor= Math.floor(Math.random()* colors.length);
+//          buttons[i].style.backgroundColor= colors[randomColor];
+
+//  })
+// }
+
+//  ex9 ex10  ex11
+
+// function paragrafo(){
+
+// let paragrafo = document.createElement("p");
+
+// paragrafo.innerText=' é so mais um esforço e a seguir serei uma programadora de renome'
+// const mycontainer = document.querySelector("#container")
+// mycontainer.appendChild(paragrafo)
+
+
+// let buttonaumentar = document.createElement('button')
+// buttonaumentar.innerText = 'aumentar'
+// mycontainer.appendChild(buttonaumentar);
+// buttonaumentar.addEventListener('click',function(){
+//     paragrafo.style.fontSize='70px';
+
+//     paragrafo.style.textAlign="center";
+// })
+
+// let buttonreduzir = document.createElement('button')
+// buttonreduzir.innerText = 'reduzir';
+// mycontainer.appendChild(buttonreduzir);
+// buttonreduzir.addEventListener('click',function(){
+//     paragrafo.style.fontSize='10px';
+//     paragrafo.style.textAlign='right';
+// })
+// }
+
+// exe 12 e ex13
+
+// function aprendido()
+// {
+//    let items= document.querySelectorAll('li')
+//    for (let elements of items)
+//    {
+//         elements.innerText +=  " aprendido"
+//    }
+// }
+
+// function aprendido2()
+// {
+//     let adicionarlista = prompt("aprendeu algo mais?")
+//     const myli= document.createElement('li')
+//     myli.innerText = adicionarlista
+//     const myUl = document.querySelector('ul')
+//     myUl.appendChild(myli);
+
+
+// }
+
+let numeros = [1, 2, 3, 4, 5, 6];
+let numerosPares = numeros.filter(numero => numero % 2 === 0);
+
+console.log(numerosPares); // Saída: [2, 4, 6]

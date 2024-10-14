@@ -1,0 +1,309 @@
+const animalForm = document.getElementById('animalForm');
+const animalInput = document.getElementById('animalInput');
+const animalList = document.getElementById('animalList');
+
+// Adiciona um ouvinte de evento para o formulário
+animalForm.addEventListener('submit', function(event) {
+    // Evita o recarregamento da página
+    event.preventDefault();
+
+    // Obtém o valor do campo de entrada
+    const newAnimal = animalInput.value.trim();
+
+    // Verifica se o valor não está vazio
+    if (newAnimal !== '') {
+        // Cria um novo elemento de lista
+        const newListItem = document.createElement('li');
+        newListItem.textContent = newAnimal;
+
+        // Adiciona o novo item à lista
+        animalList.appendChild(newListItem);
+
+        // Limpa o campo de entrada
+        animalInput.value = '';
+    }
+});
+
+const groceryForm = document.getElementById('groceryForm');
+const productInput = document.getElementById('productInput');
+const quantityInput = document.getElementById('quantityInput');
+const groceryList = document.getElementById('groceryList');
+
+// Adiciona um ouvinte de evento para o formulário
+groceryForm.addEventListener('submit', function(event) {
+    // Evita o recarregamento da página
+    event.preventDefault();
+
+    // Obtém os valores dos campos de entrada
+    const product = productInput.value.trim();
+    const quantity = quantityInput.value.trim();
+
+    // Verifica se os valores não estão vazios
+    if (product !== '' && quantity !== '') {
+        // Cria um novo elemento de lista
+        const newListItem = document.createElement('li');
+        newListItem.textContent = `${quantity} x ${product}`;
+
+        // Adiciona o novo item à lista
+        groceryList.appendChild(newListItem);
+
+        // Faz o reset dos campos de entrada
+        groceryForm.reset();
+    }
+});
+
+// Seleciona os botões
+const helloBtn = document.getElementById('helloBtn');
+const byeBtn = document.getElementById('byeBtn');
+
+// Adiciona evento ao botão Hello
+helloBtn.addEventListener('click', function() {
+    alert('olá');
+});
+
+// Adiciona evento ao botão Bye
+byeBtn.addEventListener('click', function() {
+    alert('Adeus');
+});
+
+
+exercicio botao
+let container = document.getElementById('container');
+
+
+
+for (let i = 1; i < 101; i++) {
+    
+     let button = document.createElement('button');
+         button.innerText = 'Botão ' + i;
+         button.style.backgroundColor='red'
+    
+
+     container.appendChild(button);
+     }
+
+calculadora 
+
+function calcular() {
+    const num1 = parseFloat(document.getElementById('num1').value);
+    const num2 = parseFloat(document.getElementById('num2').value);
+    const operacao = document.getElementById('operacao').value;
+    let resultado;
+
+
+switch (operacao) {
+    case '+':
+        result = num1 + num2;
+        break;
+    case '-':
+        result = num1 - num2;
+        break;
+    case '*':
+        result = num1 * num2;
+        break;
+    case '/':
+        result = num1 / num2;
+        break;
+    default:
+        result = 'Operação inválida';
+}
+
+document.getElementById('resultado').textContent = 'Total: ' + resultado;
+}
+
+document.getElementById('total').addEventListener('click', calcular);
+
+
+galinha
+let chickenImg = document.querySelector('img');
+chickenImg.src = ‘https://devsprouthosting.com/images/chicken.jpg'
+
+let toggleButton = document.getElementById('toggle-button');
+
+function changeImage() {
+    if (chickenImg.src === chickenUrl) {
+        chickenImg.src = eggUrl;
+    } else {
+        chickenImg.src = chickenUrl;
+    }
+}
+
+toggleButton.addEventListener('click', changeImage);
+//console.log(toggleButton);
+
+let lis = document.querySelectorAll('li');
+console.log(lis);
+    
+for (const element of lis) {
+    if (element.classList.contains('highlight')){
+        element.classList.remove('highlight');
+        
+    } else {
+        element.classList.add('highlight');
+    }
+}
+
+
+let myBtn = document.getElementById('myBtn');
+let login = true;
+
+function hello() {
+    alert('cucu')
+}
+
+function goodbye() {
+    alert('goodbye')
+}
+
+//myBtn.addEventListener('click', hello);
+//myBtn.addEventListener('click', goodbye);
+
+myBtn.addEventListener('click', function() {
+    login ? hello() : goodbye();
+
+    //if(login)
+});
+
+
+const myBtn = document.getElementById('myBtn');
+const btnHello = document.getElementById('hello');
+const btnGoodbye = document.getElementById('hello');
+
+// console.log(btnGoodbye);
+
+// criar a funcao com o que quer que faça
+function hello ()
+
+
+// Chamar as funcoes/events
+btnGoodbye.addEventListener('mouseover', () =>{
+    hello('Goodbye');
+});
+
+btnGoodbye.addEventListener('mouseover', () =>{
+    hello('Goodbye');
+});
+
+// .addEventListener('click', function() {
+//     alert('Adeus');
+// });
+const myBtn = document.getElementById('myBtn');
+const btnHello = document.getElementById('hello');
+const btnGoodbye = document.getElementById('hello');
+
+// console.log(btnGoodbye);
+
+// criar a funcao com o que quer que faça
+function hello ()
+
+
+// Chamar as funcoes/events
+btnGoodbye.addEventListener('mouseover', () =>{
+    hello('Goodbye');
+});
+
+btnGoodbye.addEventListener('mouseover', () =>{
+    hello('Goodbye');
+});
+
+// .addEventListener('click', function() {
+//     alert('Adeus');
+// });
+
+let image = document.getElementById("unicorn");
+
+let heading = document.getElementById("mainheading");
+
+console.log(image);
+console.log(heading);
+
+let myContainer = document.querySelector('#container');
+
+myContainer.style.textAlign = 'center';
+
+let myImage = document.getElementById('sample-img');
+
+myImage.style.width = '150px';
+
+myImage.style.borderRadius = '50%';
+
+let myText = document.querySelector('span');
+
+myText.innerText = 'Yackk';
+
+
+console.log(myText);
+
+
+const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+
+console.log(colors);
+
+let spans = document.querySelectorAll('span');
+
+for (let i = 0; i < spans.length; i++) {
+    spans[i].style.color = colors[i];
+}
+
+
+const button = document.querySelector('#btn')
+const button1 = document.querySelector('#btn1')
+const button2 = document.querySelector('#btn2')
+
+button.addEventListener('click', newColor);
+button1.addEventListener('click', newColor);
+button2.addEventListener('click', newColor);
+
+function newColor () {
+    const newColor = makeRandColor();
+    document.body.style.backgroundColor = newColor;}
+
+
+const makeRandColor = () => {
+    const r = Math.floor(Math.random() * 256);
+    const g = Math.floor(Math.random() * 256);
+    const b = Math.floor(Math.random() * 256);
+    return `rgb(${r}, ${g}, ${b})`
+}
+
+
+
+
+// const colorBtn = document.getElementById('colorBtn');
+// const colorDisplay = document.getElementById('color-display');
+
+// colorBtn.addEventListener('click', function() {
+//     const newColor = getRandomColor();
+//     document.body.style.backgroundColor = newColor;
+//     colorDisplay.textContent = newColor;
+// });
+
+let bannerSelection = document.getElementById("banner");
+console.log(bannerSelection);
+
+let doneTodos = document.querySelectorAll(".done");
+console.log(doneTodos);
+
+let checkbox = document.querySelector();
+console.log(checkbox);
+
+
+
+// Função para gerar uma cor aleatória
+function getRandomColor() {
+    const r = Math.floor(Math.random() * 256);
+    const g = Math.floor(Math.random() * 256);
+    const b = Math.floor(Math.random() * 256);
+    return `rgb(${r}, ${g}, ${b})`;
+}
+
+// Seleciona o botão e o elemento onde o RGB será mostrado
+const colorBtn = document.getElementById('colorBtn');
+const colorDisplay = document.getElementById('color-display');
+
+// Adiciona o evento de clique ao botão
+colorBtn.addEventListener('click', function() {
+    const newColor = getRandomColor();
+    document.body.style.backgroundColor = newColor;
+    colorDisplay.textContent = newColor;
+});
