@@ -1,0 +1,395 @@
+aula laravel
+
+ Rotas Básicas
+Rota Simples:
+
+php
+Copiar código
+Route::get('/home', function () {
+    return view('welcome');
+});
+Define uma rota /home que retorna uma view chamada welcome. As views em Laravel são arquivos Blade (ou PHP) localizados em resources/views.
+
+Rota com Parâmetro:
+
+php
+Copiar código
+Route::get('/hello_world/{name}', function($name){
+    return '<h1> Hello '.$name.' </h1>';
+});
+Essa rota aceita um parâmetro name e o exibe na tela. O Laravel captura o valor passado na URL e o injeta na função de callback.
+
+2. Fallback de Rotas
+Quando um usuário acessa uma rota não definida, o Laravel pode redirecioná-lo para uma página de erro personalizada:
+php
+Copiar código
+Route::fallback(function(){
+    return "<a href=".route('homepage')."> Estar perdida estuda </a>";
+});
+Aqui, o Route::fallback() é usado para capturar requisições a rotas inexistentes e redirecionar para a página inicial, que neste caso está definida como homepage.
+3. Links e Navegação com Blade
+No Blade, o helper route facilita a criação de links para rotas nomeadas:
+html
+Copiar código
+<a href="{{ route('home') }}">Vai para aqui</a>
+Esse link levará o usuário para a rota com o nome home.
+4. Passagem de Variáveis para Views
+Você pode definir variáveis PHP diretamente na view com o uso de @php:
+blade
+Copiar código
+@php
+    $myvar =' ola mundo';
+@endphp
+Condicionais no Blade:
+blade
+Copiar código
+@if($myname)
+    <p>{{ $myname }}</p>
+@else
+    <p>Não existe var myname</p>
+@endif
+Aqui, o Blade exibe o valor da variável $myname se ela existir; caso contrário, exibe uma mensagem alternativa.
+5. Estrutura de Layout com Blade
+A extensão @extends permite que você crie uma estrutura de layout comum para várias páginas:
+blade
+Copiar código
+@extends('layouts.femaster')
+O @yield('content') no layout serve como um marcador para onde o conteúdo específico de cada view será inserido.
+6. Uso de Assets no Laravel
+Você pode incluir arquivos CSS e JS usando o helper asset:
+html
+Copiar código
+<link rel="stylesheet" href="{{ asset('css/style.css') }}">
+Da mesma forma, imagens e outros recursos podem ser carregados usando o mesmo helper.
+7. Sistema de Rotas Nomeadas e Agrupamento de Views
+Nomear rotas permite criar uma navegação mais intuitiva e fácil de manter, especialmente útil para rotas com links em várias views.
+Dividir a aplicação em múltiplas views e subviews (como users.all_users e utils.home) facilita a manutenção e a escalabilidade do código.
+Esses conceitos oferecem uma boa base para o desenvolvimento de aplicações web com Laravel, permitindo a construção de páginas dinâmicas e interativas. Para aprofundar, vale a pena explorar controllers, models e a interação com o banco de dados, que são os próximos passos típicos no desenvolvimento com Laravel.
+
+
+
+
+
+
+Dito por si:
+Route::get('/hello_world/{name}', function($name){
+    return '<h1> Hello '.$name.' </h1>';
+});como fica no outro ficheiro e qual é?
+Dito pelo ChatGPT:
+ChatGPT
+Para separar a lógica da rota do conteúdo HTML, você pode utilizar uma view Blade. Em vez de definir o conteúdo HTML diretamente na rota, crie um arquivo Blade para exibir a mensagem e modifique a rota para carregar essa view.
+
+1. Criando a View Blade
+Crie um arquivo Blade chamado hello.blade.php dentro da pasta resources/views. O caminho completo do arquivo será:
+
+bash
+Copiar código
+resources/views/hello.blade.php
+No arquivo hello.blade.php, adicione o seguinte conteúdo:
+
+blade
+Copiar código
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hello World</title>
+</head>
+<body>
+    <h1>Hello, {{ $name }}</h1>
+</body>
+</html>
+Neste código, a variável $name será passada da rota para a view, e o Blade renderizará o valor dinamicamente.
+
+2. Alterando a Rota para Carregar a View
+Agora, altere a rota para utilizar a view hello.blade.php:
+
+php
+Copiar código
+Route::get('/hello_world/{name}', function($name){
+    return view('hello', ['name' => $name]);
+});
+Neste código:
+
+view('hello') indica que o Laravel deve carregar a view hello.blade.php.
+['name' => $name] passa a variável $name da rota para a view, que pode ser acessada na view como {{ $name }}.
+Estrutura Completa
+Com essa configuração, a estrutura do seu projeto deve estar assim:
+
+bash
+Copiar código
+/resources
+└── /views
+    └── hello.blade.php
+/routes
+└── web.php
+Ao acessar a rota /hello_world/Sara, por exemplo, a view hello.blade.php será carregada e exibirá a mensagem "Hello, Sara".
+
+
+
+
+
+
+Dito por si:
+nao entendo as pastas
+Dito pelo ChatGPT:
+ChatGPT
+Entendo! Vamos detalhar a estrutura de pastas do Laravel, focando em onde você coloca os arquivos que mencionamos. Laravel organiza os arquivos em diferentes diretórios para manter tudo organizado e fácil de encontrar. Aqui estão as pastas mais relevantes para o que estamos fazendo:
+
+Estrutura Básica de Pastas do Laravel
+/routes
+
+Esta pasta contém os arquivos de definição de rotas da aplicação.
+O arquivo principal é o web.php, que está localizado em:
+bash
+Copiar código
+/routes/web.php
+No web.php, você define as rotas que respondem às requisições do navegador. É aqui que você configura as URLs e indica qual view ou controlador será carregado.
+/resources/views
+
+Esta pasta é onde você armazena as views, que são os arquivos responsáveis pela apresentação, geralmente escritos com Blade (o sistema de templates do Laravel).
+No diretório views, você pode criar subpastas para organizar seus arquivos.
+Por exemplo, você pode criar uma view hello.blade.php diretamente em:
+bash
+Copiar código
+/resources/views/hello.blade.php
+Passo a Passo para Adicionar um Arquivo de View
+Criando a View
+
+Primeiro, navegue até a pasta resources/views do seu projeto Laravel e crie um novo arquivo chamado hello.blade.php. A estrutura da pasta e o nome do arquivo devem ser exatamente assim:
+
+markdown
+Copiar código
+resources
+└── views
+    └── hello.blade.php
+Dentro desse arquivo hello.blade.php, você coloca o código HTML que exibe a mensagem:
+
+blade
+Copiar código
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hello World</title>
+</head>
+<body>
+    <h1>Hello, {{ $name }}</h1>
+</body>
+</html>
+Definindo a Rota no web.php
+
+Depois de criar a view, vá para o arquivo web.php que está dentro da pasta routes. Aqui você define uma rota que vai carregar a sua view. O código vai ficar assim:
+
+php
+Copiar código
+Route::get('/hello_world/{name}', function($name){
+    return view('hello', ['name' => $name]);
+});
+Estrutura Final
+Ao final, você terá algo assim:
+
+bash
+Copiar código
+/routes
+└── web.php                <-- Contém a definição da rota para '/hello_world/{name}'
+
+/resources
+└── views
+    └── hello.blade.php    <-- A view que exibe "Hello, {name}"
+Como Funciona
+Rota: Quando você acessa http://seusite.com/hello_world/Sara, a rota no web.php encontra a URL e carrega a view hello.blade.php, passando o valor Sara como a variável $name.
+View: A view hello.blade.php recebe a variável $name e exibe o conteúdo "Hello, Sara".
+Essas pastas são fundamentais em qualquer projeto Laravel, então, entender como utilizá-las vai facilitar bastante o desenvolvimento. Se precisar de mais detalhes sobre alguma dessas etapas, estou aqui para ajudar!
+
+
+
+
+
+
+Dito por si:
+Crie uma rota para adicionar utilizadores e dê um nome à mesma.
+ 2 .  Crie uma Blade que diga “Olá, aqui podes Adicionar Utilizadores” e associe à rota.
+ 3. Utilizando a Blade Users_Home já criada, acrescente na lista um item chamado 
+“Adicionar Utilizador” .
+ Ao clicar deverá ir para a Blade criada no ponto anterior.
+ 4. Crie uma Blade de Fallback  e associe à rota respectiva para mais tarde a podermos 
+personalizar 
+Dito pelo ChatGPT:
+ChatGPT
+Aqui estão os passos para criar a rota e as Blades conforme solicitado:
+
+1. Criar uma Rota para Adicionar Utilizadores
+No arquivo web.php (localizado em /routes), adicione a rota para adicionar utilizadores e dê um nome a ela. Vamos chamar essa rota de users.add.
+
+php
+Copiar código
+Route::get('/add_user', function(){
+    return view('add_user');
+})->name('users.add');
+Essa rota define a URL /add_user e carrega uma view chamada add_user. A rota também é nomeada como users.add para facilitar o uso em links.
+
+2. Criar a Blade para Adicionar Utilizadores
+Agora, crie o arquivo Blade para a página de adição de utilizadores. No diretório resources/views, crie um arquivo chamado add_user.blade.php. Dentro deste arquivo, adicione o seguinte conteúdo:
+
+blade
+Copiar código
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Adicionar Utilizador</title>
+</head>
+<body>
+    <h3>Olá, aqui podes Adicionar Utilizadores</h3>
+</body>
+</html>
+Essa view será exibida quando o usuário acessar a rota /add_user.
+
+3. Atualizar a Blade Users_Home com Link para Adicionar Utilizador
+Na sua Blade Users_Home (que já existe e você mencionou), adicione um novo item de lista que leva para a página de adição de utilizadores. Supondo que o arquivo da Users_Home seja users_home.blade.php em resources/views, adicione o item de navegação da seguinte forma:
+
+blade
+Copiar código
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Users Home</title>
+</head>
+<body>
+    <h5>Users Home</h5>
+    <ul>
+        <li><a href="{{ route('users.add') }}">Adicionar Utilizador</a></li>
+        <!-- Outros itens da lista, caso existam -->
+    </ul>
+</body>
+</html>
+Com isso, quando o usuário clicar no link “Adicionar Utilizador”, ele será redirecionado para a página criada no passo anterior.
+
+4. Criar uma Blade de Fallback
+Crie uma página de fallback para capturar acessos a rotas inexistentes. Crie o arquivo fallback.blade.php em resources/views com o seguinte conteúdo:
+
+blade
+Copiar código
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rota Não Encontrada</title>
+</head>
+<body>
+    <h1>Ups, estamos perdidos!</h1>
+    <a href="{{ route('homepage') }}">Voltar para a Página Inicial</a>
+</body>
+</html>
+5. Associar a Blade de Fallback à Rota
+Por fim, adicione uma rota de fallback em web.php para redirecionar para essa view de fallback se o usuário tentar acessar uma rota que não existe.
+
+php
+Copiar código
+Route::fallback(function() {
+    return view('fallback');
+});
+Resumo da Estrutura
+Rota para adicionar utilizadores (/add_user): Abre a view add_user.blade.php.
+Atualização de Users_Home: Adiciona o link para a página de adicionar utilizadores.
+Rota de Fallback: Redireciona para a página de fallback em caso de rota inexistente.
+Esses passos garantem que a navegação na sua aplicação esteja bem definida e que o usuário seja redirecionado para uma página de fallback personalizada caso se perca.
+
+
+
+
+
+
+Dito por si:
+ Utilizando o Layout criado, aplique o mesmo a todas as blades que já temos. 
+As Blades deverão ficar apenas com o essencial
+Dito pelo ChatGPT:
+ChatGPT
+Para aplicar o layout criado a todas as suas Blades, você vai utilizar o sistema de herança do Blade, que permite estender um layout principal e incluir apenas o conteúdo específico em cada Blade. Isso facilita a manutenção e deixa o código mais limpo e organizado.
+
+Aqui estão os passos para aplicar o layout a todas as suas Blades:
+
+1. Criar o Layout Principal
+Vamos considerar que você já possui um layout principal criado, por exemplo, layout.blade.php no diretório resources/views/layouts. Esse layout contém o HTML padrão, o cabeçalho, o rodapé e a área onde o conteúdo será inserido.
+
+blade
+Copiar código
+<!-- resources/views/layouts/layout.blade.php -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aplicação Laravel</title>
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <!-- Nav content -->
+    </nav>
+    
+    <div class="container">
+        @yield('content')
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+2. Aplicar o Layout às Blades Existentes
+Agora, em cada uma das Blades que você possui, remova todo o HTML redundante e estenda o layout principal utilizando @extends. Em seguida, utilize a seção @section('content') para definir o conteúdo específico de cada página.
+
+Exemplo de add_user.blade.php
+blade
+Copiar código
+<!-- resources/views/add_user.blade.php -->
+@extends('layouts.layout')
+
+@section('content')
+    <h3>Olá, aqui podes Adicionar Utilizadores</h3>
+@endsection
+Exemplo de users_home.blade.php
+blade
+Copiar código
+<!-- resources/views/users_home.blade.php -->
+@extends('layouts.layout')
+
+@section('content')
+    <h5>Users Home</h5>
+    <ul>
+        <li><a href="{{ route('users.add') }}">Adicionar Utilizador</a></li>
+    </ul>
+@endsection
+Exemplo de fallback.blade.php
+blade
+Copiar código
+<!-- resources/views/fallback.blade.php -->
+@extends('layouts.layout')
+
+@section('content')
+    <h1>Ups, estamos perdidos!</h1>
+    <a href="{{ route('homepage') }}">Voltar para a Página Inicial</a>
+@endsection
+3. Aplicar o Layout a Outras Blades
+Repita o processo para as demais Blades que você criou. Cada Blade deve ter apenas o conteúdo específico dentro da seção @section('content'), com o layout principal cuidando de toda a estrutura de HTML, CSS, e scripts.
+
+Benefícios de Utilizar o Layout
+Manutenção facilitada: Qualquer alteração no layout (por exemplo, adicionar um novo link de navegação) será automaticamente aplicada a todas as páginas.
+Consistência: Garante que todas as páginas tenham uma aparência uniforme.
+Código mais limpo: Cada Blade foca apenas no conteúdo específico, deixando o HTML estruturado para o layout principal.
+Seguindo esses passos, você terá uma estrutura de Blades mais organizada e aproveitando ao máximo o sistema de templates do Laravel. Se precisar de mais detalhes ou ajuda com alguma parte, estou à disposição!

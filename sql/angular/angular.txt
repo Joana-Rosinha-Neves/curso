@@ -1,0 +1,47 @@
+ng serve -o
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+gerar na consola ng g
+> ng g c components/meu-componente
+app.component.html escrever:
+
+<app-meu-componente/>
+no Html
+<p>meu-componente works!</p>
+<h2> Olá eu sou {{meuNome}}
+
+</h2>
+
+
+no ts
+export class MeuComponenteComponent {
+  meuNome = "joana"
+
+
+<p>meu-componente works!</p>
+<h2> Olá eu sou {{meuNome}}</h2>
+  <p>{{ mensagem}}</p>
+
+  <p>{{idade +2}}</p>
+ts
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-meu-componente',
+  standalone: true,
+  imports: [],
+  templateUrl: './meu-componente.component.html',
+  styleUrl: './meu-componente.component.scss'
+})
+
+ts
+export class MeuComponenteComponent {
+  meuNome = "joana"
+  mensagem = "Eu adoro gatos"
+  idade=60
+
+}
+
+
+

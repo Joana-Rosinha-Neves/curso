@@ -1,0 +1,82 @@
+Preparação do Projeto Angular
+Primeiro, você inicia o servidor de desenvolvimento com o comando:
+
+bash
+Copiar código
+ng serve -o
+Isso compila o projeto e abre automaticamente no navegador. Esse comando é útil para ver as mudanças em tempo real.
+
+2. Configuração do PowerShell
+Se você estiver usando PowerShell e receber um erro ao executar scripts, pode definir a política de execução para permitir scripts assinados localmente com o comando:
+
+bash
+Copiar código
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+3. Gerar um Novo Componente
+Para gerar um componente em Angular, utilize o comando:
+
+bash
+Copiar código
+ng generate component components/meu-componente
+Ou simplesmente:
+
+bash
+Copiar código
+ng g c components/meu-componente
+Isso criará uma nova pasta chamada components/meu-componente, que incluirá quatro arquivos:
+
+meu-componente.component.ts: Contém a lógica do componente.
+meu-componente.component.html: Contém o template HTML do componente.
+meu-componente.component.scss: Contém o estilo (CSS) específico para o componente.
+meu-componente.component.spec.ts: Contém os testes do componente.
+4. Estrutura do Componente
+Agora, vamos revisar cada parte do componente.
+
+Arquivo meu-componente.component.ts
+Este arquivo define o comportamento do componente. No seu exemplo, você tem o seguinte:
+
+typescript
+Copiar código
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-meu-componente', // Define como o componente será chamado no HTML
+  templateUrl: './meu-componente.component.html',
+  styleUrls: ['./meu-componente.component.scss'] // O estilo aplicado a esse componente
+})
+export class MeuComponenteComponent {
+  meuNome = "joana";
+  mensagem = "Eu adoro gatos";
+  idade = 60;
+}
+O selector: 'app-meu-componente' indica como o componente será referenciado no HTML, usando <app-meu-componente></app-meu-componente>.
+As propriedades meuNome, mensagem e idade são variáveis que podem ser usadas no template HTML.
+Arquivo meu-componente.component.html
+Aqui, você define o conteúdo HTML do componente, usando as variáveis do arquivo .ts:
+
+html
+Copiar código
+<p>meu-componente works!</p>
+<h2> Olá, eu sou {{meuNome}}</h2>
+<p>{{ mensagem }}</p>
+<p>{{ idade + 2 }}</p>
+{{meuNome}}, {{mensagem}} e {{idade + 2}} usam interpolação para exibir o valor das variáveis definidas no arquivo .ts.
+5. Utilizar o Componente no Aplicativo Principal
+Para incluir o seu novo componente dentro do componente principal (app.component.html), adicione a tag <app-meu-componente></app-meu-componente> ao HTML:
+
+html
+Copiar código
+<app-meu-componente></app-meu-componente>
+Estrutura de Pastas do Projeto
+A estrutura das pastas geralmente segue um padrão em projetos Angular:
+
+src/app/: Pasta principal onde o código da aplicação é armazenado.
+components/: (opcional) Você pode criar essa pasta para organizar seus componentes.
+app.component.ts: Componente raiz da aplicação.
+app.module.ts: Módulo principal onde os componentes são declarados.
+Resumo
+Gerar um componente com ng g c.
+Adicionar a lógica no arquivo .ts.
+Definir o template HTML com interpolação para exibir dados.
+Usar o componente principal através de <app-meu-componente></app-meu-componente>.
+Essa estrutura e fluxo facilitam o desenvolvimento em Angular, mantendo o código modular e organizado.
